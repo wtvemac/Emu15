@@ -1,0 +1,162 @@
+200 OK
+wtv-service: reset
+wtv-service: name=wtv-1800 host=64.20.25.187 port=1618
+wtv-service: name=wtv-home host=64.20.25.187 port=1618
+wtv-service: name=wtv-head-waiter host=64.20.25.187 port=1618
+wtv-service: name=wtv-favorite host=64.20.25.187 port=1618
+wtv-service: name=wtv-log host=64.20.25.187 port=1618
+wtv-service: name=wtv-setup host=64.20.25.187 port=1618
+wtv-service: name=wtv-spot host=64.20.25.187 port=1618
+wtv-service: name=wtv-disk host=64.20.25.187 port=1618
+wtv-service: name=wtv-register host=209.240.198.133 port=1607
+wtv-service: name=wtv-head-waiter host=209.240.198.133 port=1601
+wtv-service: name=wtv-tricks host=64.20.25.187 port=1618
+wtv-service: name=wtv-flashrom host=64.20.25.187 port=1618
+wtv-service: name=wtv-cookie host=64.20.25.187 port=1618
+wtv-ticket: Vv/4JHMFBPLYAeoL35b3qYt535nISBYAweMSES5PFIWGsil3zPgHKY5UG+ivVb95U3CV3DPSzmXbP5EYFvbY5iFD+c9Ge576fPatyi77S6IetRyAuMEjvOyLNmK0hofHcTzm6D6ZS1C/glhzYXuoH+gZEXJsFK7aF+lFtRH5lwlgmhL2ofdd28EOVGdy87Q0sFPQxY29B/b4b3Iq0rlApDUCXVXjqkMZ+TpBoQVrcJKI/nG22EVvIsT9b/0XpKjM3Iw0xPmeCn5xGAF/LOqPBOPfcqVYbgC84wIzTU6Ik0cUcCy3PxJtnEH2+STWUMnbS9cW4ww2Imd7PdFsxXTbkbn6kxrLm14YKGZA8pCi6gp4ILjCnPJATmF19Fon9ngcIAhCHzK8PeOWh3bcQ1NrPpiHWbC7zI8D51TrTOb64qcl8tm7y+GLVza7O0Fi3MH+pcszzcbb0BgI3wAJxim1jPRCtDTDa9aL6nnY3yeYK968Yr03Y+26bhzy7PTS5x4HjzLnyUDP5DXF4jaqF6xoK22ADvpzYP1WJhnssSKQsnVEFOH9Kw/FANIllYwk0LRVVV51YZNkzruc4vnYVCqJYdoW7Tvcpav2X1rP4AH0vZFlHcXw0f1i/s0ecMr/h54EYGk08J3RmdSVTyrWR7R5QA==
+wtv-user-name: Eric-a
+wtv-human-name: Poot
+wtv-irc-nick: Eric-a
+wtv-country: US
+wtv-language-header: en-US,en
+wtv-client-time-zone: PST -0800
+wtv-client-date: Mon, 25 Oct 1999 05:12:57 GMT
+wtv-datadownload-url: wtv-disk:/download-list
+wtv-datadownload-login-url: wtv-log:/login?DataDownload=1
+wtv-datadownload-checktimeoffset: 22453
+wtv-messagewatch-checktimeoffset: off
+wtv-spotad-url: wtv-spot:/get-ad
+wtv-spot-url: wtv-spot:/spot
+wtv-spot-clickthru-url: wtv-spot:/ad-clickthrough?ad-click-ref=%s
+wtv-spot-impression-time: 10
+wtv-spot-minimum-time: 2
+wtv-transition-override: normal
+wtv-transition-page: wtv-home:/shared/transition/pageWithAd.html
+wtv-force-lightweight-targets: webtv.net:/
+wtv-spot-purge-queue: 0
+wtv-spot-purge-queue: 1
+wtv-phone-log-url: wtv-log:/phone-log
+wtv-print-log-url: wtv-log:/print-log
+wtv-tcp-log-url: wtv-log:/tcp-log
+wtv-home-url: wtv-1800:/preregister?
+wtv-log-url: wtv-log:/log
+Content-Length: %bytes
+Content-Type: text/html; charset=windows-1252
+%%%
+<html>
+<head>
+<title>Register for a EricServ Account</title>
+</head>
+<body bgcolor="#000033" text="#999999">
+<center>
+<h1>Register for a EricServ Account</h1>
+</center>
+<p>&nbsp;
+<br>&nbsp;
+Hello and welcome to EricServ a WNI Emulated service used to find out how the WebTV box transacts with the server.  I have provided a account that you can sign up to so you can join me in the quest to find out how WebTV works.  Please press continue if you are interested otherwise press power off.
+VVVNAPHEADVVVV
+<form action="RedirectToRegistration">
+<table width="100%" height="60%">
+<tr><td align="right" valign="bottom">
+<input value="Continue" type="submit">
+<input value="Power Off"  type="button" action="client:poweroff">
+</form>
+</td></tr></table>
+</body>
+</html>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<script>
+function dfd(ggg){
+fff=1
+
+if(ggg.indexOf("file://disk/") != -1){
+if(!(navigator.haveLocalResource(ggg))){
+alert("This file "+ggg+" does not exsist localy")
+fff=0;	   
+}
+}
+
+
+if(fff){
+document.open("text/url")
+document.write(ggg)
+document.close()
+}
+}
+
+function InitilizeEmbed(a){
+fff=1;
+
+if(a.indexOf("file://disk/") != -1){
+if(!(navigator.haveLocalResource(a))){
+
+alert("This file "+a+" does not exsist localy")
+fff=0;
+}
+}
+
+
+
+if(fff){
+document.embeds[0].document.write('<HTML><HEAD><body text="#999999"><form onSubmit="top.InitilizeEmbed(this.elements[0].value); return false;">Source URL: <input nohighlight border=0 text="#999999" bgcolor="#000033" size=100% value='+a+'></form><p><wtvchattranscript src='+a+' name=ggg type=text/plain></BODY></HTML>')
+IsEmbedInitilized=1;
+}
+
+}
+
+function EnableJSReader(){
+document.Div.style.visibility="visible";
+document.forms[1].elements[0].focus();
+}
+
+function ExecuteJavaScript(a){
+
+if(!(IsEmbedInitilized)){
+alert("You can't use any JavaScript code unless you have a page to control!")
+}else{
+document.forms[2].elements[1].value=eval("document.embeds[0].document.embeds[0]."+a.value)
+}
+}
+
+</script>
+
+</HEAD>
+<BODY BGCOLOR="#000033" text="999999" link="#999999" vlink="#999999" onError="alert('RELOAD!')">
+<center>
+<form name=input>
+<h1 style="color: #999999">
+<input name=a usestyle value="WebTV URL Accessor" border=0 noselect nobackground>
+</h1>
+</center>
+<p>
+<form onSubmit="dfd(this.a.value); return false;">
+<table ><tr><td>
+URL:&nbsp</td><td><table bgcolor="white" cellspacing=0 cellpadding=1><tr><td>
+<input size="100%" name=a nohighlight border=0 text="#999999" bgcolor="#000033">
+</form>
+</td></tr>
+</table>
+</td></tr>
+</table>
+<p>
+<form name=ddd>
+JavaScript: <input nohighlight border=0 text="#999999" bgcolor="#000033" size=100% onChange="ExecuteJavaScript(this)" name="JS">
+<p>
+Return Code:
+<input name=ss nohighlight border=0 text="#999999" bgcolor="#000033" size=100%>
+<p>
+<embed src=file:///C:/WINDOWS/Profiles/default/Desktop/WNI%20Server%20Tools/DummyPage.html nobackground>
+
+<p>
+<font size=-1>Eric-MacDonald, the JS reader is allowed to view cache urls, and &codes... you will not be able to link from there.</font>
+</BODY>
+</HTML>
+!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!hey!

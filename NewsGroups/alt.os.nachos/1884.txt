@@ -1,0 +1,40 @@
+From: P3t3r-@webtv.net (^`lP-lE-lT-lE-lR`^)
+Newsgroups: alt.os.nachos
+Subject: Code for Music
+Date: Sat, 25 Nov 2000 23:32:23 -0500 (EST)
+Organization: WebTV Subscriber
+Lines: 23
+Message-ID: <19029-3A209257-139@storefull-294.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-25789-2175
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAtAhUAxjk1coMQaTgA3oChbCsA1k7RYSoCFEqHs2xpDPc5wd3PpuJ41WS2UV2q 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=dimgrey; TextColor=black
+Xref: rQdQ alt.os.nachos:1884
+
+
+--WebTV-Mail-25789-2175
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+whats the code so that when someone clicks on a link on my webpage they
+still here the song at the same place it left off at and it dont start
+over? can someone post it up...thanks...
+
+
+--WebTV-Mail-25789-2175
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<HTML><body bgcolor=dimgrey text=black link=black vlink=black></body>
+<object
+data="http://www.geocities.com/meize17/signatures/sigc3.html"></object><embed
+src="http://ruthless-music.virtualave.net/singles/media.cgi?hesreturned"autostart=true></html>
+
+
+--WebTV-Mail-25789-2175--

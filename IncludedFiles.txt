@@ -1,0 +1,40 @@
+		  			WebTV Server Emulator
+
+Author: Eric-MacDonald
+
+
+
+
+These file MUST be contaned in the following places in order to work.  This isn't a list of all files.  This may be usefull if you move files around and forget where they go.
+
+names enclosed within a parentesis need to be substituded.
+
+/Config.ini
+/p2xdll.dll
+/PerlCRT.dll
+/servout.txt
+/WebTV.exe
+/webtvout.txt
+/MacroScripts/DummyPerlTarget.wtv
+/MacroScripts/PostIPMacro.wtv
+/NewsGroups/NGHandler.pl
+/NewsGroups/(NGname)
+/NewsGroups/(NGname)/(postid).txt
+/NewsGroups/(NGname)/NGCount.txt
+/NewsGroups/(NGname)/NGData.txt
+/security/tricks.accessors
+/security/tricks.passwords
+/ServiceVault/ProtoFinder.pl
+/ServiceVault/(servicename)
+/Tools/ConnectBenchmark/ConnectBenchmark.pl
+/UserDataBase/users.txt
+/UserDataBase/(username)
+/UserDataBase/(username)/ActivityLog
+/UserDataBase/(username)/cookies
+/UserDataBase/(username)/Mail
+/UserDataBase/(username)/Mail
+/UserDataBase/(username)/Mail/inbox
+/UserDataBase/(username)/Mail/outbox
+/UserDataBase/(username)/Mail/sent
+/UserDataBase/(username)/Mail/trash
+/UserDataBase/(username)/Preferences

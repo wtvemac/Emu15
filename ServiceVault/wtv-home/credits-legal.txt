@@ -1,0 +1,59 @@
+200 WebTV FlashROM downloads.
+Content-Length: %bytes
+Content-Type: text/html; charset=windows-1252
+%%%
+<a href="client:relogin">relogin</a>
+
+<HTML>
+<HEAD>
+<TITLE>
+WebTV Network Statement of Privacy
+</TITLE>
+<DISPLAY >
+</HEAD>
+<sidebar width=110> <table cellspacing=0 cellpadding=0 BGCOLOR="8C6A2E">
+<tr>
+<td colspan=3 abswidth=104 absheight=4>
+<td rowspan=99 width=6 absheight=420 valign=top align=left>
+<img src="wtv-home:/ROMCache/Shadow.gif" width=6 height=420>
+<tr>
+<td abswidth=6>
+<td abswidth=92 absheight=76>
+<table href="wtv-home:/home" absheight=76 cellspacing=0 cellpadding=0>
+<tr>
+<td align=right>
+<img src="wtv-home:/ROMCache/WebTVLogoJewel.gif" width=87 height=67>
+</table>
+<td abswidth=6>
+<tr><td absheight=5 colspan=3>
+<table cellspacing=0 cellpadding=0>
+<tr><td abswidth=104 absheight=2 valign=middle align=center bgcolor="5a4521">
+<img src="wtv-home:/ROMCache/Spacer.gif" width=1 height=1>
+<tr><td abswidth=104 absheight=1 valign=top align=left>
+<tr><td abswidth=104 absheight=2 valign=top align=left bgcolor="c0954a">
+<img src="wtv-home:/ROMCache/Spacer.gif" width=1 height=1>
+</table>
+<tr><td absheight=100>
+<tr><td absheight=244 align=right colspan=3>
+<img src="/ROMCache/TermsBanner.gif"">
+<tr><td absheight=41>
+</table>
+</sidebar>
+<print blackandwhite>
+<BODY BGCOLOR="#191919" TEXT="#44cc55" LINK="189CD6" VLINK="189CD6" HSPACE=0 VSPACE=0 FONTSIZE="large">
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td abswidth=14>
+<td abswidth=416 absheight=80 valign=center>
+<font size="+2" color="E7CE4A"><blackface><shadow>EricSrv Terms of Service.</shadow></blackface></font>
+<td abswidth=20>
+<tr>
+<td>
+<td valign=top align=left>
+<p>&nbsp;
+<br>
+
+This service is not and never will be a true lagament WNI Service.  A total of 90% of all contents within this service is stolen property of WebTV and therefore all information must be kept exclusive away from WNI Eployees.  This means that you have the privaliges to use this server in any way you choose but not to pass this on to people who would end up telling a WNI employee, having a web page explaining this tool, or preforming any action that will put this server in ANY WNI employees hands.  I am limiting this sever (excluding past versions) to the knoledge of 5 <u>WebTV Hackers</u> becides me.  If this tool is known by more than 5 people than this server will not be updated and no further explaination on WNI server transactions will be told from me.  If you need to pass this server on to someone else it must be approved by me.  I am extreamly adoment about this and I trust you will follow this if not you will lose my trust.<p>
+As of data colected from this server.  All data colected is soley your bussness and you may tell anyone you chose about it.  But you must understand the terms above.  You must not tell anyone the true location that the data originated from.  To distance people from the actual truth please explain a fringed explanation of where the information originated from. 
+</BODY>
+</HTML>

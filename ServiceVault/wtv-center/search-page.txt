@@ -1,0 +1,5 @@
+300 Moved
+Content-Length: 0
+Content-Type: text/html
+Location: http://www.google.com
+

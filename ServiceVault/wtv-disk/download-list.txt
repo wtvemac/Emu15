@@ -1,0 +1,13 @@
+200 OK
+Content-Length: %bytes
+Content-Type: wtv/download-list
+%%%
+CREATE file://Disk/EricsBarn/
+partition-size: 20971520
+
+DELETE-GROUP BARNYARD
+
+list wtv-disk:/sync?firstEncounter=yes&group=BARNYARD&diskmap=EricsBarn&group=BARNYARD&no-group-state-report=true
+recursion-depth: 65000
+root: file://Disk/EricsBarn/
+

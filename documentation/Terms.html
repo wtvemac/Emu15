@@ -1,0 +1,57 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title> Contact </title>
+</head>
+<body bgcolor="#000066" text="#999999" link="#999999" vlink="#999999" alink="#999999">
+There are certain terms I have defined that corresponds to the working of this tool.<p>
+
+
+<h5>Macro Files</h5>
+<dl>
+	<dt>Client Sends
+	<dd>These are the actual requests from a client.  A client would send a request or a notice to the server and the data sent would be considered a "client send".
+</dl>
+
+<dl>
+	<dt>Main Manifold/Core Program
+	<dd>This is the script which is compiled first.  In this case its the WebTV.exe file.  This program is what maintains control over the macro scripts and is the main client connection monitor.
+</dl>
+<dl>
+	<dt>Macro Extension
+	<dd>This is the script that the core program reads and compiles for execution.  These scripts contain instructions that explain what to do with the client sends.
+</dl>
+<dl>
+	<dt>Turn Key File
+	<dd>This is the configuration extension for the server that controls the registration key.  This file contains variables on how to start the program and identifies who is the owner of the program.
+</dl>
+
+
+<h5>Mode 4 file Server</h5>
+<p>
+<dl>
+	<dt>Client Program Flow
+	<dd>The program flow is the path which the client sends goes through before the client gets a response.  In the file server Client Program Flow there are 3 different procedures which read, manipulate, reject, and write to a clients connection.
+</dl>
+
+<dl>
+	<dt>Primary Flow Control File
+	<dd>This is the file which does most of the work with determining manipulating and rejecting what the client sends are.  Ex: DummyPerlTarget.wtv
+</dl>
+
+<dl>
+	<dt>Secondary Flow Control File
+	<dd>These are the files that assist the Primary Flow Control File in determing what to do with the client sends.  Ex: ProtoFinder.pl
+</dl>
+<dl>
+	<dt>Tertiary Flow Control File
+	<dd>These are the final scripts that the Primary Flow Control and Secondary Flow Control Files have determined to reach.  These are the files which send the response out to the client if there was not response before hand. 
+</dl>
+
+
+
+
+
+</body>
+</html>
+ 

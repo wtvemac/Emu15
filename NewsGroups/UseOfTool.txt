@@ -1,0 +1,6 @@
+This tool is pretty self explainitory.  However there are somethings you need to know:
+
+
+When updating delete the entire directory containing the NG posts.
+
+Never let the NG handler script go any further than 1000 posts (this could cause slowness in processing the NG listing page)

@@ -1,0 +1,57 @@
+Path: rQdQ!sn-xit-02!supernews.com!isdnet!newsfeed.icl.net!newsfeed.skycache.com!Cidera!news.maxwell.syr.edu!newsswitch.lcs.mit.edu!newsfeed.berkeley.edu!ucberkeley!sjc1.nntp.concentric.net!newsfeed.concentric.net!webtv.net!not-for-mail
+From: X-x-DuD-x-X@webtv.net (=?ISO-8859-1?Q?X-x-=D7-=D0=FC=D0-=D7-x-X?=)
+Newsgroups: alt.os.nachos
+Subject: Re: HeLp
+Date: Sun, 26 Nov 2000 14:06:04 -0600 (CST)
+Organization: WebTV Subscriber
+Lines: 38
+Message-ID: <6967-3A216D2C-19@storefull-257.iap.bryant.webtv.net>
+References: <24860-3A2144DF-6@storefull-165.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-12817-557
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAuAhUAkbIoZwQDsY+46S6LUcp/gV152LECFQCD9N/lWk6jTS0DEUrfAz0GeF57xQ== 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=black; TextColor=dimgrey
+Xref: rQdQ alt.os.nachos:1916
+
+
+--WebTV-Mail-12817-557
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+Dangit why did you delete that... That site helped me a lot...
+
+
+--WebTV-Mail-12817-557
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<html> 
+<BODY BGCOLOR="black" TEXT="dimgrey" LINK="dimgrey"> 
+<embed
+src=http://www.geocities.com/dp_irc/sig4.html>
+<bgsound
+src=http://www.angelfire.com/music2/dudsircmusic/limpbizkit-hotdog.ram
+autostart=true loop=true> 
+ <style type="text/css"> #element1 {position: absolute; z-index: 0; top:
+-1000px; left: -166px;} </style><div ID="element1"><table width=150
+height=2000 bgcolor=dimgrey gradcolor=black gradangle=285
+transparency=0% link="2222bb" vlink="8822bb"><font color="black"><font
+color="gray"><tr><td align=center transparency=0%><font
+color="black"><font color=gray><img 
+src=http://www.angelfire.com/la2/U1LTIM4T3/images/spacerani.gif
+width=145 height=600 transparency=0%></td></tr></table></div> 
+</html> 
+
+
+
+
+
+
+
+--WebTV-Mail-12817-557--

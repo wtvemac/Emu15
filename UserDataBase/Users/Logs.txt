@@ -1,0 +1,122 @@
+==WebTV Logs==
+
+
+~MESSENGER LOGS~
+
+Logs:
+Conversation Information.
+<Starting Convo Time>
+<How many messeges sent or recived in a conversation>
+<Ending Convo Time>
+
+
+~ERROR~
+
+Logs: 
+
+Miscelleneous errors encountered.  Page length, setup errors, ect..
+
+
+
+~JELLYSCRIPT~
+
+Logs:
+
+JavaScript errors.  Line, script, caret, url, previos url
+
+
+~SECURITY~
+
+Security Violations, Ex: challenge invalid
+
+
+~SSL~
+
+SSL Session
+
+~CHAT~
+
+Chat actions (DISCONNECT, CONNECT, LIST)
+
+~CRASH~
+
+Crash events
+
+~TCP~
+
+Logs TCP actions.
+
+IP, Bytes recived, Bytes Transmitted, Port of service, packets faild,  ect.
+
+Comes in two sections. Taged B <-> E and Y ->
+
+~PNONE~
+
+Tellyscript variable (seams to be a special variable near the ISP info)
+
+
+~NOTICE~
+
+Logs notices
+
+Therory(028)-Notices are things that the box is used to carry on demand.  These are most likely incoming new mail messages (red light data).
+
+
+~PRINT~
+
+Logs print actions
+
+
+------------------------------------
+
+TV Logs
+
+No found way to upload data from WebTV from datadownload.  Most likely its the syncronize function,  it sends the file list but not the file data.
+
+---------------------------------------
+
+type
+action
+warning
+warning
+restart
+host
+referer-url
+primary
+unknown
+normal
+prefetch
+user
+request-type
+data-type=%1.4s
+data-len
+error
+host
+error
+messenger
+origin=1
+origin=0
+ConversationStart
+duration
+msgsSent
+msgsRcvd
+maxPart
+maxWebtvPart
+ConversationEnd
+DISCONNECT
+host
+port
+channel
+userCount
+private=1
+JOIN
+%ld
+host
+port
+LIST
+Err@0x%08x
+error
+type
+url
+Error:(%s)ln%ld
+error

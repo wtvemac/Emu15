@@ -1,0 +1,306 @@
+YOU MAY NOT CLAIM ANY OF THIS AS YOURS.  I HAVE WORKED TO HARD TO DESERVE ANY PIRATING OF MY THEORIES.  I 
+MUST STRESS THAT ANY USAGE OF THIS THEORY(S) WITHOUT MY PERMISSION I WILL NOT PERMIT.  <h555>THANK YOU</h555>
+
+===============================================================================
+
+				      
+				      WebTV Box Information Pages
+				        Author: Eric MacDonald
+                                              Page 03
+					   June 13, 2000
+                                        
+			 External Production User-ID Distribution Therory
+
+
+The user-id distibution for external production users is fairly easy to understand and interpret.  I picked a 
+lonley server to get these IDs from the first name registration page since this is where the subscriber ID is 
+first issued (As from long experiments with Genpak the sequence is the same) and this is best because it 
+isn't constantly changeing to render the experiment useless.  We must consider that this is a algorithm and 
+most programers want a small yet efficent way to calculate data.  I noticed something about about numbers 
+that seam interesting.  Consider the following.
+
+0(0) /Infinity
+0(3) /1
+0(6) /2
+0(9) /3
+1(2) /4
+1(5) /5
+1(8) /6
+2(1) /7
+2(4) /8
+2(7) /9
+3(0) /10
+3(3) /11
+
+
+For thoes interested:	 Mult  Invert  Comp
+
+0 1 2 3 4 5 6 7 8 9 0 -> 1     (10-9)	9
+0 2 4 6 8 0           -> 2     (10-8)	8
+0 3 6 9 2 5 8 1	4 7 0 -> 3     (10-7)	7
+0 4 8 2 6 0	      -> 4     (10-6)	6
+0 5 0		      -> 5       Equalibrium 1/2
+0 6 2 8 4 0	      -> 6     (10-4)	4
+0 7 4 1 8 5 2 9 6 3 0 -> 7     (10-3)	3
+0 8 6 4 2 0	      -> 8     (10-2)	2
+0 9 8 7 6 5 4 3 2 1 0 -> 9     (10-1)	1
+
+
+You can notice that every decimal number (0-9) is defined within the ones-digit place before it reaches 30.  
+This sequence will loop constantly.  You may ask me why im telling you 
+this.  We will need some of this knoledge when we learn the user-id number system.  If needed you mite want 
+to memorize this sequence of the ones-place above.
+
+This is all we need.
+
+127392 4 0 3
+127392 4 1 6
+127392 4 2 9
+127392 4 3 2
+127392 4 4 5
+127392 4 5 8
+127392 4 6 1
+127392 4 7 4
+127392 4 8 7
+127392 4 9 0
+
+127392 5 0 0
+127392 5 1 3
+127392 5 2 6
+127392 5 3 9
+127392 5 4 2
+127392 5 5 5
+127392 5 6 8
+127392 5 7 1
+127392 5 8 4
+127392 5 9 7
+
+127392 6 0 7
+127392 6 1 0
+127392 6 2 3
+127392 6 3 6
+127392 6 4 9
+127392 6 5 2
+127392 6 6 5
+127392 6 7 8
+127392 6 8 1
+127392 6 9 4
+
+---------------------------------------------------------------------------------
+42550 7 9 5 5									 |
+42550 7 9 6 8									 |
+42550 7 9 7 1									 |
+42550 7 9 8 4									 | Update (Jan. 23, 01)
+42550 7 9 9 7									 |
+										 |
+42550 8 0 0 6 <-- Thousand and one hundred flip (+9)                             V
+42550 8 0 1 9
+
+
+12786 9 9 0 3									
+12786 9 9 1 6									
+12786 9 9 2 9									
+12786 9 9 3 2									
+12786 9 9 4 5									
+12786 9 9 5 8									
+12786 9 9 6 1
+12786 9 9 7 4
+12786 9 9 8 7
+12786 9 9 9 0
+12787 0 0 0 2 <-- Ten, one, thousand; one hundred flip (+12)
+12787 0 0 1 5
+
+1576 9 9 7 3 3
+1576 9 9 7 4 6
+1576 9 9 9 9 5
+1577 0 0 0 0 4 <-- Hundred, Ten, one, thousand; one hundred flip (+14)
+1577 0 0 0 1 7
+
+
+Before im going to explain this im going to tell you some things so you can understand what im saying.
+
+When I put +1_3, I mean addition not by 13 but by one from the tens place and 3 from the ones place with no 
+carry.  -1_3 will be the oposite.
+
+Now when I say no carry I literaly mean no carry.
+
+Now addition with +1_3 is like so.
+
+
+   ----------------------------------------------------------------------------------------
+  0										           |
+  V										           ^
+  2(9)--Equals 12, we keep the ones place and don't carry the tens to the tens place digit - 
++ 1(3)--
+-----
+  32
+
+And this obviosly this "half" equality yealds 32 eqivilent to adding 03 to 29.
+
+
+
+Now to what you want to hear.  Im going to split this up:
+
+
+          |------Sec A------|
+          |                 |
+          |                 |
+(I).(H).(G).(F).(E).(D).(C).(B).(A)
+|         |                 |      |
+|--Sec C--|                 |Sec B-|
+
+
+Section B is most frequently changed and hardest to understand.  But I think you should be ok on understanding this concept.
+
+Section B increases by +1_3.  After the BA reaches to where it can't go any further a 10 is added and increases the b value by one.
+
+Example:
+
+
+127392 4 7 4
+127392 4 8 7
+127392 4 9 0<-Value of 9 in the decimal number system is the last number that can be defined in a number place so there needs to be a flip back to 0.
+127392 5 0 0<-Therefore we add 10 to 490 making 500.
+
+
+
+The rest is easy.
+
+42550 7 9 9 7<-Now there is a 9 in place C and place B so we add 9.
+42550 8 0 0 6<-Therefore we get 8006 from adding 9 to 7997.
+42550 8 0 1 9
+
+12786 9 9 9 0<-Now there is a 9 in place D and place C and in place B so we add 12.
+12787 0 0 0 2<-Therefore we get 70002 from adding 12 to 69990. 
+12787 0 0 1 5
+
+1576 9 9 9 9 5<-Now there is a 9 in place E and place D and in place C and in place B so we add 14.
+1577 0 0 0 0 4<-Therefore we get 700004 from adding 14 to 699995. 
+1577 0 0 0 1 7
+
+
+Section 3 is unknown.  Some reson I don't think its even fliped at all.
+
+
+===============UPDATE=================
+
+Grimio has devised a inteligent method of finding the sequence of the user-ids explained here 
+http://grimio.tripod.com/ids.txt he has set up a table.  Worked his ass off to get 100+ secondary users!  Now 
+that I look at it is exactly how the external production user-ids are sequenced.  With a huge population it 
+seams wired.  Im going to add some things I missed in the last therory.
+
+
+
+Figure 1.1:
+
+ Start 
+ |											              V	  V
+ V					    This iliistrates how the numbers loop for the begining (000-903)
+ 0 3<----Finish
+								   B=Beging
+7   6
+       ^
+4   9	\
+	 )
+1   2	/
+       ^
+ 8 5  /
+
+
+
+ Start 
+ |
+ V												      V   V
+ 7 0<----Finish				     This illistrates how the numbers loop for the ending.  (097-990)
+					      Notice how this is the same as above but turned.
+4   3								   
+       ^							   E=End
+1   6	\
+	 )					      E=B-0_3
+8   9	/					      B=E+0_3
+       ^
+ 5 2  /
+
+
+
+
+
+
+
+
+Figure 1.2:
+
+     ______________________________________________________________
+    |								   |
+    |								   |
+____V________________________________________________________	   |
+| 000*| 107 | 204 | 301 | 408#| 505 | 602 | 709#| 806 | 903 |	   |
+| 013 | 110*| 217 | 314 | 411#| 518#| 615 | 712#| 819#| 916 |	   |			   
+| 026 | 123 | 220*| 327 | 424 | 521#| 628#| 725 | 822#| 929#|	   |			   
+| 039#| 136 | 233 | 330*| 437 | 534 | 631#| 738#| 835 | 932#|	   |			   
+| 042#| 149#| 246 | 343 | 440*| 547 | 644 | 741#| 848#| 945 |	   |			   
+| 055 | 152#| 259#| 356 | 453 | 550*| 657 | 754 | 851#| 958#|	   |			  
+| 068#| 165 | 262#| 369#| 466 | 563 | 660*| 767 | 864 | 961#|	   |			   
+| 071#| 178#| 275 | 372#| 479#| 576 | 673 | 770*| 877 | 974 |	   |			   
+| 084 | 181#| 288#| 385 | 482#| 589#| 686 | 783 | 880*| 987 |	   |			  
+| 097 | 194 | 291#| 398 | 495 | 592#| 699 | 796 | 893 | 990*|	   |			   
+----------------------------------------------------------^--	   |			   
+T 97  | 87  | 87 |  97 |  87 |  87 |  97 |  87 |  87 |  97| |	   |			   
+W 87  | 77  | 77 |  87 |  77 |  77 |  87 |  77 |  77 |  87| |	   |
+D 10 	10    10    10	  10    10    10    10	  10    10|        |
+                                                          | 	   |
+                                                          ----------
+
+
+This diagram shows the way that flip between the ones, tens and hundreds places.  I have provides the tags 
+to show how the numbers are being pushed down (*) and the place where there was only a 3 decimal digit 
+increasment (#) (least amont of wast).  "T" is the last number subtracted by the first number (Ex: 097-000) while "W" is how many 
+digits that have been wasted. The value "D" is the difference between the two (Numbers Used).  The numbers will be counted as you would read a news paper (As in 000 to 097 back up to 107 down to 194 ect..).
+
+A total of 900 or 90%! digits are wasted and 100 are used (these figures are not based on the total of the 
+array of "W" values because it is not acurate the 10 increasment is not counted in the W value so there is 
+approx 90 numbers that are not counted).  
+
+NOTE: Bothe figures are based not on the +9 for the thosand flip which can modify the loop a bit (1/23/01).
+
+It seams weard why they would wast all these numbers.  If you really think about it could work out.
+
+New York: 127000000
+Boston  : 127000001
+EricTown: 127000002
+
+Im going to guess that each primary server is setup with a base user id.  If you do the calculations the examples above will never meet.
+
+They will basicly be sequenced indipenditly, and this helps to fill in the wasted gaps.
+
+
+----
+    |<------------- New York 000*
+----
+| -----
+||<---------------- Boston   001
+| -----
+|      |
+----   |
+    |<-|----------- New York 003*
+----   |
+| -----
+||<---------------- Boston 004
+| -----
+|      |
+----   | 
+    |<-|----------- New York 007*
+----   |
+
+
+Works like this, if you notice this crapy puzzle peice analogy.
+
+
+==Finding the population==
+
+With my math knoledge I can't see a way without a table.
+
+
+
+
+ 

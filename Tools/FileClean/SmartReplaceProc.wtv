@@ -1,0 +1,87 @@
+#This file is used to process search and replace functions.
+#This is a example of a URL list in a text file which needs to be transformed into a link.
+
+
+
+FileTarget=TestSmartReplaceBefore.txt
+#Put a file name (if you don't have C:/ then it will use the current dir that the progtam resides) or "Text String"
+
+OutPutFileTarget=TestSmartReplaceAfter.txt
+#Defalt (SmartReplace.txt)
+
+FileSplitExp=\n
+#(\n=new line, split the file by each line.)
+#This is optional
+
+IncludeSplitExp=y
+#Reinsert the split character.
+
+
+SearchKeyWord=\x20
+#=-Operators=-
+#*=Full Value (Ex: "Hey." Replace=^ results -> ^)
+#|=Each character
+#x-Specific Caracter or text string. 
+#{n}=Devide file up do the replace on each devide
+#Ex: "My name is Eric MacDonald".  Now where going to devide this string up by 4 which yealds:
+#"My n,ame ,is E,ric ,MacD,onal,d"
+#Were going to this replace the keyword with ^ which results in -> "My n^ame ^is E^ric ^MacD^onal^d" 
+#The keyword search is done on each of the array elements in FileSplitExp if there is no FileSplitExp then it does it on the compleat file.
+
+
+SearchLimit=![2]
+SearchLimitFull=g
+#SearchLimitFull=Segments from full file split.
+#SearchLimit=Elements from each segment of the file split.
+#This is 
+#g=Global (All matches are processed.)
+#e=End (Only the last match is processed.)
+#f=first (Only the first match is processed.)
+#1-2=Specific user choice limit (the numbers whould obviosly be the match number.)
+#12=Every element from 12 on.
+#[2]=every other element or skip one on very 2. (do, don't do, do)  
+#![2]=every other element or skip one on very 2 inverted.  (don't do, do, don't do) 
+#[3]=(do, do, don't do, do, do, don't do)
+#![3]=(don't do, don't do, do, don't do, don't do, do)
+
+
+AllowReplaceWhen=*
+#Optional
+#
+#-=Values=-
+#*=Do on all Search string elements.
+#C("")=Do when containting this string.
+#L(n,>)=Do when excedding this byte length.
+#L(n,<)=Do when less than this byte length.
+#L(n,=)=Do when equal to this byte length.
+#substr(n,n,"RR")
+#Do when a substring of the search string equals RR.
+#match("d",mn)=Find this string in the search string.  If found then return the number the index search offsets from the start of the search string if not return -1.  If 'mn' is definded then use this match	to produce offset length.
+#Ex: "Hey Sup Man !!!",
+#match("S") --> returns 4
+#match("!",1) --> returns 12
+#match("!",2) --> returns 13
+#match("!",3) --> returns 14
+#match("!") --> returns 12.
+#match() MUST be used in substr if you whish to use this command.
+
+SearchReplace=SearchString--+"='"+SearchString+"'"
+#-=Values=-
+#SearchString=Current String.
+#SearchString[n]=String in array
+#^SearchString(separator) Return all strings with definded separator.
+#SearchStringF[n]=String in file split array
+#^SearchStringF(separator) Return all strings with definded separator in file split array.
+#SearchString-- last string
+#SearchString++	next string
+#SearchStringF-- last string in file split array
+#SearchStringF++ next string in file split array
+#(SearchString) Current string offset from keyword search
+#^SearchString^ How many matches have been made with keyword
+#(SearchStringF) Current string offset from file split
+#^SearchStringF^ How many matches have been made with file split
+#
+#-=Operations=-
+#" "=Text string to replace with.
+#+=add
+

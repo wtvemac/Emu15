@@ -1,0 +1,19 @@
+From: AccountDisabled@cooltude.webtv.net (Account Disabled)
+To: YataBfffyte@hotmail.com
+Subject: TEST2
+X-WebTV-Stationery: BGColor "#191919";TextColor "#82A9D9"
+Date: Tue Dec 26 05:54:20 2000
+
+--WebTV-Mail-9896-1069
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+TEST
+
+--WebTV-Mail-9896-1069
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=ISO-8859-1
+Content-Transfer-Encoding: Quoted-Printable
+
+

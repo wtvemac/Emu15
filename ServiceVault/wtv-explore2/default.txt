@@ -1,0 +1,6 @@
+200 Explore!
+Content-Length: %bytes
+Content-Type: text/html; charset=windows-1252
+%%%
+<body bgcolor=#000033 text=#999999>
+Damn right where gunna' explore just wait a sec my fav TV show is on!!  You will love it they have two women this time.

@@ -1,0 +1,99 @@
+This tool will not serve any good towards anyone who has a normal life.	 This tool basically does absolutely 
+no good but to help a WebTV addict.  When this tool was first created there where more WebTV addicts and I 
+had a better reason to distribute the tool, as of now when this tool finishes there will be nearly half of 
+the people who I would give this tool to and make use of it.  I am still going to distribute this tool, I for 
+one am not going to put all this work in the gutter but I will probably be more so surprised of what people 
+will do to this tool such as store it in a nice place of the recycling bin or have it hanging on there HD for 
+a year with no access.
+
+I tend to expound on topics, any topics.  I'm sorry for this it may confuse people and it especially makes me 
+look like a show-off which I totally object to and I try my best to not look like this.  I don't really like 
+fame it something that blocks other potential hackers from entering with a good start.  When I first started 
+out I was pushed to the side most of the time, the only way I could actually get accepted is if I show off 
+and elaborate on topics more than I should making people confused and think I was a genius.  At that time I 
+has almost no knowledge on WebTV or ANY computer related topic and I was surprised that people even called me 
+a hacker.  I appreciate the thanks but I do not accept any high position that people have shaped me in there 
+head.  I know this tool is going to do this, I am sure of it.  I am a bit objective to send this to people 
+but all I want to say is this tool was made by contributions by many other people.  It is they who formed 
+this tool and should receive credit which they deserve.
+
+Third I must explain this crap about WebTV Hackers, yes HACKERS.  I don't know how the fuck some people don't 
+call us hackers.  People who explore WebTV are not morons at what they do and are entitled to be called 
+hackers if they so choose to be.  It's a insult to me to be not called a hacker and im not a wanabee I don't 
+therories WebTV interworkings because of pure nothing but wanting to be a hacker I know I am one and this 
+goes to every one else.  People who don't see the true meaning of hackers are afraid or ignorent of the term 
+basing it on pure altitudinous power that allows a person to to do whatever he choosed with a network -- any 
+network.  Actually I don't think this is anything close to the actual term.
+
+Hack: To tamper with, find, or to define ways to move around blocks, bugs, or holes within a electronically  
+      driven machine.
+
+Hacker: A program or person who hacks and this person has profound interest in what he is doing with a       
+        electronically driven machine.  A hacker is not always malicious.
+
+There are a few differences when comparing WebTV with a computer:
+
+Computer Now:
+
+Can be arbitrarily programmed by the user who posses the computer
+Can be expanded further to where the creator didn't foresee.
+Can be set within almost any environment that it is capable of processing.
+
+
+This explains- 
+Any network device, Any OS, Any File System, Any BIOS ect.  Basically the computer was made to execute 
+programs and the programs can do anything.  The first program is stored within Flash ROM.  Basically it is 
+able to access any network and because networks are programmed in the correct way, access any workstation on 
+a network which is open to the Internet.
+
+
+WebTV:
+
+Can connect to the Internet.
+Can execute high-level programs (Java Script, TVML, HTML, dHTML)
+Can execute log-level programs  (object files, machine language) (We can't control this without further 
+knowledge)
+
+Can dial any number (A/N)
+Can access networks via non-proxy interface
+Is able to access servers and execute CGI programs.
+
+
+Human Beings:
+
+Is able to logically figure out things around them.
+Is able to do what is thought to be impossible.
+Is able to physically hack a computer.
+
+We have one thing to look at here and I hope I have proven my point.  Computers give us a boost for hacking 
+widening our scope and computers allow us to have more of a diversity of hacking.  WebTV users are still able 
+to hack but not as wide of a view than computers.  However we are hackers if you can prove otherwise with 
+detail.  Lets not get dumb here the box is what is disabling us, the person behind the WebTV is intelligent 
+and not to be categorized as a lower inteligence than computer hackers.  This is like comparing the president 
+with the mayor at times the mayor can have more of a better experience than the president has with 
+government.  A lot of former WebTV hackers have resigned the location of WebTV Hacking because it was to 
+little for them.  All I can say is its a little world that needs heavy thought to reach the level of 
+intelligent hacking we can't just pick up a program and become a hacker on WebTV we need to make the 
+programs.  I'm the type of person who likes logical challenges and WebTV is just where I started with, the 
+challenges don't get easly as the time goes along of course that's just the fun of it.   Its only when you 
+jump into our shoes and walk around in them when you truely understand what a WebTV HACKER is.
+
+But WebTV and Computers are not where all hackers are consentrated.  What I call a genious is a person who 
+can 
+do the impossible.  If a person can logicly devise methods that where never looked into before is a genious.
+While the rest are just using talent riding on other peoples discoveries and finding new tricks based on 
+nothing 
+but past definition.
+
+Everything I found on this computer pertaining to WebTV can be replicated with WebTV from PERL compatable 
+servers.  Its allot harder but its compleatley possible even unencoding the Viewer Files but WebTV users need 
+more knowledge to do this than computer users, however I'm not degrading computer hackers in this statement 
+obviosly all hackers need extream logical view on what they are doing.  But is it possible to run executables 
+on WebTV?  If this was possible we could do more things that we thought were impossible.  Under therory it is 
+possible if you looked at how DOOM is loaded and the format of the object file.  WebTV is objective to 
+running DOOM on the plus, maybe because its prone to expose the workings of the execution, or maybe something 
+else who knows.
+
+
+
+ 

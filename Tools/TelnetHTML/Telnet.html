@@ -1,0 +1,222 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<script>
+function Command(cepts){
+document.a.a.value="";
+cept=cepts.split(" ");
+cepn=cepts.indexOf(" ");
+if(cept[0] == "help" || cept[0] == "config" || cept[0] == "sys" || cept[0] == "send" || cept[0] == "cls" || cept[0] == "long" || cept[0] == "endlong" || cept[0] == "/whois" || cept[0] == "/who" || cept[0] == "eval" || cept[0] == "stats" || cept[0] == "quit"){
+
+
+if(cept[0] == "/whois"){
+Chat.addChannelMessage('/whois bigfatso');
+}else{
+
+
+if(cept[0] == "/who"){
+Chat.addChannelMessage('/who');
+
+}else{
+
+if(cept[0] == "/msg"){
+Chat.addChannelMessage("/msg "+cepts.substring(cepn+1))
+
+}
+else{
+Chat.addChannelMessage('/topic '+cepts);
+}
+}
+
+
+}
+
+
+
+}else{
+Chat.addChannelMessage(cepts);
+}
+
+}
+
+if(!(Chat.canChat)){
+document.write("<font color='red'>I'm sorry but you are suspended from using chat.  This is caused by the main user desisions or you came out of login prematurly, please power off and power back or just disconnect and reconnect else ask your mom to give ya chat ;).</font><comment>");
+}
+</script>
+<script>
+var beenhere;
+function Chat(){
+a=document.forms[0].a.value
+var w=a.split(" ");
+if(w[0] == "/s"){
+Chat.addChannelMessage(w[1]);
+}else{
+Chat.addChannelMessage("\topic "+w[1]);
+}
+}
+
+
+function writetoembed(a){
+document.a.a.focus();
+if(a == 2){
+if(beenhere){
+document.embed.document.write("<wtvchattranscript width=100% height=200 nobackground>You are still connected to the server, you are actually always connected to the server untlill a period of time of being off this \"page\" (Basicly \"away\" from the &lt;wtvchat> tag) or disconnecting.  lets just say they set a Timeout period.  I don't know any atribute to send the QUIT command.");
+beenhere=0;
+}
+}else{											
+beenhere=1;
+document.embed.document.write("<wtvchat host='oemcomputer' port='1615' channel=#lobby><wtvchattranscript width=100% height=200 nobackground>");
+}
+}
+
+function ShowMenu(a,b){
+var cookie;
+if(b){
+cookie=b;
+}
+if(!(cookie)){
+if(a == 2){
+document.lala.style.visibility='visible'; 
+document.lala.style.posLeft=2;
+document.lala.style.posTop=42
+}else{
+document.lalaa.style.visibility='visible';  
+document.lalaa.style.posLeft=90; 
+document.lalaa.style.posTop=42
+}
+cookie=1;
+}else{
+if(a == 2){
+document.lala.style.visibility='hidden'; 
+}else{
+document.lalaa.style.visibility='hidden';  
+}
+cookie=0;
+}
+
+}
+
+function Show(a){
+if(cookie){
+if(a == 2){
+document.lala.style.visibility='visible'; 
+document.lala.style.posLeft=2;
+document.lala.style.posTop=42
+}else{
+document.lalaa.style.visibility='visible';  
+document.lalaa.style.posLeft=90; 
+document.lalaa.style.posTop=42
+}
+}
+}
+
+function Exit(){
+document.main.style.visibility="hidden"
+document.lala.style.visibility='hidden'; 
+}
+function DeShow(a){
+if(cookie){
+if(a == 2){
+document.lala.style.visibility='hidden'; 
+}else{
+document.lalaa.style.visibility='hidden';  
+}
+}
+}
+</script>
+</HEAD>
+
+<BODY link="#101010" vlink="#101010" alink="#101010" fontsize="small" background="Clouds.gif">
+<style>
+.Whoo {
+position:absolute;
+top:60px;
+left:140px;
+width:160;
+background-color: #000022;
+visibility:hidden;
+}
+</style>
+<div class="Whoo" name="lala">
+<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#7F7F7F" border=1><tr>
+<td>
+<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#7F7F7F"><tr>
+<td>
+<a href="javascript:writetoembed()" onMouseOver="Show(2)"><u>C</u>onnect</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="javascript:writetoembed(2)"><u>D</u>isconnect</a>
+</td>
+</tr>
+</table>
+<tr>
+<td>
+<a href="javascript:Exit()"><u>E</u>xit</a>
+</td>
+</tr>
+</table>
+</div>
+
+
+<div class="Whoo" name="lalaa">
+<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#7F7F7F" border=1><tr><td>
+<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#7F7F7F"><tr><td>
+<a href=# onMouseOver="Show(3)"><u>P</u>references</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href=#><u>S</u>tart Logging</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href=#><u>S</u>top Logging</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div style="visibility: visible" name="main">
+<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#7F7F7F"><tr><td>
+<table cellspacing="0" cellpadding="0" border="1" width="100%">
+<tr><td bgcolor="darkblue" gradcolor="blue" gradangle="90">
+<font color="white">WebTV Telnet Client</font>
+</tr></td>
+<tr bgcolor="#7F7F7F"><td>
+<table><tr><td>
+<a href="javascript:ShowMenu(2)" onMouseOver="Show(2)"  onMouseOut="DeShow(2)">Connect</a>
+</td>
+<td>
+&nbsp;&nbsp;&nbsp;
+<a href="javascript:ShowMenu(3)" onMouseOver="Show(3)"  onMouseOut="DeShow(3)">Terminal</a>
+</td>
+</table>
+</tr></td>
+
+<tr><td bgcolor="white" text="#000000">
+<embed src=dummyf.html name=embed nobackground width="100%" height="250">
+<form onSubmit="Command(a.value); return false;" id='a'>
+</td></tr>
+
+<tr><td bgcolor="white" text="#000000">
+
+<table><tr><td>
+<input name="a" border="0" bgcolor="white" size="100%" nohighlight selected onFocus="ShowMenu(3,1); ShowMenu(2,1);">
+</td><td><a href="javascript:open(whisper.panel)">@</a>
+</tr></td>
+</table>
+
+
+</tr></td>
+</table>
+</tr></td>
+</table>
+</div>
+
+</BODY>
+</HTML>

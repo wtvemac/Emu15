@@ -1,0 +1,90 @@
+200 OK
+Content-length: %bytes
+Content-type: text/html
+%%%
+<HTML>
+<head>
+<title>	Text size
+</title>
+</head>
+<body bgcolor="#2E2E2A" text="#CBCBCB" link="#FFE99B" vlink="#FFE99B" hspace=0 vspace=0 fontsize="medium">
+<table cellspacing=0 cellpadding=0 border=0 bgcolor=#645D5F>
+<tr>
+<td height=7 colspan=4>
+<tr>
+<td width=7>
+<td width=87 href="wtv-home:/home">
+<img src="wtv-setup:/ROMCache/WebTVLogoJewel.gif" width=87 height=67>
+<td width=7>
+<td width=459 valign=bottom>
+<img src="wtv-setup:/images/Settings.gif" width=197 height=58>
+<tr>
+<td height=5 colspan=4>
+</table>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td width=15 height=25 bgcolor=#645D5F>
+<td width=545 height=25 bgcolor=#2E2E2A gradcolor=#23231F gradangle=90>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td width=8 height=25 valign=top>
+<img src="wtv-setup:/images/CornerTop.gif" width=8 height=8>
+<td width=78>
+<td width=392 valign=middle>
+<blackface><font color=#D6D6D6>	Text size
+</font></blackface>
+<td width=21>
+<img src="wtv-setup:/images/widget.gif" width=16 height=16>
+<td width=34>
+<spacer type=vertical size=1><br>
+<a href="wtv-guide:/help?topic=Settings&subtopic=Textsize"><font sizerange=small color=#E7CE4A><b>Help</b></font></a>
+<td width=12>
+<spacer type=horizontal size=12>
+</table>
+</table>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td width=15 rowspan=2 bgcolor=#645D5F>
+<td width=48 rowspan=2>
+<td width=497 height=237 valign=top>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td height=24 colspan=3>
+<tr>
+<td abswidth=200 valign=top>
+Choose the text size that you
+prefer.
+<p>
+Your setting is used for basic text in Web pages. It
+doesn't affect text presented as graphics or WebTV pages
+like this one.
+<td abswidth=40>
+<spacer type=horizontal size=40>
+<td abswidth=220 valign=top>
+Your text size is <b>&fsize;</b>.
+<p>
+<FONT size=-1><a href="client:SetSetupValue?setup-font-sizes=small">small</a></FONT>
+<p>
+<a href="client:SetSetupValue?setup-font-sizes=medium">medium</a>
+<p>
+<FONT size=+1><a href="client:SetSetupValue?setup-font-sizes=large" selected>large</a></FONT>
+</table>
+<tr>
+<td align=right>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td>
+<spacer type=horizontal size=12>
+<form action=client:goback>
+<font color="#E7CE4A" size=-1><shadow>
+<input
+selected
+type=submit borderimage="file://ROM/Borders/ButtonBorder2.bif" value=Done name="Done" usestyle width=103>
+</shadow></font></form>
+<td abswidth=12>
+<tr>
+<td height=12 colspan=2>
+</table>
+</table>
+</body>
+</HTML>

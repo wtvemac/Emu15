@@ -1,0 +1,56 @@
+These pages are my "electronic notebook" which I call "WebTV Box Information Pages".  This was setup becasue 
+by notebook was unorganized and was unlegiable.  This was devised as a simpler means of organizing my therories 
+ect..  I am not going to give out these pages utill all reasearch needed to finalize these pages are 
+finished.  ALL of these pages have been given extream abount of thought and experiments and interviews have 
+been taken place in order to form these pages.  I hope this will be one of WebTVs detailed and lagit 
+information source but this will not come true unless all research has come to a close.  Most of this 
+data that was proformed to allow me to explain these elements where received by the WebTV Emulator.  Just to 
+give you a general look at what I am studing I have a contents of the pages.  You may contribute to these if 
+you like and I will give you credit which you deserve.
+
+ 
+If you disagree with any of my therories selected from these pages then I want to here your opinion.  Your opinion has to be stuctured and well thought of.  Before I even write these pages I spend a week (minimal) or so researching the topic thoroly.  I inset myself to think like a server technition, hardware enginerar ect and put allot of work studying how im going to tackle a theory which has to work.  Next I try to put my therory to work.  Either on paper or by program I create a flow and try to find as many ways this therory may be indirected or used in a way that does not show in relation to WebTV.  Finaly if needed I sqeeze every possible once more out of the WebTV server or Box to see if the therory can be rewritten.  If everything passed the therory is documented.  However that does not mean human error can't set in.  At times it is almost impossible to find a structured theroy because of the immencse dificulty so the "theory" is left postulated untill furhter information leaks through.  If you do see a error in the therory please bring it up and I will gladly talk it out to try to revise the therory.
+
+
+
+
+
+                           Undertaking the Logical Enterprise
+
+				  -=Table of Contents=-
+
+WBIP (WebTV Box Information Pages)                               Title
+
+
+0	...........................................	Set Goals to Achieave with WebTV
+1	...........................................	WebTV Content Types
+2	...........................................	TellyScript Commands Description
+3	...........................................	External Production User ID Distribution Theroy
+4	...........................................	Auto Hacker Therory
+5	...........................................	WebTV Proxy Servers
+6	...........................................	BootROM
+7	...........................................	Sony Keyboard
+8	...........................................	Data Download
+9	...........................................	URL Access Bloking Therory
+10	...........................................	Power Off Codes
+11	...........................................	Flashrom Image Format
+12	...........................................	TellyScript Code Reviewed
+13	...........................................	TellyScrpt Therory
+14	...........................................	WebTV Box Upgrading Therory
+15	...........................................	WebTV Experimental Schematic
+16	...........................................	SSID Organization
+17	...........................................	WebTV Login Procces (Updated)
+18	...........................................	WebTV Tricks Reviewed
+19	...........................................	WebTV Production User ID Distribution Therory
+20	...........................................	Telyscript Revisited
+21	...........................................	User ID Header Therory
+22	...........................................	WebTV Disk Structure
+23	...........................................	WebTV IRC Operations
+24	...........................................	WebTV Cacheing Theroy
+25	...........................................	WebTV Identifiers
+26	...........................................	JellyScript Reasearch
+27	...........................................	WebTV Log Therory
+28	...........................................	Services Description-Draft
+29	...........................................	WebTV Token Theroy
+30	...........................................	ATVEF
+31	...........................................	Flow Charts (HTML)  

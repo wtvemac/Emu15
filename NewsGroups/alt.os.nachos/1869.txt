@@ -1,0 +1,40 @@
+Path: rQdQ!sn-xit-03!supernews.com!cyclone-sjo1.usenetserver.com!news-out.usenetserver.com!newshub2.rdc1.sfba.home.com!news.home.com!sjc1.nntp.concentric.net!newsfeed.concentric.net!webtv.net!not-for-mail
+From: P3t3r-@webtv.net (^`lP-lE-lT-lE-lR`^)
+Newsgroups: alt.os.nachos
+Subject: Re: Question about my Sig?
+Date: Sat, 25 Nov 2000 00:12:12 -0500 (EST)
+Organization: WebTV Subscriber
+Lines: 21
+Message-ID: <26347-3A1F4A2C-29@storefull-292.iap.bryant.webtv.net>
+References: <27942-3A1F3F2D-23@storefull-258.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-10566-982
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAtAhR/N5PejpcdZtGdlox62QuLoYH6/AIVAMXaM7zvqH7wyVBn73hanuSpCZbO 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=dimgrey; TextColor=black
+Xref: rQdQ alt.os.nachos:1869
+
+
+--WebTV-Mail-10566-982
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+8-10 seconds... it loads slow....
+
+
+--WebTV-Mail-10566-982
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<HTML><body bgcolor=dimgrey text=black link=black vlink=black></body>
+<object
+data="http://www.geocities.com/meize17/signatures/sigc3.html"></object><embed
+src="http://www.angelfire.com/pop/thug/singles/slimmcutta.ram"autostart=true></html>
+
+
+--WebTV-Mail-10566-982--

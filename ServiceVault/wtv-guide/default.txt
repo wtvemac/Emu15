@@ -1,0 +1,18 @@
+200 WebTV FlashROM downloads.
+Content-Length: %bytes
+Content-Type: text/html; charset=windows-1252
+%%%
+<html>
+<head>
+<title>
+Sorry
+</title>
+</head>
+<body bgcolor="#000033" text="#999999">
+<center>
+<h1>Needed Help?</h1>
+</center>
+<p>
+Im sorry, verry sorry!  Our help group has just left to pig out at BK so you mite need to wait while they chow down there bugers.  Mmmmm Yummy in the leg.
+</body>
+</head>

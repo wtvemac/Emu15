@@ -1,0 +1,6 @@
+300 Moved
+wtv-service: reset
+wtv-service: name=wtv-register host=whatever port=1618
+wtv-service: name=wtv-head-waiter host=whatever port=1618
+Location: wtv-register:/register
+

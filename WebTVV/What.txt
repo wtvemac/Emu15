@@ -1,0 +1,39 @@
+To go along with the theam of the WebTV.pl tool I have added these few files.  Enjoy!  Sorry to bulk the WebTV.zip file with these!
+
+Registry Settings:
+
+If you have any WebTV Viewer 1.0 registry settings you want to save I would suggest not to use these.
+
+These files are used to change registry settings to cause the viewer 1.0 to do different tasks.
+
+<WebTVPhone.reg>, This file allows the viewer to use the phone software (and execute TellyScript?)..  Seams useless now.  Mite be opening the wrong port, any suggestions?  How mite I know what port it is attempting to write to, any way to get it to write to COM1?
+
+<WebTVBootROM.reg>, All this does is strip allot of the Viewers function including JellyScript.  This has phone enabled.
+
+<WebTVBootROMXTS.reg>, Same as above but no phone.
+
+<WebTVReset.reg>, Resets the registry to the registry settings to the settings that you had when you first got your Viewer 1.0.
+
+<WebTVSound.reg>, Allows WebTV Viewer 1.0 to have sound (not saying the viewer 1.0 has full comparibility with reading audio files).  This is better quality than 2.5 but eats the living crap out of RAM.
+
+
+Other:
+
+These files are other utilities used to hack WebTV from the computer.  I did not make these.
+
+<HackWTVHD.zip>, these are utilities that will pass the reading of file systems of a disk and dump the actual data.  This could help when having the WebTV HD in the computer.  No need to linux or unix!!
+
+    <pv12.exe>,    Dumbs disk (HD and FD) onto the screen for viewing and editing.  This tool also dumps RAM, ROM and vidio RAM contants (text and graphical)
+    <gsect15.exe>, Dumps disk data (HD) into a file.  You will define arguments about the addressing information in the command line.  This tool also transforms hex editable code to asm (assembly) language.
+
+
+These tools both use phisical sector viewing.  Some tools view sectors according to partitions.  So if WebTVs MBR is setup in a different manner then secotor view will not work but phisical sector view will.
+
+Curious Information:
+
+What does WebTVs MBR look like?
+How is the HD formated (as in MBR->FAT Tables->Disk data (normal PC format))?
+Is the appROM one image file or multiple files?
+How many partitions are on the WebTV drive?
+How does WebTV organize there partition table in the MBR, or is there a MBR?
+     

@@ -1,0 +1,41 @@
+Path: rQdQ!sn-xit-03!supernews.com!cyclone-sjo1.usenetserver.com!news-out.usenetserver.com!newshub2.rdc1.sfba.home.com!news.home.com!enews.sgi.com!paloalto-snf1.gtei.net!news.gtei.net!webtv.net!not-for-mail
+From: Pr0diGy-1@webtv.net (=?ISO-8859-1?Q?[=97_P_r_0_z_4_c_=97]?=)
+Newsgroups: alt.os.nachos
+Subject: Re: Changeing Text and Background at: PageBuilder.
+Date: Sun, 26 Nov 2000 00:16:07 -0500 (EST)
+Organization: WebTV Subscriber
+Lines: 22
+Message-ID: <25956-3A209C97-49@storefull-158.iap.bryant.webtv.net>
+References: <9548-3A202407-23@storefull-162.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-863-4646
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAsAhRi+YetcdTlIwBdgmDyFuWbFUH+SwIUKOcjRp+H5z+evEmG2fo92jLaEjk= 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=0a0000; TextColor=goldenrod
+Xref: rQdQ alt.os.nachos:1885
+
+
+--WebTV-Mail-863-4646
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+just put a grey bg background and thas all 
+
+
+--WebTV-Mail-863-4646
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<html><body bgcolor=0a0000 text=goldenrod><center><font
+size=5><b>[</b><tt> P r 0 </tt><b>]</b></font><br><font
+size=5><b>[</b><tt> Whiped/Owned By Pina aka Gina
+</tt><b>]</b></font><br><font size=-1>http://Pr0fessional.cjb.net</font>
+<bgsound src=http://8op.com/Soundz/Limp04.ra>
+
+
+--WebTV-Mail-863-4646--

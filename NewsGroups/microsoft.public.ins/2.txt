@@ -1,0 +1,12 @@
+From: Brian Edmonds <brian@gweep.bc.ca>
+Subject: open server test (ignore)
+Date: Thu, 23 Nov 2000 19:27:56 GMT
+X-No-Archive: Yes
+Message-ID: <bwe-open-975007677@gweep.bc.ca>
+Newsgroups: microsoft.public.ins,alt.test
+Lines: 2         
+Path: exwebserver-03.webtv.net
+Xref: exwebserver-03.webtv.net microsoft.public.ins:2
+NNTP-Posting-Host: gt.antarcti.ca 209.17.183.233
+
+Testing apparently open server www.webtv.net...

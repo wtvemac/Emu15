@@ -1,0 +1,271 @@
+-=Operational Time Test=-
+
+
+
+Count 1
+Current Time: 20:18:35
+You loged in at 20:18:35 
+Time it took for me to see your connection is 0 hours 0 minutes 0 seconds.
+I recived command at 20:18:35 after connect 
+Time it took for me to see your command is 0 hours 0 minutes 0 seconds
+Overall time: 0 hours 0 minutes 0 seconds
+
+
+
+Count 2
+Current Time: 20:18:35
+You loged in at 20:18:35 
+Time it took for me to see your connection is 0 hours 0 minutes 0 seconds.
+I recived command at 20:18:35 after connect 
+Time it took for me to see your command is 0 hours 0 minutes 0 seconds
+Overall time: 0 hours 0 minutes 0 seconds
+
+
+
+Server-mode: 4
+Server-Client-quota: 90
+Server-address: 127.0.0.1:1618
+Server-time: 8:18:
+Server-Active-clients: 2
+Server-your-address: 127.0.0.1:1027
+Server-Client-log: 127.0.0.1:1025 loged in at 8:18:
+Server-Client-log: 127.0.0.1:1026 loged in at 8:18:
+Server-Client-log: 127.0.0.1:1027 loged in at 8:18:
+Thats is it!
+
+
+
+-=PING Test=-
+
+Pinging, 0
+Pinging, 1
+Pinging, 2
+Pinging, 3
+Pinging, 4
+Pinging, 5
+Pinging, 6
+Pinging, 7
+Pinging, 8
+Pinging, 9
+Pinging, 10
+Pinging, 11
+Pinging, 12
+Pinging, 13
+Pinging, 14
+Pinging, 15
+Pinging, 16
+Pinging, 17
+Pinging, 18
+Pinging, 19
+Pinging, 20
+Pinging, 21
+Pinging, 22
+Pinging, 23
+Pinging, 24
+Pinging, 25
+Pinging, 26
+Pinging, 27
+Pinging, 28
+Pinging, 29
+Pinging, 30
+Pinging, 31
+Pinging, 32
+Pinging, 33
+Pinging, 34
+Pinging, 35
+Pinging, 36
+Pinging, 37
+Pinging, 38
+Pinging, 39
+Pinging, 40
+Pinging, 41
+Pinging, 42
+Pinging, 43
+Pinging, 44
+Pinging, 45
+Pinging, 46
+Pinging, 47
+Pinging, 48
+Pinging, 49
+Pinging, 50
+Pinging, 51
+Pinging, 52
+Pinging, 53
+Pinging, 54
+Pinging, 55
+Pinging, 56
+Pinging, 57
+Pinging, 58
+Pinging, 59
+Pinging, 60
+Pinging, 61
+Pinging, 62
+Pinging, 63
+Pinging, 64
+Pinging, 65
+Pinging, 66
+Pinging, 67
+Pinging, 68
+Pinging, 69
+Pinging, 70
+Pinging, 71
+Pinging, 72
+Pinging, 73
+Pinging, 74
+Pinging, 75
+Pinging, 76
+Pinging, 77
+Pinging, 78
+Pinging, 79
+Pinging, 80
+Pinging, 81
+Pinging, 82
+Pinging, 83
+Pinging, 84
+Pinging, 85
+Pinging, 86
+Pinging, 87
+Pinging, 88
+Pinging, 89
+Pinging, 90
+Pinging, 91
+Pinging, 92
+Pinging, 93
+Pinging, 94
+Pinging, 95
+Pinging, 96
+Pinging, 97
+Pinging, 98
+Pinging, 99
+Pinging, 100
+Pinging, 101
+Pinging, 102
+Pinging, 103
+Pinging, 104
+Pinging, 105
+Pinging, 106
+Pinging, 107
+Pinging, 108
+Pinging, 109
+Pinging, 110
+Pinging, 111
+Pinging, 112
+Pinging, 113
+Pinging, 114
+Pinging, 115
+Pinging, 116
+Pinging, 117
+Pinging, 118
+Pinging, 119
+Pinging, 120
+Pinging, 121
+Pinging, 122
+Pinging, 123
+Pinging, 124
+Pinging, 125
+Pinging, 126
+Pinging, 127
+Pinging, 128
+Pinging, 129
+Pinging, 130
+Pinging, 131
+Pinging, 132
+Pinging, 133
+Pinging, 134
+Pinging, 135
+Pinging, 136
+Pinging, 137
+Pinging, 138
+Pinging, 139
+Pinging, 140
+Pinging, 141
+Pinging, 142
+Pinging, 143
+Pinging, 144
+Pinging, 145
+Pinging, 146
+Pinging, 147
+Pinging, 148
+Pinging, 149
+Pinging, 150
+Pinging, 151
+Pinging, 152
+Pinging, 153
+Pinging, 154
+Pinging, 155
+Pinging, 156
+Pinging, 157
+Pinging, 158
+Pinging, 159
+Pinging, 160
+Pinging, 161
+Pinging, 162
+Pinging, 163
+Pinging, 164
+Pinging, 165
+Pinging, 166
+Pinging, 167
+Pinging, 168
+Pinging, 169
+Pinging, 170
+Pinging, 171
+Pinging, 172
+Pinging, 173
+Pinging, 174
+Pinging, 175
+Pinging, 176
+Pinging, 177
+Pinging, 178
+Pinging, 179
+Pinging, 180
+Pinging, 181
+Pinging, 182
+Pinging, 183
+Pinging, 184
+Pinging, 185
+Pinging, 186
+Pinging, 187
+Pinging, 188
+Pinging, 189
+Pinging, 190
+Pinging, 191
+Pinging, 192
+Pinging, 193
+Pinging, 194
+Pinging, 195
+Pinging, 196
+Pinging, 197
+Pinging, 198
+Pinging, 199
+Pinging, 200
+Pinging, 201
+Pinging, 202
+Pinging, 203
+Pinging, 204
+Pinging, 205
+Pinging, 206
+Pinging, 207
+Pinging, 208
+Pinging, 209
+Pinging, 210
+Pinging, 211
+Pinging, 212
+Pinging, 213
+Pinging, 214
+Pinging, 215
+Pinging, 216
+Pinging, 217
+Pinging, 218
+Pinging, 219
+Pinging, 220
+Pinging, 221
+Current Time: 20:19:35
+You loged in at 20:19:35 
+Time it took for me to see your connection is 0 hours 0 minutes 0 seconds.
+I recived command at 20:19:35 after connect 
+Time it took for me to see your command is 0 hours 0 minutes 0 seconds
+Overall time: 0 hours 0 minutes 0 seconds
+
+Lag: 0 hours 0 minutes 0 seconds
+
+

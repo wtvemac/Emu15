@@ -1,0 +1,73 @@
+Resources are variables that are programmed by the programer that defines menus, dialogs, bitmaps, icons, 
+cursors, and program strings.  These are compiled within the Windows Executable near the bottom half of the 
+executable below the actual execution code.  Windows executables may be DLL files, EXE files (most common), 
+CPL files, and OCX files.  Remember resources are not used in DOS executables.
+
+When a Windows32 API program executes it runs a loop.  This loop is used to take care of all the messages in 
+the message gue.  The message gue is where all the events are buffered and they stay there until it is taken 
+care of.  At times if the event is not needed it is discarded and not read (This is programmed in the script 
+to do this).  A event may be a closing of the window, minimizing, selecting a option in a menu, clicking on a 
+button window, typing text, creating a child window, ect...  Within the resource modules there are numbers 
+these numbers are the tags used to identify the event that will be stored in the message que (Some of these 
+message gue identifiers are predefined in a .h file Ex: WM_DESTROY destroying a window via [x]).   
+
+Example here is the dummy menu in the WebTV Executable:
+
+128 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+POPUP "&File"
+{
+	MENUITEM "&Open File...\tCtrl+O",  57601
+	MENUITEM "Open &URL...\tCtrl-U",  32771
+	MENUITEM "&Close",  57602
+	MENUITEM "Save &As...",  57604
+	MENUITEM SEPARATOR
+	MENUITEM "&Print...\tCtrl+P",  57607
+	MENUITEM "Print Pre&view",  57609
+	MENUITEM "P&rint Setup...",  57606
+	MENUITEM SEPARATOR
+	MENUITEM "E&xit",  57665
+}
+POPUP "&Edit"
+{
+	MENUITEM "&Undo\tCtrl+Z",  57643
+	MENUITEM SEPARATOR
+	MENUITEM "Cu&t\tCtrl+X",  57635
+	MENUITEM "&Copy\tCtrl+C",  57634
+	MENUITEM "&Paste\tCtrl+V",  57637
+	MENUITEM SEPARATOR
+	MENUITEM "Pre&ferences",  32772
+	MENUITEM "smurf",  32792
+}
+POPUP "&Help"
+{
+	MENUITEM "&About WebTV Simulator...",  57664
+}
+MENUITEM "DUMMY MENU - Don't worry about editing me",  65535
+}
+
+"128" Defines the actual resource.  When the window is registered this is used to specify that this menu is 
+going to be used for this window.  Im not going to get into the programing its just going to confuse you.  
+'POPUP "&File"' is defineing the main window item.  & is used for the underline specifying the alt menu 
+shortcut in this case alt+f will open this menu. 'MENUITEM "&Open File...\tCtrl+O",  57601' is defining the 
+submenu \t is tab.  57601 is the message que event identifier. 
+
+
+The reason why I brought this up is Windows has distributed the format of its executable files (needed for 
+compilers and software engineers ect...).  The significance of this is that we can edit the resources without 
+a source file.  This means if the WebTV Viewer was made to be for WNI employees and then modified to a lower 
+scale for consumers and they just left the resources to the employee parts of the code still within the 
+script it will still be compiled together and we can later get the employee code and bring it to the top.
+
+WebTV Viewer 1.0, 2.0 and 2.5 all have 3 menus.  A debug, employee resource menu; dummy menu and the consumer 
+menu.  The hidden menu resource is the most significant resource but there are other unused resources within 
+the WebTV Viewer.
+
+
+
+I recommend this page for your resource editor needs! 
+
+http://stanford.esuccess.com/protools/utilities.htm
+
+ 

@@ -1,0 +1,20 @@
+#I belive this is a convienient way to allow you to upgrade a box ect.
+#Variable^VariableComparative^"RedirectURL"
+#These are good variables to use but not limited to these.  All working variables used in the program can be used.  Actualy any perl command that does not requier the ^ charater and returns a value will work.
+#$userromtype
+#$userbootromversion
+#$usersysconfig
+#$userchipversion
+#$userclientbuild
+#$userssid
+#$userboxtype
+#$clienthost
+#$clientport
+
+#Examples
+#$userromtype^*^"wtv-head-waiter:/login-stage-two"
+#$userboxtype^Viewer^"wtv-flashrom:/ask-for-upgrade?version=$userclientbuild"
+#$clienthost^209.240.*.*^"wtv-head-waiter:/indirect-login-ForWebTVPOPs"
+#($clienthost eq "209.240.194.41" && ($userboxtype eq "Sony"))^1:"wtv-head-waiter:/SonySpecialBuild-AndOnlyForWNIPOPs?gofortheDL=1"
+
+

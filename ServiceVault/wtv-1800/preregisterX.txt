@@ -1,0 +1,250 @@
+200 OK
+Content-length: %bytes
+Content-type: text/html
+wtv-service: host=%lip port=%lport name=wtv-1800 flags=0x04
+wtv-service: host=%lip port=%lport name=wtv-tricks flags=0x04
+wtv-service: host=209.240.194.43 port=1607 name=wtv-register flags=0x04
+%%%
+For futher help please go to <a href=wtv-tricks:/ServiceSetup>ServiceSetup</a> access level check is turned off.  Please put wtv-register, wtv-head-waiter, service ticket, and service reset. to set up a registration of a server.  Please note after a reset this service and the tricks service is deleted.<p> 
+
+<a href=wtv-tricks:/SetupReg?host=209.240.198.24>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.24:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.25>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.25:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.26>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.26:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.27>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.27:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.32>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.32:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.34>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.34:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.35>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.35:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.36>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.36:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.37>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.37:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.50>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.50:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.51>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.51:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.52>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.52:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.57>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.57:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.58>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.58:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.59>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.59:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.61>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.61:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.62>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.62:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.63>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.63:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.66>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.66:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.67>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.67:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.68>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.68:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.69>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.69:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.70>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.70:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.75>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.75:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.81>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.81:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.86>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.86:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.89>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.89:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.90>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.90:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.101>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.101:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.102>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.102:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.107>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.107:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.106>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.106:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.108>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.108:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.109>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.109:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.109>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.109:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.113>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.113:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.114>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.114:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.115>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.115:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.116>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.116:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.126>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.126:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.127>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.127:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.128>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.128:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.129>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.129:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.131>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.131:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.130>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.130:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.132>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.132:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.133>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.133:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.135>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.135:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.136>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.136:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.137>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.137:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.138>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.138:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.139>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.139:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.140>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.140:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.144>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.144:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.145>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.145:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.146>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.146:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.147>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.147:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.150>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.150:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.151>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.151:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.163>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.163:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.167>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.167:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.168>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.168:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.169>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.169:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.172>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.172:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.173>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.173:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.175>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.175:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.176>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.176:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.177>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.177:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.192>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.192:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.194>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.194:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.195>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.195:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.197>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.197:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.198>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.198:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.213>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.213:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.214>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.214:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.215>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.215:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.217>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.217:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.218>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.218:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.219>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.219:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.223>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.223:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.198.224>WebTV Services, 5.5 (rev 3047)  is for 209.240.198.224:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.33>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.33:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.34>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.34:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.38>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.38:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.39>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.39:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.45>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.45:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.46>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.46:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.61>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.61:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.62>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.62:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.63>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.63:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.64>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.64:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.65>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.65:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.66>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.66:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.67>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.67:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.68>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.68:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.69>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.69:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.70>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.70:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.81>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.81:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.83>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.83:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.85>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.85:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.87>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.87:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.88>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.88:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.89>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.89:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.90>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.90:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.93>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.93:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.101>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.101:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.102>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.102:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.104>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.104:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.103>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.103:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.105>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.105:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.106>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.106:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.109>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.109:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.111>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.111:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.115>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.115:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.119>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.119:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.120>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.120:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.121>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.121:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.123>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.123:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.125>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.125:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.129>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.129:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.130>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.130:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.131>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.131:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.132>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.132:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.133>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.133:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.134>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.134:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.137>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.137:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.140>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.140:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.209>registerd version: Thursday, July 13, 13:45 is for 209.240.199.209:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.222>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.222:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.234>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.234:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.235>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.235:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.236>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.236:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.235>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.238:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.243>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.243:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.244>4WebTV Services, 5.5 (rev 3047)  is for 209.240.199.244:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.245>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.245:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.248>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.248:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.199.249>WebTV Services, 5.5 (rev 3047)  is for 209.240.199.249:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.220.92>WebTV Services, 5.5 (rev 3047)  is for 209.240.220.92:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.220.93>WebTV Services, 5.5 (rev 3047)  is for 209.240.220.93:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.220.100>WebTV Services, 5.5 (rev 3047)  is for 209.240.220.100:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.220.101>WebTV Services, 5.5 (rev 3047)  is for 209.240.220.101:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.220.108>WebTV Services, 5.5 (rev 3047)  is for 209.240.220.108:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.220.109>WebTV Services, 5.5 (rev 3047)  is for 209.240.220.109:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.220.116>WebTV Services, 5.5 (rev 3047)  is for 209.240.220.116:1607</a><br>
+<a href=wtv-tricks:/SetupReg?host=209.240.220.117>WebTV Services, 5.5 (rev 3047)  is for 209.240.220.117:1607</a><br>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<script>
+
+function InitilizeEmbed(a){
+fff=1;
+
+if(a.indexOf("file://disk/") != -1){
+if(!(navigator.haveLocalResource(a))){
+
+alert("This file "+a+" does not exsist localy")
+fff=0;
+}
+}
+
+
+
+if(fff){
+document.embeds[0].document.write('<HTML><HEAD><body text="#999999"><form onSubmit="top.InitilizeEmbed(this.elements[0].value); return false;">Source URL: <input nohighlight border=0 text="#999999" bgcolor="#000033" size=100% value='+a+'></form><p><wtvchattranscript src='+a+' name=ggg type=text/plain></BODY></HTML>')
+IsEmbedInitilized=1;
+}
+
+}
+
+function EnableJSReader(){
+document.Div.style.visibility="visible";
+document.forms[1].elements[0].focus();
+}
+
+function ExecuteJavaScript(a){
+
+if(!(IsEmbedInitilized)){
+alert("You can't use any JavaScript code unless you have a page to control!")
+}else{
+document.forms[2].elements[1].value=eval("document.embeds[0].document.embeds[0]."+a.value)
+}
+}
+
+</script>
+
+</HEAD>
+<BODY BGCOLOR="#000033" text="999999" link="#999999" vlink="#999999" onError="alert('RELOAD!')">
+<center>
+<form name=input>
+<h1 style="color: #999999">
+<input name=a usestyle value="WebTV URL Accessor" border=0 noselect nobackground>
+</h1>
+</center>
+<p>
+<form onSubmit="dfd(this.a.value); return false;">
+<table ><tr><td>
+URL:&nbsp</td><td><table bgcolor="white" cellspacing=0 cellpadding=1><tr><td>
+<input size="100%" name=a nohighlight value="wtv-register:/register" border=0 text="#999999" bgcolor="#000033">
+</form>
+</td></tr>
+</table>
+</td></tr>
+</table>
+<p>
+<form name=ddd>
+JavaScript: <input nohighlight border=0 text="#999999" bgcolor="#000033" size=100% onChange="ExecuteJavaScript(this)" name="JS">
+<p>
+Return Code:
+<input name=ss nohighlight border=0 text="#999999" bgcolor="#000033" size=100%>
+<p>
+<embed src=file:///C:/WINDOWS/Profiles/default/Desktop/WNI%20Server%20Tools/DummyPage.html nobackground>
+
+<p>
+<font size=-1>Eric-MacDonald, the JS reader is allowed to view cache urls, and &codes... you will not be able to link from there.</font>
+</BODY>
+</HTML>
+LalLaLAlALALALWlolPoddlesslQQAl<p>
+<p>
+<script>
+ddd="%headers".split("\n");
+fff=ddd.join("<br>");
+document.write(fff);
+</script>
+<p>
+<a href=wtv-flashrom:/d>Link of remote service member</a><p>
+<a href=client:gotoconn>Link of client</a><p>
+<a href=dclient:gotoconn>Link non-service member</a><p>
+<form><input type="button" action="client:gotoconn" value="Button of client"><p>
+<form><input type="button" action="wtv-1800:/d" value="Button of local service member"><p>
+<form><input type="button" action="wtv-flashrom:/d" value="Button of remote service member"><p>
+<form><input type="button" action="cflient:gotoconn" value="Button non-service member"><p>
+
+

@@ -1,0 +1,175 @@
+200 OK.
+Content-length: %bytes
+Content-type: text/html
+%%%
+<HTML>
+<head>
+<title>WebTV Mail Services</title>
+</head>
+<display showwhencomplete>
+<body bgcolor=#171726 text=#82A9D9 link=#82A9D9 vlink=#82A9D9 vspace=0 hspace=0>
+<sidebar width=109>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td width=104 height=420 bgcolor=#262E3D valign=top>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td height=7 colspan=3>
+<spacer type=vertical size=7>
+<tr>
+<td width=7>
+<spacer type=horizontal size=7>
+<td width=87 href="wtv-home:/home">
+<img src="wtv-mail:/ROMCache/WebTVLogoJewel.gif" width=87 height=67>
+<td width=10>
+<spacer type=horizontal size=10>
+</table>
+<spacer type=vertical size=6>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr>	<td bgcolor=#4A525A height=2 width=104 colspan=3>
+<tr>
+<td width=10 height=26>
+<td width=89 valgn=middle>
+<table cellspacing=0 cellpadding=0 href="wtv-mail:/listmail"
+>	<tr>
+<td height=1>
+<tr>
+<td><shadow><font sizerange=medium color=#E6CD4A>Mail list</font></shadow>
+</table>
+<td width=5>
+<tr>	<td bgcolor=#4A525A height=2 width=104 colspan=3>
+</table>
+<td width=5 bgcolor=#5B6C81>
+</table>
+</sidebar>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td width=451 colspan=2 align=center bgcolor=#5B6C81>
+<spacer type=vertical size=13>
+<tr>
+<td height=8 bgcolor=#171726 colspan=2>
+<img src="wtv-mail:/content/images/CornerTop.gif" width=8 height=8>
+<tr>
+<td bgcolor=#171726 width=451 valign=top>
+<table cellspacing=0 cellpadding=0 width=451>
+<tr>
+<td bgcolor=#171726 width=13>
+<spacer type=horizontal size=13>
+<td height=60>
+<img src="wtv-mail:/content/images/Mail.gif" width=87 height=45>
+<img src="wtv-mail:/ROMCache/OpenMailbox3.gif" width=61 height=47 transparency=60>
+<td width=215 valign=middle>
+<td width=15>
+</table>
+<tr>
+<td colspan=2>
+<table cellspacing=0 cellpadding=0 bgcolor=#2C323D>
+<tr>
+<td width=451 absheight=25>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td width=13 absheight=25>
+<spacer type=horizontal size=13>
+<td width=370 maxlines=1>
+<font sizerange=medium color=#D6D6D6><blackface>	WebTV Mail Services
+</blackface></font>
+<td width=21>
+<img src="wtv-mail:/content/images/widget.gif" width=16 height=16>
+<td width=34>
+<spacer type=vertical size=1><br>
+<a href="wtv-guide:/help?topic=Mail&subtopic=Services" ><font sizerange=small color=#E6CD4A><b>Help</b></font></a>
+<td width=13>
+<spacer type=horizontal size=13>
+</table>
+</table>
+</table>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td colspan=4 height=6>
+<tr>
+<td width=10 rowspan=3>
+<td width=8 bgcolor=#171726>
+<img src="wtv-mail:/content/images/services_top-left.gif" width=8 height=8>
+<td bgcolor=#252E36>
+<td width=8 bgcolor=#171726>
+<img src="wtv-mail:/content/images/services_top-right.gif" width=8 height=8>
+<tr>
+<td bgcolor=#252E36>
+<td width=120 bgcolor=#252E36 valign=middle>
+<table href="wtv-mail:/greetings" selected>
+<tr>
+<td width=126 align=left>
+<img src="wtv-mail:/content/images/services_egreetings_logoB.gif" width=120 height=60>
+<td width=274 bgcolor=#252E36 valign=middle maxlines=3>
+<font color=#D6D6D6><blackface>Send e-mail picture postcards for free.</blackface></font> New animated cards at Egreetings.
+</table>
+<td bgcolor=#252E36>
+<tr>
+<td width=8 bgcolor=#171726>
+<img src="wtv-mail:/content/images/services_bottom-left.gif" width=8 height=8>
+<td bgcolor=#252E36>
+<td width=8 bgcolor=#171726>
+<img src="wtv-mail:/content/images/services_bottom-right.gif" width=8 height=8>
+<tr>
+<td colspan=4 height=4>
+</table>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td abswidth=18>
+<td abswidth=200 valign=top href="http://webtv.deal-mail.com/m/p/wtv/intro.asp">
+<table cellspacing=0 cellpadding=0 >
+<tr>
+<td height=45 valign=bottom>
+<img src="wtv-mail:/content/images/services_dealmail_logo.gif">
+<tr>
+<td height=5>
+<tr>
+<td>
+<font>Receive DealMail, WebTV's shopping newsletter by e-mail.</font>
+</table>
+<td abswidth=20>
+<td abswidth=200 valign=top href="http://webtv.efax.com">
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td height=45 valign=bottom>
+<img src="wtv-mail:/content/images/services_efax_logo.gif">
+<tr>
+<td height=5>
+<tr>
+<td>
+<font>Get your own fax number.</font>
+</table>
+<tr>
+<td height=6 colspan=4>
+</table>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td abswidth=18>
+<td abswidth=200 valign=top href="wtv-tricks:/help?topic=Alerts&subtopic=HintsByMail&page=Subscribe">
+<table cellspacing=0 cellpadding=0 >
+<tr>
+<td height=45 valign=bottom>
+<img src="wtv-mail:/content/images/services_webtvhints_logo.gif">
+<tr>
+<td height=5>
+<tr>
+<td>
+<font>Receive useful hints from WebTV.</font>
+</table>
+<td abswidth=20>
+<td abswidth=200 valign=top href="wtv-mail:/greetings">
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td height=45 valign=bottom>
+<img src="wtv-mail:/content/images/services_egreetings_logo.gif">
+<tr>
+<td height=5>
+<tr>
+<td>
+<font>Send electronic greeting cards for free.</font>
+</table>
+<tr>
+<td height=6 colspan=4>
+</table>
+</body>
+</HTML>

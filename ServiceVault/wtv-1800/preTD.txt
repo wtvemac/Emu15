@@ -1,0 +1,129 @@
+200 OK
+wtv-service: reset
+wtv-service: name=wtv-1800 host=%lip port=%lport flags=0x00000004
+wtv-service: name=wtv-home host=216.67.79.223 port=1618 flags=0x00000004
+wtv-service: name=wtv-favorite host=216.67.79.223 port=1618 flags=0x00000004
+wtv-service: name=wtv-log host=216.67.79.223 port=1618 flags=0x00000004
+wtv-service: name=wtv-setup host=216.67.79.223 port=1618 flags=0x00000004
+wtv-service: name=wtv-spot host=216.67.79.223 port=1618 flags=0x00000004
+wtv-service: name=wtv-disk host=216.67.79.223 port=1618 flags=0x00000004
+wtv-service: name=wtv-video host=216.67.79.223 port=1618 flags=0x00000004
+wtv-service: name=wtv-register host=209.240.194.41 port=1607 flags=0x00000004
+wtv-service: name=wtv-head-waiter host=209.240.194.41 port=1601 flags=0x00000004
+wtv-service: name=wtv-tricks host=216.67.79.223 port=1618 flags=0x00000004
+wtv-service: name=wtv-flashrom host=209.240.194.41 port=1618 flags=0x00000004
+wtv-service: name=wtv-cookie host=216.67.79.223 port=1618 flags=0x00000004
+wtv-expire-all: wtv-1800
+Content-Length: %bytes
+wtv-home-url: %url
+wtv-ticket: SsTsJCMsmoLrAXt422QGQ1HfICKMmjm+XBVjmrES6UUw4tBi40AzXL8etOcF0hqUq75ClFHqk8SFxEOJ9vD73vC4Uhu/yue1KL4U7TJt42B+EcfKl+Ay9Hwd2i9RWKtpaUnw9XUxa7FvS22QmTx5PshuUbJX6bqRECBzDpTqslQBZE1qGU4eg049Lb6d1o17l7kXDI0teMAPtKWfmbIIlP5DQSUQRKKjxE4QmOyltpYJ5mtpdiFpl0GLuKrEUqRQC+mKhAdNfVALOji4EZJfEZwqrXPD8oRbaNQIn4Ge1kFx4zcJ9pAH/Icme2SuXcSlgLeuhqcFz73R+xTFuvI4ZnJaCzc0yVDjqkUoztYupOnPzajX2R7B3I35SBvRhETFtVGxkGRZ5GVWEX7eNy5pelq9Lwm3UuixVMl/k+mYnVwEVq45wKRKO8NXi4xb6/elaZE4lURwQIn0ps0I8258od6en6kM6iwnObC4VqB2NCpYrkf+T5vNv26mS47vhRrCytOlNffdVoPK5BZJrbPTF+fXYRHL7q4MpnuEmCU4L0BQLK+CzJ+CYIpLgtM4Uxdzee/EMgrzHmwj5Q6ps10kDxDfBTzP7a0E/Oe66YFQlpyzZLplZRSJd9M3E8ZEwPl/MLWkS8RpGMtJXYvSnAAlCQ==
+Content-Type: text/html; charset=windows-1252
+%%%
+
+Current Ticket: Test Drive<br>
+Current Registration Service: Test Drive<br>
+Current Head Waiter Service: Test Drive<br>
+Current Flash ROM Service: Test Drive<br>
+<p>
+An expirers is given so a cache of these pages is cleared.
+<a href=wtv-1800:/preregister>RePRODUCTION!</a><br>
+<a href=wtv-1800:/preWeek>Weekling</a><br>
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<script>
+function dfd(ggg){
+fff=1
+
+if(ggg.indexOf("file://disk/") != -1){
+if(!(navigator.haveLocalResource(ggg))){
+alert("This file "+ggg+" does not exsist localy")
+fff=0;	   
+}
+}
+
+
+if(fff){
+document.open("text/url")
+document.write(ggg)
+document.close()
+}
+}
+
+function InitilizeEmbed(a){
+fff=1;
+
+if(a.indexOf("file://disk/") != -1){
+if(!(navigator.haveLocalResource(a))){
+
+alert("This file "+a+" does not exsist localy")
+fff=0;
+}
+}
+
+
+
+if(fff){
+document.embeds[0].document.write('<HTML><HEAD><body text="#999999"><form onSubmit="top.InitilizeEmbed(this.elements[0].value); return false;">Source URL: <input nohighlight border=0 text="#999999" bgcolor="#000033" size=100% value='+a+'></form><p><wtvchattranscript src='+a+' name=ggg type=text/plain></BODY></HTML>')
+IsEmbedInitilized=1;
+}
+
+}
+
+function EnableJSReader(){
+document.Div.style.visibility="visible";
+document.forms[1].elements[0].focus();
+}
+
+function ExecuteJavaScript(a){
+
+if(!(IsEmbedInitilized)){
+alert("You can't use any JavaScript code unless you have a page to control!")
+}else{
+document.forms[2].elements[1].value=eval("document.embeds[0].document.embeds[0]."+a.value)
+}
+}
+
+</script>
+
+</HEAD>
+<BODY BGCOLOR="#000033" text="999999" link="#999999" vlink="#999999" onError="alert('RELOAD!')">
+<center>
+<form name=input>
+<h1 style="color: #999999">
+<input name=a usestyle value="WebTV URL Accessor" border=0 noselect nobackground>
+</h1>
+</center>
+<p>
+<form onSubmit="dfd(this.a.value); return false;">
+<table ><tr><td>
+URL:&nbsp</td><td><table bgcolor="white" cellspacing=0 cellpadding=1><tr><td>
+<input size="100%" name=a nohighlight value="wtv-register:/register" border=0 text="#999999" bgcolor="#000033">
+</form>
+</td></tr>
+</table>
+</td></tr>
+</table>
+<p>
+<form name=ddd>
+JavaScript: <input nohighlight border=0 text="#999999" bgcolor="#000033" size=100% onChange="ExecuteJavaScript(this)" name="JS">
+<p>
+Return Code:
+<input name=ss nohighlight border=0 text="#999999" bgcolor="#000033" size=100%>
+<p>
+<embed src=file:///C:/WINDOWS/Profiles/default/Desktop/WNI%20Server%20Tools/DummyPage.html nobackground>
+
+<p>
+<font size=-1>Eric-MacDonald, the JS reader is allowed to view cache urls, and &codes... you will not be able to link from there.</font>
+</BODY>
+</HTML>
+
+

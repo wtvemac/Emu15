@@ -1,0 +1,266 @@
+CREATE file://Disk/Demos
+partition-size: 104857600
+
+CREATE-GROUP diskcache-Weather-UPDATE
+state: invalid
+base: file://Disk/Demos/Cache-Weather/CacheFiles/.GROUP-UPDATE/
+
+CREATE-GROUP diskcache-Weather
+state: invalid
+service-owned: true
+base: file://Disk/Demos/Cache-Weather/CacheFiles/
+
+GET 6/8cb17bc.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/boat_beach_bkg.jpg.dat
+file-permission: r
+wtv-checksum: 8d49f52ef19b4554e5af03622ccc24ab
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/boat_beach_bkg.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/6/8cb17bc.dat
+
+GET c/0c71ed8.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/breaking_weather_bkg.jpg.dat
+file-permission: r
+wtv-checksum: 5fb183149dfe10d50c981248ca71f088
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/breaking_weather_bkg.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/c/0c71ed8.dat
+
+GET a/d02cfa5.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/city_search_bkg.jpg.dat
+file-permission: r
+wtv-checksum: a51ce4b2c6ab41aa3a9c10653e6caf19
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/city_search_bkg.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/a/d02cfa5.dat
+
+GET a/9d80599.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/fall_foliage_bkg.jpg.dat
+file-permission: r
+wtv-checksum: df54747f49c37382331653ee69ca192b
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/fall_foliage_bkg.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/a/9d80599.dat
+
+GET b/8e4cd04.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/gardening_background.jpg.dat
+file-permission: r
+wtv-checksum: aa349426b37edeba1237e5ba62adecd6
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/gardening_background.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/b/8e4cd04.dat
+
+GET d/e8aa57e.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/health_allergies_bkg.jpg.dat
+file-permission: r
+wtv-checksum: 71d0783a54f8b5b7480ca6bf7384f399
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/health_allergies_bkg.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/d/e8aa57e.dat
+
+GET 7/6b8a39d.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/lifestyle_index_bkg.jpg.dat
+file-permission: r
+wtv-checksum: 64ec15b01339dc61d9af019458814844
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/lifestyle_index_bkg.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/7/6b8a39d.dat
+
+GET 3/9296de8.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/map_indexes_bkg.jpg.dat
+file-permission: r
+wtv-checksum: 72884373e3f3d64860d25ea23cf48582
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/map_indexes_bkg.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/3/9296de8.dat
+
+GET 6/e104456.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/map_intro_bkg.jpg.dat
+file-permission: r
+wtv-checksum: 363b14a14a31fc7f197578d7ca57011e
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/map_intro_bkg.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/6/e104456.dat
+
+GET 9/784fe2b.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/map_pages_bkg.jpg.dat
+file-permission: r
+wtv-checksum: 3af6411a02721dc79bdebfe6dd89e858
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/map_pages_bkg.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/9/784fe2b.dat
+
+GET 9/462c5e0.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/map_thumb_bkg.jpg.dat
+file-permission: r
+wtv-checksum: 87b5e9b6743539eea15e73d71c88c27a
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/map_thumb_bkg.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/9/462c5e0.dat
+
+GET e/246fa9e.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/new_images/gardening_background.jpg.dat
+file-permission: r
+wtv-checksum: 1f84ad16bb4f0a7c81ede075654772ed
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/new_images/gardening_background.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/e/246fa9e.dat
+
+GET e/8bfe1ed.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/new_images/skier_background.jpg.dat
+file-permission: r
+wtv-checksum: 6d9bfdd8051bd178b649c81bce4746d0
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/new_images/skier_background.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/e/8bfe1ed.dat
+
+GET 8/593482b.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/non_frame_bkg_no_header.jpg.dat
+file-permission: r
+wtv-checksum: 8d29c63f97dc368c4517e399eeafd532
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/non_frame_bkg_no_header.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/8/593482b.dat
+
+GET f/f58a629.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/non_framed_bkg.jpg.dat
+file-permission: r
+wtv-checksum: 66716995c7c4ee7210e83eb742a3421d
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/non_framed_bkg.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/f/f58a629.dat
+
+GET 3/e5b9a51.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/skier_background.jpg.dat
+file-permission: r
+wtv-checksum: 80d260190b794bbe7cf61ac463fa33a6
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/skier_background.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/3/e5b9a51.dat
+
+GET 9/dbb6413.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/sunwnd.jpg.dat
+file-permission: r
+wtv-checksum: d6cb2943973e4bbb2d4103d241ef7653
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/sunwnd.jpg.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/9/dbb6413.dat
+
+GET 5/0ba696c.dat
+group: diskcache-Weather-UPDATE
+location: wtv-video:/content/Weather/twc_logo.gif.dat
+file-permission: r
+wtv-checksum: 3131445d6238d73bfa79cfe2a1262156
+service-source-location: /usr/home/production/webtv/content/diskd/content/Weather/twc_logo.gif.dat
+client-dest-location: file://Disk/Demos/Cache-Weather/CacheFiles/5/0ba696c.dat
+
+EXECUTE client:diskcache?flush=disk&name=/Demos/Cache-Weather
+
+CREATE-GROUP diskcache-Weather
+state: invalid
+service-owned: true
+base: file://Disk/Demos/Cache-Weather/CacheFiles/
+
+RENAME 6/8cb17bc.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: 6/8cb17bc.dat
+
+RENAME c/0c71ed8.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: c/0c71ed8.dat
+
+RENAME a/d02cfa5.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: a/d02cfa5.dat
+
+RENAME a/9d80599.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: a/9d80599.dat
+
+RENAME b/8e4cd04.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: b/8e4cd04.dat
+
+RENAME d/e8aa57e.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: d/e8aa57e.dat
+
+RENAME 7/6b8a39d.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: 7/6b8a39d.dat
+
+RENAME 3/9296de8.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: 3/9296de8.dat
+
+RENAME 6/e104456.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: 6/e104456.dat
+
+RENAME 9/784fe2b.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: 9/784fe2b.dat
+
+RENAME 9/462c5e0.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: 9/462c5e0.dat
+
+RENAME e/246fa9e.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: e/246fa9e.dat
+
+RENAME e/8bfe1ed.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: e/8bfe1ed.dat
+
+RENAME 8/593482b.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: 8/593482b.dat
+
+RENAME f/f58a629.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: f/f58a629.dat
+
+RENAME 3/e5b9a51.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: 3/e5b9a51.dat
+
+RENAME 9/dbb6413.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: 9/dbb6413.dat
+
+RENAME 5/0ba696c.dat
+group: diskcache-Weather-UPDATE
+destination-group: diskcache-Weather
+location: 5/0ba696c.dat
+
+SET-GROUP diskcache-Weather
+state: ok
+version: -1100378163
+last-checkup-time: Fri, 19 May 2000 00:32:05 +0000 (GMT)
+
+EXECUTE client:diskcache?power=on&name=/Demos/Cache-Weather
+
+DELETE-GROUP diskcache-Weather-UPDATE
+
+DELETE file://Disk/Demos/Cache-Weather/CacheFiles/.GROUP-UPDATE/
+
+list wtv-disk:/report-group-status?initial-state=non-existent
+group: diskcache-Weather

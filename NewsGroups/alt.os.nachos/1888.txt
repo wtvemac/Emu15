@@ -1,0 +1,42 @@
+Path: rQdQ!sn-xit-03!supernews.com!newsfeed.direct.ca!look.ca!feedwest.news.agis.net!agis!paloalto-snh1.gtei.net!paloalto-snf1.gtei.net!news.gtei.net!webtv.net!not-for-mail
+From: Pr0diGy-1@webtv.net (=?ISO-8859-1?Q?[=97_P_r_0_z_4_c_=97]?=)
+Newsgroups: alt.os.nachos
+Subject: Re: Code for Music
+Date: Sun, 26 Nov 2000 01:37:00 -0500 (EST)
+Organization: WebTV Subscriber
+Lines: 23
+Message-ID: <1455-3A20AF8C-82@storefull-154.iap.bryant.webtv.net>
+References: <19029-3A209257-139@storefull-294.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-20934-3642
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAsAhQ4jZ37IrgaO6D3rOFs7O9SBg8xmgIUGJggc7XT0TwMR5aMoyZpwCaIAWg= 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=0a0000; TextColor=goldenrod
+Xref: rQdQ alt.os.nachos:1888
+
+
+--WebTV-Mail-20934-3642
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+you can use frames just make a page wit a single image then put the
+frames code and thats all peace
+
+
+--WebTV-Mail-20934-3642
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<html><body bgcolor=0a0000 text=goldenrod><center><font
+size=5><b>[</b><tt> P r 0 </tt><b>]</b></font><br><font
+size=5><b>[</b><tt> Whiped/Owned By Pina aka Gina
+</tt><b>]</b></font><br><font size=-1>http://Pr0fessional.cjb.net</font>
+<bgsound src=http://8op.com/Soundz/Limp04.ra>
+
+
+--WebTV-Mail-20934-3642--

@@ -1,0 +1,93 @@
+Path: rQdQ!sn-xit-02!sn-xit-03!supernews.com!xfer13.netnews.com!netnews.com!feeder.qis.net!cpk-news-hub1.bbnplanet.com!paloalto-snf1.gtei.net!news.gtei.net!webtv.net!not-for-mail
+From: TOPDOG_14@webtv.net (=?ISO-8859-1?Q?=85~=95=86=950=95=B6=95=D0=950=95G=95~=85?=)
+Newsgroups: alt.os.nachos
+Subject: HeLp
+Date: Sun, 26 Nov 2000 11:46:18 -0500 (EST)
+Organization: WebTV Subscriber
+Lines: 75
+Message-ID: <23471-3A213E5A-24@storefull-126.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-30190-1693
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAsAhRbuTZ8o9uCFwYg2AMUasT+kcHMxwIUWvepkHWJ5Kgw5eeN/VVzy95s2N8= 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=black; TextColor=gray
+Xref: rQdQ alt.os.nachos:1908
+
+
+--WebTV-Mail-30190-1693
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+here is the script can any one see wut i fuced up this time on it ??
+
+script> 
+<!-- 
+function flyto() { 
+var rx=document.ff1.ss1.selectedIndex; 
+window.location.href= 
+document.ff1.ss1[rx].value } 
+//--> 
+</script>
+<center><form name="ff1"> 
+<select name="ss1" size="4" onClick="flyto()" bgcolor=black text=bcbcbc>
+<option 
+value="http://www.d4wg.net"> 
+D4WG P4CK Web Page 
+<option 
+value="News:alt.os.nachos"> 
+D4WG P4CK NG
+<option 
+value="http://www.d4wg.net/irc/1.html"> 
+D4WG P4CK Chat Room
+<option 
+value="http://amajik.webprovider.com//amu.wrl"> 
+Access Main User
+<option 
+value="http://wtv-tricks:/get-retrograde"> 
+Retrograde
+<option 
+value="http://"> 
+nothing yet 
+<option 
+value="http://"> 
+nothing yet 
+<option 
+value="http://"> 
+nothing yet 
+<option 
+value="http://"> 
+nothing yet 
+<option 
+value="http://"> 
+nothing yet 
+</select></form> 
+</td></tr></table></center> 
+
+
+--WebTV-Mail-30190-1693
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<html>
+<body text="gray" bgcolor="black">
+<embed src="http://www.angelfire.com/oh4/Wampler/Sig.pl">
+</body>
+</html> 
+
+
+<html></plaintext><style type="text/css"> #element1 {position: absolute;
+z-index: 0; top: -1000px; left: -166px;} </style><div
+ID="element1"><table width=150 height=2000 bgcolor="#640000"
+gradcolor=black gradangle=20 transparency=20%><tr><td align=center
+transparency=20%><img
+src="http://www.angelfire.com/la2/U1TIM4T3/images/spacerani.gif"
+width=150 height=2000 transparency=80%></td></tr></table></div>
+
+
+
+--WebTV-Mail-30190-1693--

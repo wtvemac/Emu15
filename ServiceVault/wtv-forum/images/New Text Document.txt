@@ -1,0 +1,11 @@
+a=Vertex angle
+b=Equal base angles
+
+a+b2=180 (Isosceles tiangles)
+(a(0.5)+b)+90=180 (Right Triangles formed by the median perpindicular to the base of a isocselece triange)
+
+
+y^2 + x^2 = r^2  (Rotation in a circle which is in a constant location.)
+y^(2/3) + x^(2/3) = r^(2/3) (Rotation in a circle which is scattered.)
+
+

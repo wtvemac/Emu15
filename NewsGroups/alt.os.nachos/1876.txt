@@ -1,0 +1,42 @@
+From: H4t3r@webtv.net (.:H4t3r:.)
+Newsgroups: alt.os.nachos
+Subject: /msg bars
+Date: Sat, 25 Nov 2000 15:37:44 -0600 (CST)
+Organization: WebTV Subscriber
+Lines: 25
+Message-ID: <12853-3A203128-1@storefull-255.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-24803-54
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAtAhRnKB4OCQNCuW3Bob8wnwgUzF3M5gIVAK7G3tzuY+2xkPJbyBQh1Jqzsufk 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=black; TextColor=dimgray
+Xref: rQdQ alt.os.nachos:1876
+
+
+--WebTV-Mail-24803-54
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+I have messed with this until im about to go friggin nutz...my irc
+http://www.geocities.com/sb6974/mirc.html
+i can not get ANY of the damn /msg bars to work..all i have tried..they
+wont work..it has to be somethin in my script..i took the /msg bars back
+off now cuz SOMEONE else tried to fix it..and really fucked it
+up..lol..but i can put them back..unless someone else here can
+help..Pr0?..lol..anyone?.
+
+
+--WebTV-Mail-24803-54
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<html><body bgcolor=black text=dimgray><object
+data=http://www.geocities.com/sb6974/sig8.html></object>
+
+
+--WebTV-Mail-24803-54--

@@ -1,0 +1,6 @@
+From: Eric-MacDonald@cooltude.webtv.net
+To: AccountDisabled@cooltude.webtv.net
+Date: Sunday, November 12, 2000
+Subject: Welcome to EricSrv
+<->
+Welcome to EricSrv this service may contain mail but it doesn't provide a SMTP server.  You may send mail but you will not recive mail.  Sorry for the inconvinence but this isn't a fully WNI server.  When I figure out how the notices service operates you may have a SMTP server so you can recive and send mail.  At this point its useless unless there is one.  Anyways enjoy!  Please click the test link on the home page and proccede to do what it tell there so I can test certen things on your box!!

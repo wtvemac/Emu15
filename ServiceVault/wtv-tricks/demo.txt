@@ -1,0 +1,21 @@
+200 OK
+Content-length: %bytes
+Content-Type: text/html
+%%%
+<HTML>
+<HEAD>
+<display nocache skipback>
+<TITLE>
+Retail Demo Download
+</TITLE>
+</HEAD>
+<body bgcolor="#191919" text="#44cc55" link="36d5ff" vlink="36d5ff" vspace=0>
+<br><br>
+<H1>
+Retail Demo Download Page
+</H1>
+<br>
+<p>
+This function is only available to authorized WebTV subscribers.
+</BODY>
+</HTML>

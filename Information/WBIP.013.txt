@@ -1,0 +1,52 @@
+==================TellyScript===================
+
+WebTV wouln't live without a TellyScript.  TellyScript is basicly a script used to bring the box up to a state where it can contact services.  TellyScript is decribed in earlyer pages but all im going to do is have a lecture about what it is used for.
+
+
+When you first turn on your box to dial tellyscript is loaded into RAM.  From there it is executed.  During execution anything could happen dependant on how the script was made.  But normaly the box is given a tellyscript that holds local numbers (else remote numbers) so the box can contact WNI servers.
+
+
+--Execution--
+First the script defines functions to be used on the course of contacting WNI servers.  Next the box calls the main() function that is like a C script, the compiler looks for the main() function first.  In the main function there a different variables to be set.  Such as the dialing number, Password and userneme, phone setup settings, and ISP settings all these settings are contained in the NV RAM.  After all these variables have been definded it sets up the box to dial with a first step of settings the progressindicator bar with the correct text and percentage (Preparing to call, 10%).  After this is sets up a AT string so to send out to the modem.  This AT string contains the number to dial, pulse/tone, Dialing speed, modem sound setting, ect.  Once this string is set there is a init (Initilize) string this string is a special string that is also a AT command but it just sets additional settings for the modem to display or to execute.  After this is all set then its time to change the progressindicators text and percentage to one that tells it is now going to dial the server.  After this then the script sends the command to dial as well as the command for the init string.  At this point the box is dialing into the server.  The box waites untill there is a responce from the server.  If no responce returns then it will give a alert.  If a responce returns then the progress indicator changes and the percentage and this step the PPP server is finding out what is a resonanble speed to communicate with the box.  This is the sound you here when you have audio on.  Once a speed has been found then the variable for the &rate; code is defined.  Now after this the box is fully connected and ready to rumble.  The tellyscript finaly sets up a service list and contacts the first wtv-head-waiter:/login to finnaly finish the job.
+
+
+--Retrival--
+When the box loses its tellyscript due to unregistering, suddenly corrupted, moved box, or changed ISP the box opens a fixed tellyscript that has been on the box so it can get a new tellyscript.  This fixed tellyscript has a special preregister number that is basicly used when the box is about the register to a account and needs a tellyscript so it can connect to it again.  I belive this is also used to set up a new tellyscript if needed.  The preregister number can be set through a command in login, wtv-preregistration-number, it is saved in NV RAM and overrides the exsiting preregister number.  The tellyscript does basicly the same as above but it contacts a wtv-1800 server that is set in the NV RAM (the &wtv1800Addr code displays it).
+
+(New ISP)
+
+Once you have entered all the information needed and clicked OK to establish a connection with a open ISP the box saves this in NV RAM and clears the excisting tellyscript.  The box then dials for a new tellyscript.  Aftert establishing a connection with the 1800 (scriptless) server then the box requests to go to the page which asks the user "are you sure you want to use a ISP enstead of WebTV?" if the user wants a tellyscript the user is sent to a page that will give the box a new tellyscript so every connection made the box will dial into the ISP the user wanted.  Else the box will be reset with the old tellyscript that it had before clearing it to get a new ISP and vise versa depending if your dropig your ISP for WebTV or opening a new open ISP.
+
+
+(Lost dialup number, moved)
+
+If the box losses its dialup numbers the box contacts the corespondind scriptless server (wtv-1800) and retrievs a new one.  The server requests the ANI for the box.  If the box has it it goes to the wtv-1800:/have-ani page if not the box will be redirected to the wtv-1800:/get-ani and then redirected to the have ani page.  Once at the have ani page it checks to see if the ANI is in the data base if not a page will be displaied telling the user that there is no local numbers available and you will need to dial a remote number to access the WebTV networks.  If the user agrees with this and presses continue the box is redirected to a wtv-1800:/finish-prereg and in this is the remote numbers.  Before dialing the tellyscript is made to give a alert of the number being called and the location of this number if the user accepts then it will dial it this will repeate untill a connection is made with the WebTV Networks.  If there is local numbers then the box is not sent to a warning page instead after wtv-800:/have-ani the box is directly sent to wtv-1800:/finish-prereg where a tellyscript is given with the local numbers that can be dialed to access the WebTV networks.
+
+
+(Registration)
+
+Once a user unregistered the box is forced to clear its tellyscript and get the tellyscript so it can register a new account.  The next time the box goes to dial it will dial into a wtv-1800 server so it can contact the register service.  This is a bit tricky since there is no found wtv-1800 URL that will give the new tellyscript.  It mite just use the fixed registration solo script all the time but there is no function to contact servers.  This shall remain a mistery.  What I think is when the box goes for the regular wtv-1800 new local number url the server has no record of th SSID so the box is sent a registration script.  The server can add the SSID back whenever and the box can become fully functional again.
+
+--ANI--
+
+ANI means "Automatic Number Identification".  This is when a user dials into a server or device the devise will send a frequency like the tone frequencies (0-9*#) but different to the provider that the user is subscribed to.  The telephone provider then sends the users profile, and in the profile is the phone number of this subscriber.  This can become handy in ways and malicious in others since this is not a caller ID and cannot be blocked.  ANI is used by the WebTV networks to identify a state, a city, a time zone, the current time, who isn't suppose to be on there POP servers, and local WebTV dialup numbers.  
+
+
+--Headers--
+
+There a four headers that seam to be pertaining to tellyscript.
+
+wtv-script-id: %d
+
+This seams to be some sort of tellyscript ID maybe all tellyscripts a taged with a ID.
+
+wtv-script-mod: %d
+
+This seams to be the modification date for the tellyscript this can be in handy if the tellyscript is to old and the box needs to update.
+
+
+wtv-challenge: Certificate and wtv-challenge-responce: Certificate
+
+This seams to be some sort of security header.  It mite be used to block some users from the server, and it damn well good job of it.  It will be nearly impossible to find out the private encryption key.  A varieble is probably set in tellyscript/NV RAM that contains the encryption key.  This is good for the server to block people who have the wrong tellyscript/ no tellyscript and is trying to access a account.  
+
+

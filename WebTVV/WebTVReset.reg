@@ -1,0 +1,104 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\WebTV Networks]
+
+[HKEY_CURRENT_USER\Software\WebTV Networks\WinSimulator]
+
+[HKEY_CURRENT_USER\Software\WebTV Networks\WinSimulator\Settings]
+"Startup Option"=dword:00000001
+"Font Size"=dword:00000002
+
+[HKEY_CURRENT_USER\Software\WebTV Networks\WinSimulator\PrimeTime1.1]
+"Finalize on Power Down"=dword:00000000
+"Fake Printer"=dword:00000001
+"Use Command Keys for WebTV"=dword:00000000
+"Use Japanese"=dword:00000000
+"Auto Power-On"=dword:00000000
+"Sound Enabled"=dword:00000001
+"Gamma Correction"=dword:00000014
+"Bypass Services"=dword:00000001
+"Bypass Services Boot URL"="file://webtvhome/networkboot.html"
+"Bypass Services Home URL"="http://developer.webtv.net"
+"Bypass Services Name Server"=dword:00000000
+"PrimeTime Simulator Proxy Port"=dword:00000050
+"PrimeTime Simulator Proxy Omit List"=""
+"Display Mode"=dword:00000000
+"Use Encryption"=dword:00000001
+"Use Flicker Filter"=dword:00000001
+"User Agent"="Mozilla/3.0 WebTV/2.2 (Compatible; MSIE 2.0)"
+"Use SSL2"=dword:00000001
+"Use SSL3"=dword:00000001
+"Choose… Name Server"=dword:00000000
+"Choose… Server Port"=dword:00000000
+"Flash Store"="Flash Store"
+"Force registration in preregistration mode"=dword:00000000
+"IR Enabled"=dword:00000000
+"Limit Net Speed"=dword:00000000
+"Live UI Strings"=dword:00000000
+"Logging Enabled"=dword:00000000
+"Manufacturer"=hex:ff,ff,ff,ff
+"RAM Size"=dword:00500000
+"ROM Store"="ROM Store"
+"BitMap Format"=dword:00000010
+"TMP Store"="TMP Store"
+"Trivial Messages"=dword:00000000
+"Use Back Buffer"=dword:00000001
+"Use JellyScript"=dword:00000001
+"Use Phone"=dword:00000000
+"Use ROM Store"=dword:00000001
+"Run-time VerifyMemory()"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\WebTV Networks\WinSimulator\Recent URLs]
+
+[HKEY_CURRENT_USER\Software\WebTV Networks\WinSimulator\BrowserWindow]
+"flags"=dword:00000000
+"showCmd"=dword:00000001
+"ptMinPosition.x"=dword:ffffffff
+"ptMinPosition.y"=dword:ffffffff
+"ptMaxPosition.x"=dword:ffffffff
+"ptMaxPosition.y"=dword:ffffffff
+"rcNormalPosition.left"=dword:00000000
+"rcNormalPosition.top"=dword:00000000
+"rcNormalPosition.right"=dword:0000023a
+"rcNormalPosition.bottom"=dword:000001c1
+"Visible"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\WebTV Networks\WinSimulator\PageNotes]
+"flags"=dword:00000000
+"showCmd"=dword:00000001
+"ptMinPosition.x"=dword:ffffffff
+"ptMinPosition.y"=dword:ffffffff
+"ptMaxPosition.x"=dword:ffffffff
+"ptMaxPosition.y"=dword:ffffffff
+"rcNormalPosition.left"=dword:0000023a
+"rcNormalPosition.top"=dword:00000002
+"rcNormalPosition.right"=dword:00000307
+"rcNormalPosition.bottom"=dword:000001c2
+"Visible"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\WebTV Networks\WinSimulator\MainFrame]
+"flags"=dword:00000002
+"showCmd"=dword:00000003
+"ptMinPosition.x"=dword:ffffffff
+"ptMinPosition.y"=dword:ffffffff
+"ptMaxPosition.x"=dword:ffffffff
+"ptMaxPosition.y"=dword:ffffffff
+"rcNormalPosition.left"=dword:00000016
+"rcNormalPosition.top"=dword:00000000
+"rcNormalPosition.right"=dword:0000026e
+"rcNormalPosition.bottom"=dword:00000258
+"Visible"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\WebTV Networks\WinSimulator\RemoteControl]
+"flags"=dword:00000000
+"showCmd"=dword:00000001
+"ptMinPosition.x"=dword:ffffffff
+"ptMinPosition.y"=dword:ffffffff
+"ptMaxPosition.x"=dword:ffffffff
+"ptMaxPosition.y"=dword:ffffffff
+"rcNormalPosition.left"=dword:00000000
+"rcNormalPosition.top"=dword:00000026
+"rcNormalPosition.right"=dword:00000072
+"rcNormalPosition.bottom"=dword:0000020e
+"Visible"=dword:00000000
+

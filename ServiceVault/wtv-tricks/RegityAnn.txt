@@ -1,0 +1,8 @@
+200 OK
+Content-Length: %bytes
+Content-Type: text/html
+%%%
+Type a registration IP to go to the registration page of that service.
+<p>
+<form action=wtv-tricks:/SetupReg>
+<input name=host>

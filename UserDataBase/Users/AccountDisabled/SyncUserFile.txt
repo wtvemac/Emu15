@@ -1,0 +1,6 @@
+file://disk/FatAlbert/Hey.txt
+Last-modified: Sun, 19 Nov 2000 09:52:03 GMT
+Content-length: 12
+
+
+

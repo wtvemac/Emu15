@@ -1,0 +1,25 @@
+200 OK
+Content-Length: %bytes
+Content-Type: text/html; charset=windows-1252
+%%%
+<HTML>
+<HEAD>
+<TITLE> WebTV Chat </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+<body bgcolor="191919" text="42BD52" link="189CD6" vlink="189CD6" fontsize="medium" vspace=0 hspace=0>
+<center>
+<h1><font color="E7CE4A">Server Emulator Chat</font></h1><p>
+</center>
+<form onSubmit="Chat.addChannelMessage(this.aaa.value); this.aaa.value='';return false;">
+<table bgcolor=#000000 cellspacing=1><tr><td>
+<input size="100%" bgcolor="#191919" text="seagreen" border=0 nohighlight name=aaa><br>
+</td></tr></table>
+<wtvchat host="oemcomputer" port="1619" channel="#lobby">
+<wtvchattranscript width="100%" height="150" name="transcript">
+<p>
+</BODY>
+</HTML>

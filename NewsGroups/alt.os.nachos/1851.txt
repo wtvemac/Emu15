@@ -1,0 +1,56 @@
+Path: rQdQ!sn-xit-03!supernews.com!hermes.visi.com!news-out.visi.com!feed2.news.rcn.net!rcn!cpk-news-hub1.bbnplanet.com!paloalto-snf1.gtei.net!news.gtei.net!webtv.net!not-for-mail
+From: X-x-DuD-x-X@webtv.net (=?ISO-8859-1?Q?X-x-=D7-=D0=FC=D0-=D7-x-X?=)
+Newsgroups: alt.os.nachos
+Subject: Test n/m
+Date: Fri, 24 Nov 2000 01:50:05 -0600 (CST)
+Organization: WebTV Subscriber
+Lines: 38
+Message-ID: <18214-3A1E1DAD-69@storefull-258.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-32702-2309
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAtAhUAwRvjaXCUug06V/tqP9SGd4YywsgCFBvFQlgEuOuxjyg/j+I35RukehEj 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=dimgrey; TextColor=black
+Xref: rQdQ alt.os.nachos:1851
+
+
+--WebTV-Mail-32702-2309
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+ 
+
+
+--WebTV-Mail-32702-2309
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<html>
+<body bgcolor=dimgrey text=black>
+<embed
+src=http://www.geocities.com/dp_irc/sig2.html>
+<embed
+src=http://www.angelfire.com/music2/dudsircmusic/limpbizkit-hotdog.ram
+autostart=true loop=infinite>
+<style type="text/css"> #element1 {position: absolute; z-index: 0; top:
+-1000px; left: -166px;} </style><div ID="element1"><table width=150
+height=2000 bgcolor=dimgrey gradcolor=black gradangle=285
+transparency=0% link="2222bb" vlink="8822bb"><font color="black"><font
+color="gray"><tr><td align=center transparency=0%><font
+color="black"><font color=gray><img 
+src=http://www.angelfire.com/la2/U1LTIM4T3/images/spacerani.gif
+width=145 height=600 transparency=0%></td></tr></table></div> 
+</html> 
+
+
+
+
+
+
+
+--WebTV-Mail-32702-2309--

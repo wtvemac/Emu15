@@ -1,0 +1,124 @@
+TODO-Spellcheck   [ ]
+TODO-Proofread    [ ]
+ 
+
+
+		Eric McDonald's WebTV Server Emulator Terms of Service Contract
+				       
+				       Last Updated: 12/13/00
+
+
+These are the rules you must abide by.  I have set up hidden functions in this server that will detect 
+some of these actions that are against the TOS.  If the functions are triggered your program will be 
+deleted and useless if reinstalled.  I also have the right if I find the address of the server to manually 
+trigger these functions if I find you are disobeying the following TOS agreement.  I have spent some time 
+on these functions making it almost impossible to figure out. Please DO NOT open 
+this server without reading and agreeing to this document.
+
+What this tool could do for us:
+
+Run executables on the box, make the box download our own made builds, connect to servers that have the 
+ticket block and at times register a account there, completely figure out how the box transacts with the 
+server.
+
+I have told people in the past that didn't seam to understand the value of this tool what it can do.  
+Please don't show off with your "cool" stuff and not give a reason of where this information came from (in 
+this case LIE!).  WNI knows how there servers work if they find something suspicious that leans to the 
+side of people accessing there servers indirectly then they will try to block these users.  This tool 
+isn't a URL accessor and is not to be passed around like one.  
+
+
+TOS Outline
+
+I Introduction
+
+II Missuses
+
+III Unscrubiable Behavior
+
+IV Exclusivity
+
+V Registration Key
+
+VI Privacy
+
+
+
+
+
+##############################################
+		
+		
+		
+		Eric McDonald's WebTV Server Emulator Terms of Service Contract
+
+
+
+I INTRODUCTION
+
+
+This tool was created to figure out how WNI Servers fully transacts with the box.  If this is found then 
+there could be many outcomes that are far beyond the value of a normal URL accessor.  I did not create this 
+tool for hacking accounts or any other actions that server no principle.  However hacking accounts to 
+figure out the login process or to access a account which has value towards figuring out information (Ex: 
+previews/corp account, To figure out user session headers) I will accept.  Hacking a WebTV user account 
+to access NGs to look at them for fun I will not accept as a good reason for having this tool.  With the 
+purpose of this tool now known I will go on to the details.
+
+
+
+II MISSUSES
+
+
+This tool must be used to figure out things about WebTV there is no other reason that is going to be 
+wavered.  When I say figure out things about WebTV I mean things that are needed by the tool and is 
+useful towards WebTV tricks.  I will not accept "Find out WebTVs new upgrade version", "Find out if 
+there is a new post in webtv.users", "Find out if I can get to http://webtv.com from the proxy", ect.  
+You must also know what you are going to do with this data found if it is valid if you are going to 
+figure out the login process I want to know the reason why you want to know the login process.  If the 
+reason is clear and I know what you are going to do with this tool then I will not ask.
+
+
+
+III UNSCRUBIABLE BEHAVIOR
+
+
+I will not allow any actions that serve no purpose or reason. Any actions that will put this tool in 
+jeopardy  for this reason only will not be supported or accepted.  If there is a clear and excellent excuse 
+for this I will accept the behavior and not TOS you.  These are a few examples that will put this tool in 
+jepardy:
+
+1. Running it on a known host.
+2. Keeping the source open to the public
+3. Having the source in a vulnerable area such as a host that is know to be hacked.
+4. Telling that you found this trick from Eric's server emulator
+5. Using the tool on a heavily logged area of WNI.
+
+
+IV EXCLUSIVITY
+
+
+I am limiting this tools source to only 5 trusted WebTV hackers who have a valid reason for having it.  I 
+am the only one who gives this tool out if you find someone who needs it ask me and I will send it out.  
+Once this tool reaches the 5 limit and someone else has a good reason to have must give the data to one of 
+the 5 hackers and he will preform the actions needed to satisfy the 6th person.  If this 6th person needs 
+to preform these actions himself the Workaround.pl will be given and will not be compiled if he needs the 
+WebTV.pl he must write the script himself to preform the actions no help will be given.  This 6th person also 
+must have a computer and it must be runned on there it will not be runned on a host and the source will not touch a 
+external computers storage.  Overall there is NEVER more than 5 people excluding me that knows the source 
+to the WebTV.pl mode 4 script.
+
+
+VI REGISTRATION KEY
+
+Before you register this program you must enter a correct registration key or you will be TOSd I have the decision to
+bring you back.  Before you get the registration key you must ask me YataByte@hotmail.com so I can give you the registration
+ information.
+
+
+VI PRIVACY
+
+
+Last if you find something on this tool you may do anything will the findings as long as it does not put 
+this tool in jeopardy.  You are not required to give it to me or anyone.  You may receive the credit and 
+this credit may be received without people knowing its exact origin.

@@ -1,0 +1,145 @@
+YOU MAY NOT CLAIM ANY OF THIS AS YOURS.  I HAVE WORKED TO HARD TO DESERVE ANY PIRATING OF MY THEORIES.  I MUST STRESS THAT ANY USAGE OF THIS THEORY(S) WITHOUT MY PERMISSION I WILL NOT PERMIT.  <h555>THANK YOU</h555>
+
+===============================================================================
+				       
+				       WBIP -DRAFT
+					 Page 31
+				       Dec 16, 2000
+
+			
+			   WebTV Tricks Level Identifier Theory
+
+
+
+
+WebTV has designed a method of having multiple levels to the tricks page in a way that the branch pages can 
+accept many levels.
+
+
+Eh, worst way to explain it.  I'm going to tell you how I think this is done.
+
+I have noticed that WNI likes to save program space.  They have source sharing in some of there pages like 
+wtv-mail:/listmail and wtv-news:/news which keeps some of the source and the program will dynamical change 
+parts this helps if you don't want to constantly make pages and have some of the source which occurs 
+repetitively on all pages.
+
+
+Tricks is no exception.
+
+In the past I have seen a header after I packet scanned a tricks breaking.  First it occurred to me that this 
+header could be something that the box uses to access tricks.  However it wasn't I learned how to send 
+headers to the box and the header was unsuccessfull to allow a client to trick the server it is authorized to 
+enter the tricks home.
+
+wtv-tricks-access-level: 15 (For jetski20, or any Lev1 pass)
+wtv-tricks-access-level: 30 (For any Lev2 pass)
+
+All I could see is multiples of 15 so I figured the next will be 45 but after thinking about it I figured 
+out the sequence of the numbers.
+
+
+We all know that the some pages from the tricks site can be accessed in Lev1 but Lev 2 we have more access 
+and this access adds on top of Lev 1.
+
+WNI could do this in several ways it could setup there server programs like 'if($acclev == "30" || $acclev == 
+"15"){}'
+
+or you can look at these numbers and know that there divisible by each other.
+
+Lets start the person off in Lev 1 (15)
+
+$level=15;
+
+if(!($level%15)){
+[send page]
+}
+
+This will work and the page will be sent.
+
+
+Now the same page but in level 2 (30)
+
+$level=30;
+
+if(!($level%15)){
+[send page]
+}
+
+This will work and the page will be sent.
+
+
+Now that we know this much we should be able to explain level 3 (60)
+
+
+Where in level 3 going to a level 2 page....
+
+
+$level=60;
+
+if(!($level%30)){
+[send page]
+}
+
+
+Works...
+
+
+
+
+
+Where in level 3 going to a level 1 page....
+
+
+$level=60;
+
+if(!($level%15)){
+[send page]
+}
+
+
+Works...
+
+
+If level 3 where 45 then we can't get to level 2 pages 45 is not divisible with 30.
+
+
+Going further
+
+
+Level 4: 120
+Level 5: 240
+Level 6: 480
+level 7: 960
+
+
+Converting these numbers is simple the following equation is what is to be used to convert a level to its 
+level identifier.
+
+i=15*(2^(L-1))
+
+
+i.e. for levels 1, 2, and 3
+
+15=15*(2^(0)) (Level 1)
+30=15*(2^(1)) (Level 2)
+60=15*(2^(2)) (Level 3)
+
+This is the equation that converts a level identifier to the actual level.
+
+L=(LOG2(15/i))+1
+
+
+i.e. for level identifiers 15, 30 and 60.
+
+
+1=(LOG2(1))+1
+2=(LOG2(2))+1
+3=(LOG2(4))+1
+
+
+
+
+
+
+
+ 

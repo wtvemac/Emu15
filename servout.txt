@@ -1,0 +1,3 @@
+GET wtv-head-waiter:/login
+wtv-encrypted: 0
+

@@ -1,0 +1,10 @@
+This is used for WebTV tricks data.
+
+<tricks.passwords>, this is used to store tricks passwords and access levels
+
+Level   Description
+ 15       Level 1
+ 30       Level 2
+ 60       Level 3
+
+<tricks.accessors>, This is a list of clients who have been granted access to the tricks service.

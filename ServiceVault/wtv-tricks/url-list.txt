@@ -1,0 +1,18 @@
+200 OK.
+Content-length: %bytes
+Content-type: text/html
+%%%
+<display nosave nosend>
+<title>Eric's Rubles</title>
+<sidebar width=20%>
+<img src="wtv-tricks:/images/Favorites_bg.jpg">
+</sidebar>
+<body bgcolor="#191919" text="#44cc55" link="36d5ff" vlink="36d5ff" vspace=0>
+<br>
+<br>
+<h1>Eric's Rubles</h1>
+<br>
+These are a list of ALL the urls that are on this network.  They are sequenced by service.<p>
+
+
+

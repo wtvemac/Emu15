@@ -1,0 +1,39 @@
+Path: rQdQ!sn-xit-03!supernews.com!newsfeed.direct.ca!look.ca!sjc1.nntp.concentric.net!newsfeed.concentric.net!webtv.net!not-for-mail
+From: P3t3r-@webtv.net (^`lP-lE-lT-lE-lR`^)
+Newsgroups: alt.os.nachos
+Subject: Re: delete a post from a news group?
+Date: Sun, 26 Nov 2000 10:00:29 -0500 (EST)
+Organization: WebTV Subscriber
+Lines: 21
+Message-ID: <6594-3A21258D-3@storefull-295.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-15585-182
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAtAhUArZ0QEJwqXN0PwY0H6xCze5fG2O0CFG7ZUZrDEbq0kzOOcKGBQqpSPv+c 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=dimgrey; TextColor=black
+Xref: rQdQ alt.os.nachos:1901
+
+
+--WebTV-Mail-15585-182
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+could u lighten up on ur text Lennon20-...
+
+
+--WebTV-Mail-15585-182
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<HTML><body bgcolor=dimgrey text=black link=black vlink=black></body>
+<object
+data="http://www.geocities.com/meize17/signatures/sigc3.html"></object><embed
+src="http://ruthless-music.virtualave.net/singles/media.cgi?hesreturned"autostart=true></html>
+
+
+--WebTV-Mail-15585-182--

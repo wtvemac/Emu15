@@ -1,0 +1,2 @@
+microsoft.public.ins:4
+alt.os.nachos:117:news.matnet.com

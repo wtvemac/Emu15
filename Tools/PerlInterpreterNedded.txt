@@ -1,0 +1,3 @@
+If you want these tools compiled I will be happy to do this.  I have a registered copy of perl2EXE.  Otherwise you can use the IndagoPerl PERL interpreter.  The main reson why I didn't compile these is becase of zip file size complacations.
+
+http://www.indigostar.com

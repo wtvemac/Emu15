@@ -1,0 +1,235 @@
+YOU MAY NOT CLAIM ANY OF THIS AS YOURS.  I HAVE WORKED TO HARD TO DESERVE ANY PIRATING OF MY THEORIES.  I 
+MUST STRESS THAT ANY USAGE OF THIS THEORY(S) WITHOUT MY PERMISSION I WILL NOT PERMIT.  <h555>THANK YOU</h555>
+
+===============================================================================                              
+           -=Proposed Therories=-
+
+
+
+These are therories that I have selected from various WBIPs.  You do not have the right to steel and lable 
+these as yours.  These therories where created by me with the help of colabirations.  You should understand 
+this.  Please show some propriety.
+
+
+Therory(WBIP06)-BootROM the ROM contents of a WebTV unit that contain the Operating System and OS boot files. 
+ This is in a perminant mask ROM chip in poduction boxes.  This is basicly the same in WinCE systems.  This 
+ROM has enough data to surf the net but without appROM extention programs you have limited surfing 
+compatibility.  You can skip the appROM extention software boot with a power off code or if the appROM is 
+currupted and can't be read or loaded.  I think there is only one browser in WebTV and that is in bootROM, I 
+once though that there where two browsers and the appROM browser is dominant and masks the bootROM "mini 
+browser".
+
+Therory(WBIP06)-AppROM is the ROM contents that extend the compatibility of the BootROM contents.  This can 
+contain programs that are updatable.  This is like the object storage in WinCE systems but it isn't in RAM 
+but in Flash ROM.  The appROM most likely contains C&P extentions, sound extentions which richen sound, 
+plug-in extentions, display extentions, client: extentions, .
+
+-------------------------------------------------------------
+
+
+Therory(WBIP16)-
+
+All WebTV terminals are programed with a Silicon Serial Number which is proccessed when manufactered and is 8 
+bytes in length (64-bit).  SSIDs identify each box uniqly and will not change, even if a user would have 
+multible main user accunts over a course of time.
+
+Here is a example SSID:
+AA BBBB CC DD X EEEE FF
+01 f9bc e6 01 ^ 0000 5c
+
+As you can see set A or the SSID prefix is a hexidermal code (base-16 number system, not to confused with 
+hex=6.)  Set A is what I call the "Box manufatured type"; as far as reasearch has sown if set A is "01" this 
+is a custom or specialized WebTV box.   If set A is "81" it is Propriatry box which is a regular box that you 
+would buy at a store.
+
+Set B is a random hex number that is unique to the box manufacter.
+
+Set C is a code that adds from each box.  To put it easy
+
+I make my first box and set C will be 00 my next box is 01 and my next is 02.  As in hex counting it goes in 
+this order and recycles 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 0a, 0b, 0c, 0d, 0e, 0hf, and 10.
+
+
+Set D is what identifies who manufactured the box, say is be Echostar, Sony*, Phillips*, RCA, or Samsung.
+
+These are what I have quessed or got so far:
+
+00=Phillips (Main WebTV Manufacter)
+10=Sony (Main WebTV Manufacture)
+80=(Echostar)
+40=(RCA)
+
+Divider X is used to devide the manufature specific information from the user spacific information.  Like on 
+a PC WebTV viewer this happens but it is the Network Host (also called computer name) name and the User name. 
+ The second clue is the manufacter burn in service your home is MT00_manufacturside.
+
+Set E I havn't got to much information on yet, but I think it is used to identify the user who is going to 
+use this box (wether corp, production user, ect)
+
+Set F is another unique user code that is different on all boxes.
+
+
+Therory(016)-
+=1=
+WebTV employee uses this SSID to identify the box from the server.
+
+When you log in to a service the box sends this message to the WNI server:
+
+wtv-client-serial-number: TERMINALID
+
+This is only sent per incarnation (each time the box opens a socket and connects to a WNI server).  When you 
+log into the service the only way the server can know who you are is through your SSID like a name of a 
+person everyone has a name and people can tell who you are from it.  After this the server does a 
+wtv-challenge check for TellyScript Validy and if it passes you would be sent to the login screen or the main 
+user splash screen
+
+=2=
+
+When you go get a new TellyScript the box reads your ssid and once you connect to the service it will send a 
+user name and password
+
+User: wtv_SSID
+Pass: SSID through a fletchers checksum algorithm
+
+in tellyscript the command that returns the SSID is getserialnumber() and the command that returns the 
+fletchers check summary is computefcs()..
+
+
+################WRITING########################
+
+Writing the SSID to the box is verry compicated to figure out because there is almost no information on it, 
+these are educated guesses.
+
+
+The SSID is put on the first memory address of Flash ROM and when you upgrade it writes the ROM image 
+starting from the memory address folowing the address that stores the SSID or any other information that is 
+important to the box and cannot be changed.  It then is transfered to RAM when you shut your box off.
+
+The SSID is stored on BootROM and is then transfered in RAM when you shut your box off (probably not).
+
+The SSID is sotred in a binary file in the Flash ROM and when you upgrade it is then transfered to RAM (the 
+whole file) and when the upgrade is finished the file is then written back to ROM.
+
+There is a special chip that is burned with all this information and can be never upgraded. 
+################VIEWING########################
+
+Using this &code; reads the SSID and writes it to a HTML page.  &wtv-ssn;
+
+The other code is "&wtv-ssn-dash;", which is probably significant in a way.  Every code I belive there is a 
+reson to create at one time.  Some undergo "evolution" and are never used but stay there for nothing.  This 
+splits the SSID up into 16-bit parts (2 bytes).  Why is there a need for this?  It mite be connected in 
+encrypting the ssid.  There is a entire page dedicated to this code, so definently there is a need to look at 
+it.  Knowing WebTV it mite of been a proposal for encryption of some sort and was trashed but never removed 
+from the program.  This code came around the upgrade for the messenger, WMP ect..  It mite have a connection 
+with tranmission, authorization, or the messenger login url which also returns a hex code string.  
+
+
+
+-------------------------------------------------------------
+Therory(WBIP20)-
+
+			     -TELLYSCRIPT MODEL-
+
+############################	100% Done
+#      TELLYSCRIPT	   #<->*->->V						       209.240.198.108
+############################   ^    V		     I need wtv-head-waiter:/login   [-----------------]
+#        SERVICE           #->-|->Client Software.-->-->-->->-->-->-->-->-->-->-->-->[Production Server]
+############################   ^	|					     [-----------------]
+#   BYOISP (By Open ISP)   #->-|	^						       |
+############################   ^	|--<--<--<--<--<--<--<--<--<--<--<--<--<--<--<--<--<-<-V
+#         PHONE            #->-|		         Ok heres the code.
+############################
+
+
+Therory(WBIP20)-As we all know by now TellyScript is what WebTV uses to hoist the box up to working 
+condition.  There are allot of variables involved in TellyScript.  These variables include boot URL, dial up 
+number, modem dialing speed, modem audio on/off, INIT string, boot LED blink settings, ect.  These variables 
+are stored in NV RAM separate from the actual TellyScript file.  A example would be ini file which a program 
+needs to set certen variables in order to work correctly.
+
+Therory(WBIP20)-Updating the tellyscript requires the service to tag a file as the type "text/tellyscript" 
+and have a tellyscript as the body content.  The tellyscript must be assembled.  When the box goes to this 
+file it then writes to a cache file (cache:telly"hex") with the tellyscript goint into the NV RAM.  It holds 
+it there untill the box disconnects.
+
+
+Therory(WBIP20)-When the box goes to get a new tellyscript (on the finish-prereg page) there is a header that 
+is sent "wtv-initial-key" which is used	to give the encryption key (public?) so the box can accept the 
+wtv-challenge contents.  If the box doesn't accept the challenge given at wtv-head-waiter:/login then the box 
+will clear its TS and redial using the backup TS for a new one.  If the box does accept the challenge then it 
+will render a responce code.  The responce code is read by the sever if it is accepted then the server will 
+pass the user to the login page if not it seams it will cause a security program to turn on making everything 
+encrypted even the alerts as in:
+
+500 WebTV ran into a technical problem.  Please try again.\n\n
+
+ To
+
+500 YadaYadacontrolcharaltyadayada.\n\n
+
+This encyption seams to be what WNI uses to encrypt the body of the page which is based on time so there is a 
+new encrypted code for each second or millisec..
+
+-------------------------------------------------------------
+
+Theory(WBIP24)-When the WebTV receiver receives this header then it does a search within its <u>Cache 
+List</u> not back list.  The back list contains URLs and is linked to the titles, thumbnails and recent data, 
+no contents of the source are contained in the back list.  This search term does not have to be the full URL. 
+ WebTV has set up its expire search so that any given part of a URL that matches to the search key term it 
+will return true i.e. the search term wtv-home:/biggy both will return true for the following URLs: 
+wtv-home:/biggy-strong and wtv-home:/biggy-stiff.  If a match is made then the process to expire the 
+corresponding cache data is executed.
+
+Theory(WBIP24)-The box is programmed to execute a constant invisible loop which checks for missing cache 
+pages and checks to see if it is possible to retrieve it.  If it is possible to retrieve them then the box 
+will do what it has to do to cache this missing needed data.  Cache pages that are needed for the box to run 
+properly would be user settings, cookie domain list, favorite list, and the background music list.  One way 
+that the box required cache gets interupted is when the page is expired.  Since this loop is constant than 
+the page will be requested again if it is possible to do so.
+
+-------------------------------------------------------------
+
+Theory(WBIP29)-First and foremost I am going to discuss the wtv-head-waiter:/indirect-login URL.  In the past 
+we viewed coded hex numbers on the end of it.  Since this URL is used to indirectly login a user in reference 
+that it does not check the users build to block people from entering the network (Therory) it needs 
+protection to keep dirty hands out.  The code at the end seamed to be useless since past tests resulted that 
+as long as there is a a string after the URL it will work, Ex: wtv-head-waiter:/indirect-login-Blah allows 
+you to pass. (Date: 12/14/00, I have been noted that the indirect login code did redirect you to different 
+pages if the hex code was modified)
+
+
+Theory(WBIP29)-Instread of different tokens per user I think there is differenc tokens per URL.  There was a 
+algoritm for the smart cards (smart cards can be called tokens, basicly for security terms token means 
+anything used to authinticate into a network.) Now smart cards mite be well known to the WebTV network and 
+the encrypted password to this algorithm has a lifespan which makes the opertunity to have many tokens per 
+URL.
+
+
+Theory(WBIP29)-The way the token is installed in the link/form action is as follows.
+
+1. HTTP Server parses the page HTML looks for the links for form actions and takes the URL reference.
+
+2. The Server then checks to see if it has a "protocol" or not.  Ex: /home and wtv-home/home.  If there is no 
+"protocol" then it adds the servers current "protocol" a link to /home on the home service will add 
+wtv-home:/ to it to form wtv-home:/home.
+
+3. The server then puts this URL which was in the link through two algorithms after each one adding -[result]
+
+4.  It then subsitutes the old url with the new token URL.
+
+This may be proven when you forcefully change the page. Like to break a input box and make a link.  The link 
+will have a token.
+
+
+Theory(WBIP29)-As I hear Matt has found a way past the token block from a URL that is so obviose to WNI to be 
+a threat.  I can't see why WNI would be so dumb, I know they can't be this dumb.  What I thought at first is 
+they changed this URL to work with tokens and they never gave a thought that this can be used to to help 
+hackers.  This is how I think happens after thinking it thrugh:
+
+The server first bufferes everything that the server wants to send to 
+the client, this includes the headers and page body.  The server then puts tokens onto wtv-visit:, and 
+Location: from the header.  Then the server checks to see if this page content-type is html.  If it is then 
+the server parses the HTML body and changes the links/forms to tokens.  This will explain missing the page 
+Matt found.  They made there server work on tokens they just never looked to see what URLs would pose a 
+threat to them from hackers.
+ 

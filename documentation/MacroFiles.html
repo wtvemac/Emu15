@@ -1,0 +1,231 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title> Macro Files </title>
+</head>
+<body bgcolor="#000066" text="#999999" link="#999999" vlink="#999999" alink="#999999">
+I have made a way to expand this tool dynamicly by a macro script extention.  These scripts are based on the mIRC and perl scripts.  Here is a example.<p>
+
+<font color=green>On</font> <font color=red>*</font>:<font color=gold>connect</font>:<font color=red>1</font>:{<br>
+<font color="lime">
+print $add "Welcome to this beloved server!\\n\n";
+</font>
+<br>
+}
+<p>
+
+Getting the program to notice the script is a simple procedure of updating the Config.ini file located in the same direcory that contains the WebTV.exe file.  Open this up and put the following like in:<p>
+
+script=YourScriptFile<p>
+The script file may be any file url and you may add as many scripts as you please (but be aware that it will get slow after awile)
+<p>
+
+This script sends a message to all client that connect to the server.<p>
+
+On PERMIABLE:COMMAND:EXPRESSION:{
+<br>
+[TRIGERED PERL]
+<br>
+}
+<p>
+<b>PERMIABLE</b>
+<p>
+This section is used to selectivly pick a client.  If this value is 209.240.194.41 the perl will be only executed to clients with the IP address of 209.240.194.41.  You can use the wildcard "*" so if we want only WebTV users to trigger the execution of the perl script we would use 209.240.*.*.  If we wanr all clients we would use "*".<br>
+<p>
+<b>COMMAND</b>
+<p>
+This is the actual command that the client sends.<p>
+<font color="red">COMMAND</font> PARAMS<br>
+You can specify a command in this way.  So if we want the perl to be executed if a client sends "GO BOGA" or "GO LALA" or "GO" ect... we would use "GO" in the COMMAND section of the macro script.
+<p>
+These are the other commands that a client can 'send' to ther server.<p>
+<font color="red">connect</font><br>
+This is triggered when a client connects to the server.  Since the server is in a different condition when this happens please use $add as the client variable and $iptoddd for the IP and port (these variables are explained later in this file.)
+<p>
+
+<font color="red">disconnect</font><br>
+This is triggered when a client disconnects from a server.
+<p>
+
+<font color="red">close</font><br>
+This is triggered when a client sends the command to the server to close.  die, and exit are examples.
+<p>
+
+<font color="red">open</font><br>
+This isn't really a client command but this is triggered when the server is first opened.
+<p><br>
+<b>EXPRESSION</b>
+<p>
+This section is used for any other checks to selectivly reject clients from trigering the execution of the perl script.  This section must contain a perl expression that returns TRUE (1) or FALSE (0).  For example you mite use something like this On *:open:($mode == 4):{ [perl] } this script will be trigered only if the server is on mode 4 and the program has been open.<p>
+<br>
+<b>TRIGERED PERL</b><p>
+This is where you would write your perl script so you should have no problem understanding this section if you are firmiliar with perl.  Im not going to explain how to write perl but I am going to explain predefinded variables that you can use in your perl script.
+<p>
+Here are some variables you may use in your script that have been defined in the manifold program.<p>
+
+<dl>
+	<dt><font color="cyan">$clients</font>
+	<dd>This is the actual socket client that is sending the command to trigger the perl compilation and execution.  You would write to this scalar.  print $clients "";
+</dl>
+
+<dl>
+	<dt><font color="cyan">$add</font>
+	<dd>This is the same above but for a newly connected client.  The server is setup to use this variable before the client is registered in the client array.
+</dl>
+
+<dl>
+	<dt><font color="cyan">$trueheaders</font>
+
+<dd>This is the header that the client sends with the leading \r (carrage return)
+</dl>
+
+
+<dl>
+	<dt><font color="cyan">$headers</font>
+	<dd>This is the header that a client sends with out the leading \r
+
+</dl>
+
+
+
+<dl>
+	<dt><font color="cyan">$command</font>
+	<dd>This is the command that the client sends (COMMAND PARAMS1 PARAMS2)
+</dl>
+
+
+<dl>
+	<dt><font color="cyan">$params</font>
+	<dd>This the the parameters to the command that is sent (COMMAND PARAMS1 PARAMS2)
+</dl>
+
+<dl>
+	<dt><font color="cyan">$protocol</font>
+	<dd>This is the protocol of a GET or POST command (protocol:/url#hastlocation?qurey)
+</dl>
+
+<dl>
+	<dt><font color="cyan">$url</font>
+	<dd>This is everything past the protocol (protocol:/url#hastlocation?qurey)
+</dl>
+
+<dl>
+	<dt><font color="cyan">$url2</font>
+	<dd>This is the "url" requested with the hash location. (protocol:/url#hastlocation?qurey)
+</dl>
+
+<dl>
+	<dt><font color="cyan">$url3</font>
+	<dd>This is the the "url" requested with out the hash location. (protocol:/url#hastlocation?qurey)
+</dl>
+
+<dl>
+	<dt><font color="cyan">$hashlocation</font>
+	<dd>This is the hash location of the url (protocol:/url#hastlocation?qurey)
+</dl>
+
+<dl>
+	<dt><font color="cyan">$paramt</font>
+	<dd>This is the qurey sting of the url (protocol:/url#hastlocation?qurey)
+</dl>
+
+<dl>
+	<dt><font color="cyan">$sockhost</font>
+	<dd>This is the socket host or your IP.
+</dl>
+
+<dl>
+	<dt><font color="cyan">$sockport</font>
+	<dd>This is the socket port or the port that the server is listening on.
+
+</dl>
+<dl>
+	<dt><font color="cyan">$clientport</font>
+	<dd>This is the clients port that is sending the message
+
+</dl>
+<dl>
+	<dt><font color="cyan">$clienthost</font>
+	<dd>This is the clients IP that is sending the message
+
+</dl>
+<dl>
+	<dt><font color="cyan">$iptoddd</font>
+	<dd>This is the clients IP, Port that has connected to this server.  This can only be used if you want the IP and port to a newly connected client.
+</dl>
+
+<dl>
+	<dt><font color="cyan">$listenport</font>
+	<dd>This is the socket port that was defined in the Config.ini file, this is used when the program 
+first opens.
+</dl>
+
+<dl>
+	<dt><font color="cyan">$mode</font>
+	<dd>This is the mode that the server is in.
+</dl>
+
+<dl>
+	<dt><font color="cyan">$hours</font>
+	<dd>This is the current time in hours.
+</dl>
+
+<dl>
+	<dt><font color="cyan">$minutes</font>
+	<dd>This is the current time in minutes.
+
+</dl>
+<dl>
+	<dt><font color="cyan">$mounths</font>
+	<dd>This is the current month.  This is not the name but its numerical equvilent.
+
+</dl>
+<dl>
+	<dt><font color="cyan">$dow</font>
+	<dd>This is the day of the week.
+</dl>
+
+<dl>
+	<dt><font color="cyan">$formateddate</font>																							
+	<dd>This is a formated date string.  This contains a string that is formated with the month, year, and time.
+</dl>
+
+<dl>
+	<dt><font color="cyan">$secsq</font> 
+	<dd>This is the seconds of a current time.
+</dl>
+
+<dl>
+	<dt><font color="cyan">$minutesq</font>
+	<dd>This is the minutes of a current time.
+</dl>
+
+<dl>
+	<dt><font color="cyan">$hoursq</font>
+	<dd>This is the hours of the current time.
+</dl>
+
+<p>
+And these are the subroutines defined in the manifold program.<p>
+
+<dl>
+	<dt><font color="cyan">$var=proccessChange($varz)</font>
+	<dd>This the command that returns the output string which changes all the keyword 
+substrings into its equivilent.  Please visit the webtvout.txt help section to view a list of substring 
+keywords.
+</dl>
+<dl>
+	<dt><font color="cyan">$var=getTicket($ip)</font>
+	<dd>This tries to retriev the ticket from a head waiter service.  If it succeded then it will return the ticket. 
+</dl>
+<dl>
+	<dt><font color="cyan">$var=doYouAgree($string,$keywordstring)</font>
+	<dd>This is the wildcard command ex doYouAgree("Hey man sup","Hey*")  this will return true.
+</dl>
+<dl>
+	<dt><font color="cyan">setvariable($var,$value)	</font>
+	<dd>This sets the value in the Config.ini file ex setvariable("a","209.240.194.46")
+</dl>
+
+</body>
+</html> 

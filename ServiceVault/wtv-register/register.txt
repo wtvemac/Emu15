@@ -1,0 +1,20 @@
+200 OK
+Content-length: %bytes
+Content-type: text/html
+%%%
+<html>
+<title>Splash</title>
+<META HTTP-EQUIV=Refresh CONTENT="4;URL=ValidateSplash">
+<display nostatus nooptions switchtowebmode>
+<body bgcolor="#000000" text="#449944">
+<bgsound src="file://ROM/Sounds/Splash.mid">
+<display nooptions nostatus skipback>
+<center>
+<spacer type=block height=118 width=21>
+<img src="file://ROM/Images/MicrosoftName.gif"><img src="file://ROM/Images/MicrosoftR.gif"><br>
+<img align=bottom src="file://ROM/Images/SplashLogo1.gif"><font color="#666666" size=0>TM</font>
+<br><br>
+<p><br>
+<p><br>
+</center>
+</html>

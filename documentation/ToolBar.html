@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> CoolTudes ToolBar </TITLE>
+<META id="Author" CONTENT="Eric-MacDonald">
+<script language="JavaScript">
+theCurimg=0;
+function Show(img)	{
+if(img)
+if(((document.images[img].src).indexOf("green_pin.gif") < 0)){
+document.images[img].src="red_pin.gif"
+}
+}
+
+function DeShow(img)	{
+if(img)
+if(((document.images[img].src).indexOf("green_pin.gif") < 0)){
+document.images[img].src="blue_pin.gif"
+}
+}
+function ModifyFrameURL(a,img){
+parent.mainFrame.location=a
+document.images[img].src="green_pin.gif"
+if(theCurimg){
+document.images[theCurimg].src="blue_pin.gif"
+}
+theCurimg=img
+}
+</script>
+</HEAD>
+
+<body bgcolor=#000066 text=#F0F0F0 fontsize=medium>
+<STYLE TYPE="text/css">
+<!--
+.Divs {
+	position:absolute;
+	background-color:#000033;
+	color:#F0F0F0
+	top:0px;
+	left:0px;
+	visibility:hidden;
+	border: 1px solid black;
+	width: 230;
+	font-size: 2
+	font: 3pt sans-serif;
+	}
+
+
+a:hover{color:yellow;}
+a { text-decoration:none; color: #999999;}
+h4, h5, h6 {color: #F9F9F9}
+h1, h2, h3 {color: #999999}
+
+-->
+</STYLE>
+
+
+<table>
+
+
+
+<TR>
+	<TD><table cellspacing=7 valign=top>
+<TR><TD><img src="blue_pin.gif" name="img[0]"></TD><TD><a href="javascript:ModifyFrameURL('WebTVpl.html','img[0]')"  onMouseOver="Show('img[0]')" onMouseOut="DeShow('img[0]')">Getting Started</a>
+</TD></TR>
+
+<TR><TD><img src="blue_pin.gif" id="img[1]" name="img[1]"></TD><TD><a href="javascript:ModifyFrameURL('IncludedTools.html','img[1]')" onMouseOver="Show('img[1]')" onMouseOut="DeShow('img[1]')">Included Utilities</a>
+</TD></TR>
+<TR><TD><img src="blue_pin.gif" id="img[2]"  name="img[2]"></TD><TD><a href="javascript:ModifyFrameURL('Terms.html','img[2]')"  onMouseOver="Show('img[2]')" onMouseOut="DeShow('img[2]')">Terminology</a>
+</TD></TR>
+<TR><TD><img src="blue_pin.gif" id="img[3]"  name="img[3]"></TD><TD><a href="javascript:ModifyFrameURL('MacroFiles.html','img[3]')"  onMouseOver="Show('img[3]')" onMouseOut="DeShow('img[3]')">Macro Files</a>
+</TD></TR>
+<TR><TD><img src="blue_pin.gif" id="img[4]"  name="img[4]"></TD><TD><a href="javascript:ModifyFrameURL('Credits.html','img[4]')"  onMouseOver="Show('img[4]')"  onMouseOut="DeShow('img[4]')">Credits</a>
+</TD></TR>														 
+
+<TR><TD><img src="blue_pin.gif" id="img[5]"  name="img[5]"></TD><TD><a href="javascript:ModifyFrameURL('Contact.html','img[5]')"  onMouseOver="Show('img[5]')"  onMouseOut="DeShow('img[5]')">Contact</a>
+</TD></TR>														 
+
+ 

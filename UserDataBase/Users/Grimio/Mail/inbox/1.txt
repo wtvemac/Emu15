@@ -1,0 +1,12 @@
+From: Eric-MacDonald@cooltude.webtv.net
+To: Grimio@cooltude.webtv.net
+Subject: Welcome to EricSrv
+X-WebTV-Stationery: BGColor ;TextColor 
+Date: Wed Feb 14 19:40:08 2001
+
+--WebTV-Mail-9896-1069
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+Welcome to EricSrv this service may contain mail but it doesn't provide a SMTP server.  You may send mail but you will not recive mail.  Sorry for the inconvinence but this isn't a fully emulated WNI server.  When I figure out how the notify service operates you may have a SMTP server so you can recive and send mail.  At this point its useless unless there is one.  Anyways enjoy!  Please click the test link on the home page and procede to do what it tell there so I can test certen things on your box!!
+

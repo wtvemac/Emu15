@@ -1,0 +1,19 @@
+WebTV.pl is a sphiticated tool that emulates the WebTV's servers.  I have tried to emulate WebTV's most interesting parts along with the adventure to figure out more WebTV functions.  I have also added functions that will try to get rid of people who are not suppose to be using this tool which is extramly heard to do with perl.  Along with WebTV.pl I have added other tools used to help WebTV Hackers these tools do not have a block.  However they are open source.  This does not mean that the TOS is not still in effect towards these tools.
+
+Root Dirctory Files:
+
+
+<TurnKey.trnk>, This file is used for intitialization variables and is used to "turn the program egnition" so it can start in the right place.
+
+<WebTV.exe>, This file is the actual executable for the server, double-click on it to run it.
+
+<Config.ini>, This file is the initilation file used to set user variables about program conditions.
+
+<SoftwareLiteMode.exe>,  When in need this is the file that changes the program turn key so you can use the program in 'lite' mode so I can connect and change server settings, such as reseting the server.  BTW: This file is not included.
+
+
+
+Don't do the foolowing:
+
+Don't put the WebTV.exe file in a directory without the turn key file!
+

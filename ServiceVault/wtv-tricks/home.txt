@@ -1,0 +1,4 @@
+300 Moved.
+Content-length: 0
+Location: wtv-home:/home
+

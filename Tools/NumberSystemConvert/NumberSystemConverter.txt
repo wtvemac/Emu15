@@ -1,0 +1,827 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<script>
+/*
+* ^Eric MacDonalds Number System Converter^
+*
+* (c) cooltude@address.com
+*
+* Date:	9/21/00
+* 
+* Time to make: 2 Days
+* 
+*/
+hds=0;
+
+
+var memorylast=new Array();
+ 
+
+var targetString="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+function ShowHelpWin(){
+if(!(hds)){
+document.all["helpWin"].style.visibility="visible"
+document.all["help_x"].innerHTML="<a href=javascript:ShowHelpWin()>[No Help]</a>"
+
+hds=1;
+
+}else{
+document.all["helpWin"].style.visibility="hidden"
+
+document.all["help_x"].innerHTML="<a href=javascript:ShowHelpWin()>[Help]</a>"
+hds=0;
+}
+
+
+}
+
+
+function decBitme(ay){
+fromDecToNumSys(ay,2,1);
+
+document.a.output.value=((returnX*1)+"").length;
+}
+
+
+function Bitdecme(ay){
+dummy="";
+for(i=0; i < ay; i++){
+dummy+="1";
+}
+return fromNumSysToDec(dummy,2);
+
+}
+
+
+function decIPme(ay){
+var a=parseInt(ay/16777216);
+ayc=ay-(a*16777216)
+var b=parseInt(ayc/65536);
+ayc=ayc-(b*65536)
+var c=parseInt(ayc/256);
+var d=(ayc%256);
+
+document.a.output.value=a+"."+b+"."+c+"."+d;
+}
+
+
+function IPdecme(ayc){
+
+
+
+QQQz=ayc.split(".");
+return (QQQz[0]*16777216)+(QQQz[1]*65536)+(QQQz[2]*256)+(QQQz[3]*1)+"";
+}
+
+
+function Convert(ax,bx,cx){
+if(bx != "ASCII"){
+var StringValues=ax.split(" ");
+}else{
+StringValues=ax.split();
+}
+document.a.output.value="";
+
+for(ax in StringValues){
+ax=StringValues[ax];
+if(bx == 10){
+
+
+if(cx == "BIT"){
+decBitme(ax)
+}else{
+if(bx == "BIT"){
+alternetposterior=Bitdecme(ax)
+if((alternetposterior)){
+Convert(alternetposterior,10,cx)
+}
+}else{
+
+
+if(cx == "IP2"){
+decIPme(ax)
+}else{
+if(bx == "IP2"){
+alternetposterior=IPdecme(ax)
+if((alternetposterior)){
+Convert(alternetposterior,10,cx)
+}
+}else{
+if(bx == "ASCII"){
+alternetposterior=ASCIIDecme(ax,cx)
+}else{
+if(cx == "ASCII"){
+decASCIIme(ax)
+}else{
+fromDecToNumSys(ax,cx,0)
+}
+}
+}
+}
+}
+}
+}else{
+decNumMe=fromNumSysToDec(ax,bx)
+if(cx == "BIT"){
+decBitme(decNumMe)
+}else{
+if(bx == "BIT"){
+alternetposterior=Bitdecme(ax)
+Convert(alternetposterior,10,cx)
+}else{
+if(cx == "IP2"){
+decIPme(decNumMe)
+}else{
+if(bx == "IP2"){
+alternetposterior=IPdecme(ax)
+Convert(alternetposterior,10,cx)
+}else{
+if(cx == "ASCII"){
+decASCIIme(decNumMe)
+}else{
+if(bx == "ASCII"){
+alternetposterior=ASCIIDecme(ax,cx)
+}else{
+fromDecToNumSys(decNumMe,cx,0)
+}
+}
+}
+}
+}
+}
+}
+document.a.output.value+=" ";
+}
+}
+
+
+function ASCIIDecme(ay,cy){
+DecnumMe="";
+for(i=0; i < ay.length; i++){
+CharToCheck=ay.charAt(i);
+cxz=escape(CharToCheck);
+
+
+if(cxz == CharToCheck || CharToCheck == "@" || CharToCheck == "_" || CharToCheck == "+" || CharToCheck == "*" || CharToCheck == "/" || CharToCheck == "." || CharToCheck == "-"){
+cxz="%"+CharToHex(CharToCheck);
+}
+
+
+if(i < ((ay.length)-1)){
+DecnumMe+=fromNumSysToDec(cxz.substring(1),16)+" ";
+}else{
+DecnumMe+=fromNumSysToDec(cxz.substring(1),16);
+}
+}
+
+Convert(DecnumMe,10,cy)
+}
+
+function addValue(){
+value=document.a.input.value;
+format=document.a.From.value;
+DecVal=fromNumSysToDec(value,format);
+variable=prompt("Plus What?","");
+base=prompt("Base Number of added value?","");
+variable2=fromNumSysToDec(variable,base)
+lastvalue=DecVal+variable2;
+Cook=document.a.To.value;
+document.a.output.value="";
+fromDecToNumSys(lastvalue,Cook);
+}
+
+
+function Increase(){
+value=document.a.input.value;
+format=document.a.From.value;
+DecVal=fromNumSysToDec(value,format);
+lastvalue=DecVal+1;
+Cook=document.a.To.value;
+document.a.output.value="";
+fromDecToNumSys(lastvalue,Cook);
+fromDecToNumSys(lastvalue,format,1)
+document.a.input.value=returnX
+}
+
+
+
+function Decrease(){
+value=document.a.input.value;
+format=document.a.From.value;
+DecVal=fromNumSysToDec(value,format);
+lastvalue=DecVal-1;
+Cook=document.a.To.value;
+document.a.output.value="";
+fromDecToNumSys(lastvalue,Cook);
+fromDecToNumSys(lastvalue,format,1)
+document.a.input.value=returnX
+
+}
+
+
+function subtractValue(){
+value=document.a.input.value;
+format=document.a.From.value;
+DecVal=fromNumSysToDec(value,format);
+variable=prompt("Subtract What?","");
+base=prompt("Base Number of subtracted value?","");
+variable2=fromNumSysToDec(variable,base)
+lastvalue=DecVal-variable2;
+Cook=document.a.To.value;
+document.a.output.value="";
+fromDecToNumSys(lastvalue,Cook);
+}
+
+function multiplyValue(){
+value=document.a.input.value;
+format=document.a.From.value;
+DecVal=fromNumSysToDec(value,format);
+variable=prompt("Multiply this number by What?","");
+base=prompt("Base Number of multipy value?","");
+variable2=fromNumSysToDec(variable,base)
+lastvalue=DecVal*variable2;
+Cook=document.a.To.value;
+document.a.output.value="";
+fromDecToNumSys(lastvalue,Cook);
+}
+
+function devideValue(){
+value=document.a.input.value;
+format=document.a.From.value;
+DecVal=fromNumSysToDec(value,format);
+variable=prompt("Devide this number by What?","");
+base=prompt("Base Number of devision value?","");
+variable2=fromNumSysToDec(variable,base)
+lastvalue=DecVal/variable2;
+Cook=document.a.To.value;
+document.a.output.value="";
+fromDecToNumSys(lastvalue,Cook);
+}
+
+function bitshift1Value(){
+value=document.a.input.value;
+format=document.a.From.value;
+DecVal=fromNumSysToDec(value,format);
+variable=prompt("1 left shift how namy times?","");
+base=prompt("Base Number of shift value?","");
+variable2=fromNumSysToDec(variable,base)
+lastvalue=variable2<<DecVal;
+Cook=document.a.To.value;
+document.a.output.value="";
+fromDecToNumSys(lastvalue,Cook);
+}
+
+function bitshift2Value(){
+value=document.a.input.value;
+format=document.a.From.value;
+DecVal=fromNumSysToDec(value,format);
+variable=prompt("1 right shift how namy times?","");
+base=prompt("Base Number of shift value?","");
+variable2=fromNumSysToDec(variable,base)
+lastvalue=variable2>>DecVal;
+Cook=document.a.To.value;
+document.a.output.value="";
+fromDecToNumSys(lastvalue,Cook);
+}
+
+function bitshift3Value(){
+value=document.a.input.value;
+format=document.a.From.value;
+DecVal=fromNumSysToDec(value,format);
+variable=prompt("0 right shift how namy times?","");
+base=prompt("Base Number of shift value?","");
+variable2=fromNumSysToDec(variable,base)
+lastvalue=variable2>>>DecVal;
+Cook=document.a.To.value;
+document.a.output.value="";
+fromDecToNumSys(lastvalue,Cook);
+}
+
+
+function modoloValue(){
+value=document.a.input.value;
+format=document.a.From.value;
+DecVal=fromNumSysToDec(value,format);
+variable=prompt("Find remainding value target?","");
+base=prompt("Base Number of modolo value?","");
+variable2=fromNumSysToDec(variable,base)
+lastvalue=DecVal%variable2;
+Cook=document.a.To.value;
+document.a.output.value="";
+fromDecToNumSys(lastvalue,Cook);
+}
+
+
+function CharToHex(CharToCheck_x){
+switch(CharToCheck_x){
+
+case "1":
+return "31";
+break;
+
+case "2":
+return "32";
+break;
+
+case "3":
+return "33";
+break;
+
+case "4":
+return "34";
+break;
+
+case "5":
+return "35";
+break;
+
+case "6":
+return "36";
+break;
+
+case "7":
+return "37";
+break;
+
+case "8":
+return "38";
+break;
+
+case "9":
+return "39";
+break;
+
+case "0":
+return "30";
+break;
+
+case "A":
+return "41";
+break;
+
+case "B":
+return "42";
+break;
+
+case "C":
+return "43";
+break;
+
+case "D":
+return "44";
+break;
+
+case "E":
+return "45";
+break;
+
+case "F":
+return "46";
+break;
+
+case "G":
+return "47";
+break;
+
+case "H":
+return "48";
+break;
+
+case "I":
+return "49";
+break;
+
+case "J":
+return "4A";
+break;
+
+case "K":
+return "4B";
+break;
+
+case "L":
+return "4C";
+break;
+
+case "M":
+return "4D";
+break;
+
+case "N":
+return "4E";
+break;
+
+case "O":
+return "4F";
+break;
+
+case "P":
+return "50";
+break;
+
+case "Q":
+return "51";
+break;
+
+case "R":
+return "52";
+break;
+
+case "S":
+return "53";
+break;
+
+case "T":
+return "54";
+break;
+
+case "U":
+return "55";
+break;
+
+case "V":
+return "56";
+break;
+
+case "W":
+return "57";
+break;
+
+case "X":
+return "58";
+break;
+
+case "Y":
+return "59";
+break;
+
+case "Z":
+return "5A";
+break;
+
+case "a":
+return "61";
+break;
+
+case "b":
+return "62";
+break;
+
+case "c":
+return "63";
+break;
+
+case "d":
+return "64";
+break;
+
+case "e":
+return "65";
+break;
+
+case "f":
+return "66";
+break;
+
+case "g":
+return "67";
+break;
+
+case "h":
+return "68";
+break;
+
+case "i":
+return "69";
+break;
+
+case "j":
+return "6A";
+break;
+
+case "k":
+return "6B";
+break;
+
+case "l":
+return "6C";
+break;
+
+case "m":
+return "6D";
+break;
+
+case "n":
+return "6E";
+break;
+
+case "o":
+return "6F";
+break;
+
+case "p":
+return "70";
+break;
+
+case "q":
+return "71";
+break;
+
+case "r":
+return "72";
+break;
+
+case "s":
+return "73";
+break;
+
+case "t":
+return "74";
+break;
+
+case "u":
+return "75";
+break;
+
+case "v":
+return "76";
+break;
+
+case "x":
+return "78";
+break;
+
+case "w":
+return "77";
+break;
+
+case "y":
+return "79";
+break;
+
+case "z":
+return "7A";
+break;
+
+case "+":
+return "7A";
+break;
+
+case "@":
+return "40";
+break;
+
+case "-":
+return "2D";
+break;
+
+case "_":
+return "5F";
+break;
+
+
+case "*":
+return "2A";
+break;
+
+
+case "/":
+return "2F";
+break;
+
+case ".":
+return "2E";
+break;
+
+}
+}
+
+
+function decASCIIme(ay){
+fromDecToNumSys(ay,16,1);
+HexMe=returnX;
+if(!(HexMe)){
+alert("Value to high for the ASCII character set.  Please separate each value by a space.")
+document.a.output.value+="(inconclusive)"
+}else{
+document.a.output.value+=unescape("%"+HexMe);
+}
+}
+
+
+function fromDecToNumSys(a,b,cxz){
+
+vintage=0;
+returnvalue="";
+var first=parseInt(a/b);
+var last=a%b;
+
+if(first > (b-1)){
+
+memorylast[memorylast.length]=last;
+fromDecToNumSys(first,b,cxz);
+}else{
+memorylast.reverse();
+for(i=0; i < memorylast.length; i++){
+if(memorylast[i] != null)
+returnvalue+=targetString.charAt(memorylast[i]);
+
+memorylast[i]=null; 
+
+}
+coterla=targetString.charAt(first)+targetString.charAt(last)+returnvalue;
+if(cxz){
+
+returnX=coterla;
+}else{
+
+document.a.output.value+=coterla;
+}
+}
+}
+
+
+function fromNumSysToDec(a,b){
+return parseInt(a,b);
+}
+function Init(){
+
+
+
+
+if((navigator.appName).indexOf("WebTV") != (-1) || navigator.appName != "Microsoft Internet Explorer"){
+alert("This page was not designed to work on this "+navigator.appCodeName+" ("+navigator.appName+") it mite not work as I intended it to.  I designed it for Microsoft's Internet Explorer JSsript.")
+}	  
+}
+</script>
+</HEAD>
+
+<BODY BGCOLOR="#000033" text="#999999" link="#9999CC" vlink="#9999AA" alink="#9999FF" onLoad="Init()">
+<center>
+<h1>CoolTude's Number System Converter</h1>
+</center>
+<p>
+
+<form name=a>
+
+<table>
+<tr><td>From:</td></tr>
+<tr>
+<td><input size=20 name=input></td>
+<td>
+Format: <select name=From>
+<option value=2>Base 2 (Binary)
+<option value=3>Base 3
+<option value=4>Base 4
+<option value=5>Base 5
+<option value=6>Base 6
+<option value=7>Base 7
+<option value=8>Base 8 (Octal)
+<option value=9>Base 9
+<option value=10>Base 10 (Decimal)
+<option value=11>Base 11
+<option value=12>Base 12
+<option value=13>Base 13
+<option value=14>Base 14
+<option value=15>Base 15
+<option value=16>Base 16 (Hex)
+<option value=17>Base 17
+<option value=18>Base 18
+<option value=19>Base 19
+<option value=20>Base 21
+<option value=21>Base 21
+<option value=22>Base 22
+<option value=23>Base 23
+<option value=24>Base 24
+<option value=25>Base 25
+<option value=26>Base 26
+<option value=27>Base 27
+<option value=28>Base 28
+<option value=29>Base 29
+<option value=30>Base 30
+<option value=31>Base 31
+<option value=32>Base 32
+<option value=33>Base 33
+<option value=34>Base 34
+<option value=35>Base 35
+<option value=36>Base 36
+<option value=IP2>IPv4
+<option value=BIT>Bit-Value
+<option value=ASCII>ASCII
+</select>
+</td>
+<td>
+&nbsp;&nbsp;
+<input type=button value="+" onClick="addValue()">
+<input type=button value="-" onClick="subtractValue()">
+<input type=button value="*" onClick="multiplyValue()">
+<input type=button value="/" onClick="devideValue()">
+<input type=button value="++" onClick="Increase()">
+<input type=button value="- -" onClick="Decrease()">
+<input type=button value="mod" onClick="modoloValue()">
+
+</td>
+</tr>
+<tr><td>To:</td></tr>
+<tr>
+<td><input size=20 name=output></td>
+<td>
+
+Format: <select name="To">
+<option value=2>Base 2 (Binary)
+<option value=3>Base 3
+<option value=4>Base 4
+<option value=5>Base 5
+<option value=6>Base 6
+<option value=7>Base 7
+<option value=8>Base 8 (Octal)
+<option value=9>Base 9
+<option value=10>Base 10 (Decimal)
+<option value=11>Base 11
+<option value=12>Base 12
+<option value=13>Base 13
+<option value=14>Base 14
+<option value=15>Base 15
+<option value=16>Base 16 (Hex)
+<option value=17>Base 17
+<option value=18>Base 18
+<option value=19>Base 19
+<option value=20>Base 21
+<option value=21>Base 21
+<option value=22>Base 22
+<option value=23>Base 23
+<option value=24>Base 24
+<option value=25>Base 25
+<option value=26>Base 26
+<option value=27>Base 27
+<option value=28>Base 28
+<option value=29>Base 29
+<option value=30>Base 30
+<option value=31>Base 31
+<option value=32>Base 32
+<option value=33>Base 33
+<option value=34>Base 34
+<option value=35>Base 35
+<option value=36>Base 36
+<option value=IP2>IPv4
+<option value=BIT>Bit-Value
+<option value=ASCII>ASCII
+</select>
+</td>
+</tr></table>
+<table width="50%"><tr><td align="rigth">
+<p>
+<input type=button value="Convert!" onClick="Convert(document.a.input.value,document.a.From.value,document.a.To.value)">
+</td><td align="left">
+<div id="help_x">
+<a href=javascript:ShowHelpWin()>[Help]</a>
+</div>
+</td>
+</tr>
+</table>
+<p>
+<div style="visibility: hidden" name="helpWin" id="helpWin">
+<hr>
+<center>
+<h2>Help</h2>
+</center>
+This tool converts a number to another number that are concruent to each other but don't have the same number system quality.  This tools focal point in the decimal number system (0-9) which is used to convert the numbers it basicly compares the two number systems and finds the position in a base text string to get the numbers or letters that corespond to the converted number.  Right now I only have 36 number systems (10 digits and 26 letters) I can go as far as I want but after 36 I would go into symbols for numbers.<p>
+
+<h4>Number System Conversion</h4>
+The first input box it the initial number that the converter will start off whith.  For example put "10" and select "Base 10 (Decimal)".  The next input box is the number we want to convert the initial number
+<p>
+<h4>Multible Conversions</h4>
+If you need multible conversion such as you need to change these two binary numbers to decimal 10,11.  You would separate each section by a space "10 11" and it will convert these numbers to decimal.
+
+<p>
+<h4>Buttons</h4>
+To the right of the first input box there is a number of buttons that can allow you to add, subtract, multiply, devide, increase by one, decrease by one, and to use a modulus which is basicly the remainder after deviding a number.<br>
+">>"
+<p>
+<h4>ASCII</h4>
+Every character in in a computer system is representive of a binary code (Programers use a hex code).  I am allowing you to change a ASCII character to this binary form or hex and vise versa.
+
+
+<p>
+<h4>Bit Value</h4>
+This conversion is used to find how many bits (a word for digit places in binary numbers) will be produced from a binary number from the value entered.
+<p>
+<h4>IPv4</h4>
+During internet transactions normal doted-quad IPs are not used.  However a hex string is used to represent IPs (you see 4 alt chars) in the IP header (This is 32-bit).  These are also used in DCC (this is in decimal) on IRC clients and most importantly it is used in WebTVs TCP logs (explained in more detail in WBIP pg 27).  I have allowed you to put this decimal or hex (actualy any number system format will do) and change it to the IPv4 dotted-quad format and the other way around is also possible.<p>
+
+
+
+<p>
+
+<h4>Known Bugs</h4>
+<p>
+Also deciamal numbers will not work the algorithm that is converting the numbers permits decimal numbers (decimal as not in the number system but ex: 0.5)<p>
+
+Yes, everything you can do with the decimal number system can be done with any other number system in the universe.
+</div>
+
+
+</BODY>
+</HTML>

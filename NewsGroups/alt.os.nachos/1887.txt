@@ -1,0 +1,43 @@
+Path: rQdQ!sn-xit-03!supernews.com!newsfeed.direct.ca!look.ca!sjc1.nntp.concentric.net!newsfeed.concentric.net!webtv.net!not-for-mail
+From: lolob@webtv.net (Lori)
+Newsgroups: alt.os.nachos
+Subject: newbee...
+Date: Sat, 25 Nov 2000 21:42:46 -0800 (PST)
+Organization: WebTV Subscriber
+Lines: 25
+Message-ID: <7589-3A20A2D6-60@storefull-281.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-27746-2022
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAuAhUAsagtvO58BVmliNZfYseST+dvaXMCFQCzxLPx60EIzKhvR8P+lki29jcaWQ== 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=black; TextColor=white
+Xref: rQdQ alt.os.nachos:1887
+
+
+--WebTV-Mail-27746-2022
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+Ok, i just wanted to know, just how you all changed your sidebars?
+That looks so cool. I wanna do it!
+Please?
+thanks, Lori
+
+
+--WebTV-Mail-27746-2022
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<html><noembed> 
+<body bgcolor="black" text="white"></noembed><img
+src="http://www.geocities.com/southbeach/canal/3235/naughtysanta.gif"><BR><a
+href="http://community.webtv.net/lolob/WelcometoLoris"><font size="5"
+color="yellow"><blackface> Homepage!</a></body></html>
+
+
+--WebTV-Mail-27746-2022--

@@ -1,0 +1,18 @@
+200 WebTV FlashROM downloads.
+Content-Length: %bytes
+Content-Type: text/html; charset=windows-1252
+%%%
+<html>
+<head>
+<title>
+Sorry
+</title>
+</head>
+<body bgcolor="#000033" text="#999999">
+<center>
+<h1>Sorry</h1>
+</center>
+<p>
+Im sorry but Flash ROM downloads are disabled on this server I will probably will never have this feature.  Because it could mean life or death of your box.
+</body>
+</head>

@@ -1,0 +1,17 @@
+This directory is used to store the server logs.  A description of each of the logs are as follows:
+
+
+
+<ClientSends.txt>, This is basicly a compiled version of all the SS logs.
+
+
+<EventLog.txt>, This is the log of the event that are taken place in the server.  These events are limited to the following; Client Connect, Client Disconnect, Program Open, and Program Exit.
+
+
+<ParseError.txt>, This log is used to show the errors that where encounterd while reading the Macro script file.
+
+
+<Log.txt>, This is a log used to show the messages the clients sent that are unknown to the server.  This is only true towards modes 1, 2, and 3.
+
+
+These log files can get extreamly large.

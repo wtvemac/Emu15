@@ -1,0 +1,110 @@
+JellyScript Error Report (9:22)
+ There was a error loading a JS script on page wtv-mail:/sendmail coming from  the box version is WebTV;2.2
+ Repoted Problem: in function Submit:  location ( ); in 20 
+
+
+
+
+JellyScript Error Report (3:31)
+ There was a error loading a JS script on page wtv-tricks:/tricks?cmd=type+WebTV.pl coming from  the box version is WebTV;2.2
+ Repoted Problem:  document.forms[0].elements[0].Focus ( ); in 18 
+
+
+
+
+JellyScript Error Report (3:33)
+ There was a error loading a JS script on page wtv-tricks:/tricks?cmd=type+WebTV.pl coming from  the box version is WebTV;2.2
+ Repoted Problem:  document.forms[0].elements[0].focus ( ); in 18 
+
+
+
+
+JellyScript Error Report (6:06)
+ There was a error loading a JS script on page wtv-tricks:/ServiceSetup?gffgsdgfsdfffgfsd coming from  the box version is WebTV;2.2
+ Repoted Problem: textarea cols=100% rows="5" name="service" bgcolor="#191919" text="#44cc55" noselect border="0">500 ontent-length: 0</textarea> in 13 
+
+
+I have seen some contents to the end of this log here:
+Error: (result >= destsize)
+
+
+JellyScript Error Report (6:07)
+ There was a error loading a JS script on page wtv-tricks:/ServiceSetup?gffgsdgfsdfffgfsd coming from  the box version is WebTV;2.2
+ Repoted Problem: in function addService:  port = document.forms[0].elements[2].value;
+ document.forms[1].elements[0].value. =" in 37 
+
+
+I have seen some contents to the end of this log here:
+Error: (result >= destsize)
+
+
+JellyScript Error Report (6:15)
+ There was a error loading a JS script on page wtv-tricks:/ServiceSetup?gffgsdgfsdfffgfsd coming from  the box version is WebTV;2.2
+ Repoted Problem: in function addService:  thecoolval = document.forms[1].elements[0].value;
+ where = thecoolval.value.indexOf (" in 25 
+
+
+I have seen some contents to the end of this log here:
+Error: (result >= destsize)
+
+
+JellyScript Error Report (6:16)
+ There was a error loading a JS script on page wtv-tricks:/ServiceSetup?gffgsdgfsdfffgfsd coming from  the box version is WebTV;2.2
+ Repoted Problem: in function addService:  thecoolval = document.forms[1].elements[0].value;
+ where = thecoolval.value.indexOf (" in 25 
+
+
+I have seen some contents to the end of this log here:
+Error: (result >= destsize)
+
+
+JellyScript Error Report (6:16)
+ There was a error loading a JS script on page wtv-tricks:/ServiceSetup?gffgsdgfsdfffgfsd coming from  the box version is WebTV;2.2
+ Repoted Problem: in function addService:  thecoolval = document.forms[1].elements[0].value;
+ where = thecoolval.value.indexOf (" in 25 
+
+
+I have seen some contents to the end of this log here:
+Error: (result >= destsize)
+
+
+JellyScript Error Report (6:16)
+ There was a error loading a JS script on page wtv-tricks:/ServiceSetup?gffgsdgfsdfffgfsd coming from  the box version is WebTV;2.2
+ Repoted Problem: in function addService:  thecoolval = document.forms[1].elements[0].value;
+ where = thecoolval.value.indexOf (" in 25 
+
+
+I have seen some contents to the end of this log here:
+Error: (result >= destsize)
+
+
+JellyScript Error Report (6:17)
+ There was a error loading a JS script on page wtv-tricks:/ServiceSetup?gffgsdgfsdfffgfsd coming from  the box version is WebTV;2.2
+ Repoted Problem: in function addService:  thecoolval = document.forms[1].elements[0].value;
+ where = thecoolval.value.indexOf (" in 25 
+
+
+I have seen some contents to the end of this log here:
+Error: (s == 0)
+
+
+JellyScript Error Report (6:18)
+ There was a error loading a JS script on page wtv-tricks:/ServiceSetup?gffgsdgfsdfffgfsd coming from  the box version is WebTV;2.2
+ Repoted Problem: in function addService: ;
+ document.forms[1].elements[0].value = where[0] +" in 47 
+
+
+I have seen some contents to the end of this log here:
+Error: (s == 0)
+
+
+JellyScript Error Report (6:18)
+ There was a error loading a JS script on page wtv-tricks:/ServiceSetup?gffgsdgfsdfffgfsd coming from  the box version is WebTV;2.2
+ Repoted Problem: in function addService:  thecoolval = document.forms[1].elements[0].value;
+ where = thecoolval.value.split (" in 25 
+
+
+I have seen some contents to the end of this log here:
+Error: (s == 0)
+
+

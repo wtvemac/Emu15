@@ -1,0 +1,48 @@
+Path: rQdQ!sn-xit-02!supernews.com!isdnet!newsfeeds.belnet.be!news.belnet.be!fr.clara.net!heighliner.fr.clara.net!diablo.netcom.net.uk!netcom.net.uk!cpk-news-hub1.bbnplanet.com!paloalto-snf1.gtei.net!news.gtei.net!webtv.net!not-for-mail
+From: P3t3r-@webtv.net (^`lP-lE-lT-lE-lR`^)
+Newsgroups: alt.os.nachos
+Subject: More help...
+Date: Sun, 26 Nov 2000 12:15:28 -0500 (EST)
+Organization: WebTV Subscriber
+Lines: 29
+Message-ID: <24962-3A214530-11@storefull-294.iap.bryant.webtv.net>
+References: <6594-3A2127DA-4@storefull-295.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-12792-540
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAsAhQkA1UIZPKwsBe5qmhXesQo9Knj+wIUfe2VpXSHzBmAaSgm80y9lp+VV1c= 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=dimgrey; TextColor=black
+Xref: rQdQ alt.os.nachos:1909
+
+
+--WebTV-Mail-12792-540
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+I guess you guys can tell i'm workin on sumthin...lol...Finally!!...I
+need more answers...
+
+Ok i'm doin a page on geocities...
+And when i try and type the code of like a table so people can see if,
+but  it embeds itself into the page... I've seen on people's pages they
+have lil text box's so that they can write the code in there and people
+can click the box and just take the code... how do i create one of those
+boxes? 
+
+
+--WebTV-Mail-12792-540
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<HTML><body bgcolor=dimgrey text=black link=black vlink=black></body>
+<object
+data="http://www.geocities.com/meize17/signatures/sigc3.html"></object><embed
+src="http://ruthless-music.virtualave.net/singles/media.cgi?hesreturned"autostart=true></html>
+
+
+--WebTV-Mail-12792-540--

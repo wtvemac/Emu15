@@ -1,0 +1,14 @@
+200 OK
+Content-length: %bytes
+Content-type: text/html
+%%%
+<html>
+<head>
+<title>Welcome to EricSrv</title>
+</head>
+<body bgcolor="#000033" text="#999999">
+<center>
+<h1>Welcome to EricSrv</h1>
+</center><p>
+Hello and welcome to EricSrv, this service should be the first of its kind.  I have constructed this server solely on my therories.  I have been proven correct in many areas and have been discovering new things as well.  Your box has been given a tellyscript so you should be ok to turn your box off and it will dial (hell I don't know what number) and connect to this service.  Im sorry in some areas such as the encryption, login-stage two security (all data sent will become encrypted alerts 500 [yada yada]), compression wont be used, tickets are not rendered, there is not more than one challenge initial keys and user expieration such as tricks live time expieration.  However I do have most of the other WNI server characteristics.  I will ask the people on boxes to please test the folowing:<p>
+

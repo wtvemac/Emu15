@@ -1,0 +1,42 @@
+Path: rQdQ!sn-xit-03!supernews.com!newsfeed.direct.ca!look.ca!feedwest.news.agis.net!agis!paloalto-snh1.gtei.net!paloalto-snf1.gtei.net!news.gtei.net!webtv.net!not-for-mail
+From: REDDFOX-1976@webtv.net (=?ISO-8859-1?Q?=86~~reddfox~~=86?=)
+Newsgroups: alt.os.nachos
+Subject: Re: Beatles RealAudio?
+Date: Sun, 26 Nov 2000 01:56:23 -0600 (CST)
+Organization: WebTV Subscriber
+Lines: 23
+Message-ID: <22543-3A20C227-114@storefull-611.iap.bryant.webtv.net>
+References: <16767-3A20B8C3-97@storefull-265.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-20869-2632
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAuAhUAr3VC/7i52/JdmmnXEcnEDujFw4ECFQCnmMPHwx2WWPQHUjKKlKuxHdQNQA== 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=black; TextColor=hotpink
+Xref: rQdQ alt.os.nachos:1894
+
+
+--WebTV-Mail-20869-2632
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+Here is a good beatles site .....
+http://www.geocities.com/dxgemini/thebeatles/rubbersong.html 
+
+
+--WebTV-Mail-20869-2632
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<html><body bgcolor=black text=hotpink>
+<object data=http://www.geocities.com/reddfox24/sig8.html>
+</body>
+</object>
+</html>
+
+
+--WebTV-Mail-20869-2632--

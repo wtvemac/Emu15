@@ -1,0 +1,40 @@
+From: REDDFOX-1976@webtv.net (=?ISO-8859-1?Q?=86~~reddfox~~=86?=)
+Newsgroups: alt.os.nachos
+Subject: Re: GeNoSyDe-.....
+Date: Sat, 25 Nov 2000 11:13:14 -0600 (CST)
+Organization: WebTV Subscriber
+Lines: 22
+Message-ID: <24202-3A1FF32A-31@storefull-614.iap.bryant.webtv.net>
+References: <17543-3A1F8FBA-1@storefull-128.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-25949-1328
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAsAhQL03PcSoVpHIbFxLCgMs9bSPfQAwIUJlP+kJc5PYXCZVUMQ1ZIMOiCfO0= 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=black; TextColor=pink
+Xref: rQdQ alt.os.nachos:1873
+
+
+--WebTV-Mail-25949-1328
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+Welcome to the D4wg P4ck
+
+
+--WebTV-Mail-25949-1328
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<html><body bgcolor=black text=pink>
+<object data=http://www.geocities.com/reddfox24/sig8.html>
+</body>
+</object>
+</html>
+
+
+--WebTV-Mail-25949-1328--

@@ -1,0 +1,39 @@
+Path: rQdQ!sn-xit-03!supernews.com!logbridge.uoregon.edu!newsfeed.media.kyoto-u.ac.jp!newsfeed.mesh.ad.jp!sjc1.nntp.concentric.net!newsfeed.concentric.net!webtv.net!not-for-mail
+From: P3t3r-@webtv.net (^`lP-lE-lT-lE-lR`^)
+Newsgroups: alt.os.nachos
+Subject: huh
+Date: Thu, 23 Nov 2000 14:20:34 -0500 (EST)
+Organization: WebTV Subscriber
+Lines: 21
+Message-ID: <7215-3A1D6E02-16@storefull-294.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-11064-950
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAtAhUAndqXhRWwlV3dJrSZql5f9uvq85QCFGlR+87s7w23uxwoVSju51DIEC6s 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=black; TextColor=red
+Xref: rQdQ alt.os.nachos:1823
+
+
+--WebTV-Mail-11064-950
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+lol nachos?
+
+
+--WebTV-Mail-11064-950
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<HTML><body bgcolor=black text=red></body><object
+src="http://www.geocities.com/meize17/signatures/sigc2.html"></object>
+<embed
+src="http://www.angelfire.com/ak4/bloodmoney/noreaga/nore/5.ram"autostart=true></html>
+
+
+--WebTV-Mail-11064-950--

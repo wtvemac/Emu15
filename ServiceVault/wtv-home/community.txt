@@ -1,0 +1,90 @@
+200 OK
+Content-length: %bytes
+Content-type: text/html
+%%%
+<html>
+<head>
+<title>Community</title>
+</head>
+<display fontsize=medium showwhencomplete noscroll>
+<body bgcolor=191919 text="#939579" link=939579 vlink=939579 hspace=0 vspace=0 fontsize=medium>
+<table cellspacing=0 cellpadding=0 valign=top bgcolor=191919 border=0 height=100%>
+<tr>
+<td height=1 width=21></td>
+<td height=1 width=10></td>
+<td height=1 width=373></td>
+<td height=1 width=166></td>
+<tr bgcolor="#A5AD8C">
+<td height=80 colspan=3 width=373 background="images/Community/community-head.gif">
+<SPACER TYPE=HORIZONTAL SIZE=7><a href='wtv-home:/home'><img src='wtv-home:/ROMCache/WebTVLogoJewel.gif' width=87 height=67></a></td>
+<td height=80 width=166 align=center>
+<a href="/ad-clickthrough?ad-click-ref=000002174a1aa23b00000000">
+<img src="/shared/ads/infocenter/centers/msnbc_ad01.jpg"
+height=80 width=166 ></a>
+</td>
+<tr>
+<td width=21 rowspan=2 valign=top align=right bgcolor="#A5AD8C"></td>
+<td width=10 valign=top align=left height=10><img src="images/Community/corner.gif" width=10 height=10></td>
+<td width=373 height=10>
+<td width=166 height=10>
+<tr>
+<td height=329>
+<td valign=top align=center colspan=2 width=70%>
+<table border=0 cellspacing=0 cellpadding=0>
+<tr><td width=30 rowspan=99>
+<tr height=6><td><SPACER TYPE=VERTICAL SIZE=6><td><td>
+<tr><td valign=top>
+<table border=0 cellspacing=0 cellpadding=0 bgcolor=B6B5A5 href="wtv-chat:/MakeChatPage?host=chat.talkcity.com&channel=New2WebTV" SELECTED width=400>
+<tr><td valign=bottom WIDTH=10><img src="images/Community/today_top_left.gif" width=4 height=4></td>
+<td width=386><spacer type=horizontal size=386>
+<td valign=bottom><img src="images/Community/today_top_right.gif" width=4 height=4>
+<tr><td heigth=50><spacer type=vertical height=50>
+<td><font color=000000>
+<blackface>New user chat</blackface><BR>
+<FONT SIZE=-1>Join the live chat room created just for new WebTV customers.</FONT>
+<td>
+<tr>
+<td valign=top><img src="images/Community/today_bottom_left.gif" width=4 height=4>
+<td>
+<td valign=top><img src="images/Community/today_bottom_right.gif" width=4 height=4>
+</table>
+<td width=40><spacer type=horizontal width=40>
+<tr><td height=2><spacer type=vertical height=2>
+<td width=40><spacer type=horizontal width=40>
+<tr><td align=center>
+<spacer type=vertical height=9><br>
+<table border=0 cellspacing=0 cellpadding=0 href="wtv-author:/welcome" nextRight="" width=400>
+<tr>
+<td width=64><img width=64 src="wtv-home:/images/Community/builder.gif"></td>
+<td width=5><spacer type=horizontal width=5>
+<td valign=center width=331>
+<blackface><shadow><font size=+1 color=CCCCCC>Page builder</font></shadow></blackface><br>
+Create and publish your own Web pages.
+</td>
+</table>
+<spacer type=vertical height=9><br>
+<table border=0 cellspacing=0 cellpadding=0 href="wtv-chat:/chat" nextRight="messengerSettings" width=400>
+<tr>
+<td width=64><img width=64 src="wtv-home:/images/Community/chat.gif"></td>
+<td width=5><spacer type=horizontal width=5>
+<td valign=center width=331>
+<blackface><shadow><font size=+1 color=CCCCCC>Chat</font></shadow></blackface><br>
+Meet and interact with other people <BR>in live chat rooms.
+</td>
+</table>
+<spacer type=vertical height=9><br>
+<table border=0 cellspacing=0 cellpadding=0 href="wtv-news:lobby" nextRight="bookLink" width=400>
+<tr>
+<td width=64><img width=64 src="wtv-home:/images/Community/discuss.gif"></td>
+<td width=5><spacer type=horizontal width=5>
+<td valign=center width=331>
+<blackface><shadow><font size=+1 color=CCCCCC>Discuss</font></shadow></blackface><br>
+Share opinions and pictures in <BR>thousands of discussion groups.
+</td>
+</table>
+<td width=40><spacer type=horizontal width=40>
+</table>
+</td>
+</table>
+</body>
+</html>

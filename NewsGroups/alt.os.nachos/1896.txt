@@ -1,0 +1,38 @@
+Path: rQdQ!sn-xit-03!supernews.com!cyclone-sjo1.usenetserver.com!news-out.usenetserver.com!newshub2.rdc1.sfba.home.com!news.home.com!sjc1.nntp.concentric.net!newsfeed.concentric.net!webtv.net!not-for-mail
+From: PinaD23@webtv.net (^*Gina*^)
+Newsgroups: alt.os.nachos
+Subject: welcome to the p4ck n/m
+Date: Sun, 26 Nov 2000 08:25:42 -0500 (EST)
+Organization: WebTV Subscriber
+Lines: 19
+Message-ID: <14424-3A210F56-3@storefull-228.iap.bryant.webtv.net>
+References: <26006-3A1F4416-24@storefull-162.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-16264-340
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAsAhQ3BrB/dHYweyvW/NWAplXWrH2VIAIUAy04pfLI7W7BLVdseKTRv359Yc8= 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=000000; TextColor=660000
+Xref: rQdQ alt.os.nachos:1896
+
+
+--WebTV-Mail-16264-340
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+ 
+
+
+--WebTV-Mail-16264-340
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<html><body bgcolor=000000 text=660000><embed
+src="http://p0rtp.virtualave.net/PinaSig.pl"></html>
+
+
+--WebTV-Mail-16264-340--

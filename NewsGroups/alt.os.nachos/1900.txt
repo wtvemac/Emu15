@@ -1,0 +1,40 @@
+Path: rQdQ!sn-xit-03!supernews.com!newsfeed.direct.ca!look.ca!sjc1.nntp.concentric.net!newsfeed.concentric.net!webtv.net!not-for-mail
+From: P3t3r-@webtv.net (^`lP-lE-lT-lE-lR`^)
+Newsgroups: alt.os.nachos
+Subject: Re: Code for Music
+Date: Sun, 26 Nov 2000 10:04:52 -0500 (EST)
+Organization: WebTV Subscriber
+Lines: 21
+Message-ID: <6593-3A212694-5@storefull-295.iap.bryant.webtv.net>
+References: <19029-3A209257-139@storefull-294.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-19668-447
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAtAhQJZ2vE68dx3v6GXU8cMb0QvvOTfgIVAJc3b9Otpdhm19oFOUSiR4cBZim3 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=dimgrey; TextColor=black
+Xref: rQdQ alt.os.nachos:1900
+
+
+--WebTV-Mail-19668-447
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+whoa whoa whoa...what bro? u know u gotta break it down for me...
+
+
+--WebTV-Mail-19668-447
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<HTML><body bgcolor=dimgrey text=black link=black vlink=black></body>
+<object
+data="http://www.geocities.com/meize17/signatures/sigc3.html"></object><embed
+src="http://ruthless-music.virtualave.net/singles/media.cgi?hesreturned"autostart=true></html>
+
+
+--WebTV-Mail-19668-447--

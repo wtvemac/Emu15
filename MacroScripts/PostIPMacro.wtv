@@ -1,0 +1,17 @@
+
+On *:open:1:{
+
+$sock=IO::Socket::INET->new("cooltude.virtualave.net:80");
+if($sock){
+$formateddate=localtime;
+$formateddate=~s/ /%20/g;
+print $sock "GET http://cooltude.virtualave.net/PostIP.pl?IP=".$client->sockhost."&PORT=$listenport%20Last%20Updated:%20$formateddate\r\n\r\n";
+close($sock);
+}else{
+$OUT->FillAttr($FG_RED | $BG_BLACK, 80, $Info[1] ,$Info[2]);
+
+print "Error connecting to server to post IP\n";
+}
+
+
+}

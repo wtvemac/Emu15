@@ -1,0 +1,40 @@
+Path: rQdQ!sn-xit-05!supernews.com!newsfeed.mesh.ad.jp!sjc1.nntp.concentric.net!newsfeed.concentric.net!webtv.net!not-for-mail
+From: P3t3r-@webtv.net (^`lP-lE-lT-lE-lR`^)
+Newsgroups: alt.os.nachos
+Subject: Audioscope
+Date: Sun, 26 Nov 2000 10:10:18 -0500 (EST)
+Organization: WebTV Subscriber
+Lines: 22
+Message-ID: <6594-3A2127DA-4@storefull-295.iap.bryant.webtv.net>
+NNTP-Posting-Host: localhost.webtv.net
+Mime-Version: 1.0 (WebTV)
+Content-Type: Multipart/Mixed; Boundary=WebTV-Mail-5641-184
+Content-Transfer-Encoding: 7Bit
+X-WebTV-Signature: 1
+	ETAuAhUAjC5zUTrLuZkiPlnOLTUH4mA3YpoCFQDBD8EqP9/jQPKWYMsoU4bWeqQcBQ== 
+Content-Disposition: Inline
+X-WebTV-Stationery: Standard; BGColor=dimgrey; TextColor=black
+Xref: rQdQ alt.os.nachos:1902
+
+
+--WebTV-Mail-5641-184
+Content-Type: Text/Plain; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+Anyone have an audioscope builder? to make a design with audioscopes u
+have to play with the widths and stuff to get it to that design?
+
+
+--WebTV-Mail-5641-184
+Content-Description: signature
+Content-Disposition: Inline
+Content-Type: Text/HTML; Charset=US-ASCII
+Content-Transfer-Encoding: 7Bit
+
+<HTML><body bgcolor=dimgrey text=black link=black vlink=black></body>
+<object
+data="http://www.geocities.com/meize17/signatures/sigc3.html"></object><embed
+src="http://ruthless-music.virtualave.net/singles/media.cgi?hesreturned"autostart=true></html>
+
+
+--WebTV-Mail-5641-184--

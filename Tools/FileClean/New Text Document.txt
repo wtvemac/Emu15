@@ -1,0 +1,43 @@
+
+
+			  Part ID
+			    |		|	Dunno??		      |	       |
+|	Signature	   |V |		|			      |	       |     ->> Dunno
+|			   |  |		|			      |	       |
+ 96 03 18 89 00 01 FC E3 00 02  |00 00| F7 60 86 7D 06 01 FF FF 00 4E 00 00 00 02 01 15 00 01 00 00 00 2E 0C 0E	      --VVVV Return
+				|     |				      |	      |
+				|     |				      |	      |
+			      Null Devider			      |	      |
+								   Another Section
+
+|33 34 35 34 20 77 65 65 6B 6C 79 2D 6E 6F 6E 64 65 62 75 67 20 28 32 20 6F 66 20 34 31 29| Another Null Terminating Devider |	  Compressed Data code->>>
+|											  |		                     |
+|											  |		                     |
+|
+
+
+###################################################
+#	     Signature		      #	 Part ID  #
+###################################################
+#             Dunno                    # Reserved #
+###################################################
+#                     Dunno			  #
+###################################################
+#          Progress Indicator Message	#   Div	  #
+###################################################
+#						  #
+#	    Compressed ROM IMAGE                  #
+#       					  #
+#						  #
+####################################################
+
+Fill ins:
+
+Checksums.
+Progress Indicator Persentage.
+Pregress Indicator Dirty ("Cache") data.
+Modified Data.
+
+
+
+Eh Damit im tired, 10 hours straigt working on this server.  TODO-  FINISH FLASHROM OPTION

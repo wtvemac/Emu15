@@ -1,0 +1,7 @@
+Box Security Report (9:13)
+ There was a security error and the box took action in to form of restart 
+
+A log of the type: security
+The action the box preformed: restart 
+
+

@@ -1,0 +1,25 @@
+file://disk/Browser/
+Last-modified: Sat, 03 Feb 2001 23:17:59 GMT
+
+file://disk/Browser/VideoAd/
+Last-modified: Sat, 03 Feb 2001 23:24:42 GMT
+
+file://disk/Browser/VideoAd/PlayID.txt
+Last-modified: Wed, 14 Feb 2001 15:23:48 GMT
+Content-length: 24
+
+file://disk/Browser/
+Last-modified: Sat, 03 Feb 2001 23:17:59 GMT
+
+file://disk/Browser/VideoAd/
+Last-modified: Sat, 03 Feb 2001 23:24:42 GMT
+
+file://disk/Browser/VideoAd/PlayID.txt
+Last-modified: Wed, 14 Feb 2001 15:23:48 GMT
+Content-length: 24
+
+file://disk/DiskCache/
+Last-modified: Sat, 03 Feb 2001 23:18:01 GMT
+
+
+

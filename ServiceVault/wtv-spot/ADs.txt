@@ -1,0 +1,10 @@
+AddCount: 8
+#URL:ADID:URL
+wtv-spot:/content/ADs/EricSrv.jpg:1:wtv-home:/home
+wtv-spot:/content/ADs/MattMan.gif:2:http://ThinIce69.tripod.com
+wtv-spot:/content/ADs/Grimio.gif:3:http://grimio.tripod.com
+wtv-spot:/content/ADs/ulTRAX.gif:4:http://ultrick.tripod.com
+wtv-spot:/content/ADs/Perl.gif:5:http://www.perl.org
+wtv-spot:/content/ADs/Rizzo.gif:6:http://www.trixmaster.com
+wtv-spot:/content/ADs/Nipple.gif:7:http://cooltude.virtualave.net
+wtv-spot:/content/ADs/NULL.jpg:8:client:showalert?message=Are+you+kidding+me+LOL!

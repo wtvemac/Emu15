@@ -1,0 +1,5 @@
+500 Centers, such as search.
+Content-Length: %bytes
+Content-Type: text/plain; charset=windows-1252
+%%%
+dd

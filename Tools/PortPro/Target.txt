@@ -1,0 +1,42 @@
+#Variables
+#$curIP ->IP Address
+#$vvv -> Port working on IP
+#$PortDesc{$vvv} -> Service description hash.
+
+#Examples...
+
+
+###############
+#Regular print#
+###############
+
+open(FILE,">> ScanedPorts.txt");
+print FILE "$curIP:$vvv\n";
+close(FILE);
+
+#######
+#Links#
+#######
+
+#print FILE "<a href=$curIP:$vvv>$PortDesc{$vvv}</a><p>";
+
+
+##############
+#Service List#
+##############
+
+#$Yada=$PortDesc{$vvv};
+#$blue=substr($Yada,index($Yada,"(")+1);
+#chop($blue) if (index($blue,")") > (-1));
+#@lala=split(/\,/,$blue);
+#open(FILE,">> ScanedPorts.txt");
+
+#foreach (@lala){
+#if(substr($_,0,1) eq " "){
+#$_=substr($_,1);
+#}
+
+#print FILE "wtv-service: name=$_ host=$curIP port=$vvv\n";
+
+#}
+#close(FILE);
