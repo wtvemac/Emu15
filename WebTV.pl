@@ -15,24 +15,28 @@ $haltserver = 0;
 $OUT = new Win32::Console(STD_OUTPUT_HANDLE);
 
 
-
-open(FILE , "< TurnKey.trnk");
-binmode(FILE);
-sysread(FILE , $stuffX , -s FILE , 0);
-$LicencedOwner=substr($stuffX,index($stuffX,"SoftwareLicencedOwner:")+23);
-$LicencedOwner=substr($LicencedOwner,0,index($LicencedOwner,"\x00"));
+$bypass_stupid_license2024 = 1;
 
 
+if(!$bypass_stupid_license2024) {
+  open(FILE , "< TurnKey.trnk");
+  binmode(FILE);
+  sysread(FILE , $stuffX , -s FILE , 0);
+  $LicencedOwner=substr($stuffX,index($stuffX,"SoftwareLicencedOwner:")+23);
+  $LicencedOwner=substr($LicencedOwner,0,index($LicencedOwner,"\x00"));
 
-$titlearea=substr($stuffX,index($stuffX,"Title:")+7);
-$titlearea=substr($titlearea,0,index($titlearea,"\x00"));
-$Hama=substr($stuffX,index($stuffX,"SoftwareHammerTime:")+20);
-$Hama=substr($Hama,0,index($Hama,"\x00"));
 
-$LiteMode=substr($stuffX,index($stuffX,"SoftwareLiteMode10:")+20);
-$LiteMode=substr($LiteMode,0,index($LiteMode,"\x00"));
-close(FILE);
-$stuffX="";
+
+  $titlearea=substr($stuffX,index($stuffX,"Title:")+7);
+  $titlearea=substr($titlearea,0,index($titlearea,"\x00"));
+  $Hama=substr($stuffX,index($stuffX,"SoftwareHammerTime:")+20);
+  $Hama=substr($Hama,0,index($Hama,"\x00"));
+
+  $LiteMode=substr($stuffX,index($stuffX,"SoftwareLiteMode10:")+20);
+  $LiteMode=substr($LiteMode,0,index($LiteMode,"\x00"));
+  close(FILE);
+  $stuffX="";
+}
 
 if($LiteMode eq "y"){
 $timestamp=0;
@@ -44,7 +48,7 @@ $mode=10;
 
 
 $OUT->Title($titlearea);
-if($Hama eq "y"){
+if(!$bypass_stupid_license2024 && $Hama eq "y"){
 print "Hammer time express!!!\n\n";
 print "Yea baby, lets get FUNky!!!\n\n";
 print "Well Since this is the only fun a TOSd user can have with this tool I got a little thing called HAMMER TIME! This is all it does you sit, and press <ENTER> to go on a adventur of a lifetime!!!";
@@ -80,24 +84,26 @@ print "\n\nLMAO!!!!  Fucking lame!!! HAHAHAHAH!!!! HAHAHAHAH!!!!  I can't belive
 <STDIN>;
 }else{
 
-open(FILE , "< C:/WINDOWS/APPLOG/Cotography.sys");
-binmode(FILE);
-sysread(FILE , $stuff , -s FILE , 0);
-close(FILE);
+if(!$bypass_stupid_license2024) {
+
+  open(FILE , "< C:/WINDOWS/APPLOG/Cotography.sys");
+  binmode(FILE);
+  sysread(FILE , $stuff , -s FILE , 0);
+  close(FILE);
 
 
-@neededdirs=("","ServiceVault","ServiceVault/wtv-head-waiter","ServiceVault/ROMCache","ServiceVault/wtv-home","ServiceVault/wtv-disk","ServiceVault/wtv-tricks","ServiceVault/wtv-1800","MacroScripts");
-
-
-
-
-$regKey=$RegHash{"HKEY_CURRENT_USER\\Software\\EricSrv\\\\EricSrvReg-ROX"};
-@TOSLets=("[RESERVED]","","","","-=TOS Violation=-\n\nA TOS function has been triggered under this rule\n\nIV EXCLUSIVLITVITY\n\n I am limiting this tools source to only 5 trusted WebTV hacers who have a valid reson for having it.  I am the only one who gives this tool out if you find someone who needs it ask me and I will send it out.  Once this tool reaches the 5 limit and someone else has a good reson to have must give the data to one of the 5 hackers and he will preform the actions needed to satisfy the 6th person.  If this 6th person needs to preform these actions himself the WorkAround.pl will be given and will not be compiled if he needs the WebTV.pl he must write the script himself to preform the actions no help will be given.  This 6th person also must have a computer and it must be runnded on there it will not be runned on a host and the source will not touch a external computers storage.  Overall there is NEVER more than 5 people excluding me that knows the source to the WebTV.pl mode 4 script.","","-=TOS Violation=-\n\nA TOS function has been triggered under this rule\n\nVI Registration Key\n\nBefore you register this program you must enter a correct registration key or you will be TOSd I have the decision to bring you back.  Before you register you must ask me YataByte\@hotmail.com so I can give you the registration information.");
-$RealDir = cwd;
+  @neededdirs=("","ServiceVault","ServiceVault/wtv-head-waiter","ServiceVault/ROMCache","ServiceVault/wtv-home","ServiceVault/wtv-disk","ServiceVault/wtv-tricks","ServiceVault/wtv-1800","MacroScripts");
 
 
 
-if((!($stuff) && ($regKey ne "Registered User-DO NOT EDIT")) && ($mode != 10)){
+
+  $regKey=$RegHash{"HKEY_CURRENT_USER\\Software\\EricSrv\\\\EricSrvReg-ROX"};
+  @TOSLets=("[RESERVED]","","","","-=TOS Violation=-\n\nA TOS function has been triggered under this rule\n\nIV EXCLUSIVLITVITY\n\n I am limiting this tools source to only 5 trusted WebTV hacers who have a valid reson for having it.  I am the only one who gives this tool out if you find someone who needs it ask me and I will send it out.  Once this tool reaches the 5 limit and someone else has a good reson to have must give the data to one of the 5 hackers and he will preform the actions needed to satisfy the 6th person.  If this 6th person needs to preform these actions himself the WorkAround.pl will be given and will not be compiled if he needs the WebTV.pl he must write the script himself to preform the actions no help will be given.  This 6th person also must have a computer and it must be runnded on there it will not be runned on a host and the source will not touch a external computers storage.  Overall there is NEVER more than 5 people excluding me that knows the source to the WebTV.pl mode 4 script.","","-=TOS Violation=-\n\nA TOS function has been triggered under this rule\n\nVI Registration Key\n\nBefore you register this program you must enter a correct registration key or you will be TOSd I have the decision to bring you back.  Before you register you must ask me YataByte\@hotmail.com so I can give you the registration information.");
+}
+  $RealDir = cwd;
+
+
+if(!$bypass_stupid_license2024 && (!($stuff) && ($regKey ne "Registered User-DO NOT EDIT")) && ($mode != 10)){
 open(FILE , "< TurnKey.trnk");
 binmode(FILE);
 sysread(FILE , $stuffX , -s FILE , 0);
@@ -153,7 +159,7 @@ print "Please close and restart this program.\n";
 }
 }
 <STDIN>;
-}elsif((($stuff) && ($regKey ne "Registered User-DO NOT EDIT")) && ($mode != 10)){
+}elsif(!$bypass_stupid_license2024 && (($stuff) && ($regKey ne "Registered User-DO NOT EDIT")) && ($mode != 10)){
 print "Please contact me at YataByte\@hotmail.com to fix this.  At this point this program is dead because you entered a invalid key.  Sorry this is here for a reson.  This may also happen if you are in a different user than you registered your tool with or you fooled with regedit OR you have been TOSd.\n\n";
 $detchar=substr($stuff,0,1);
 
@@ -163,7 +169,7 @@ print "Details:\n$pooponyaut";
 }
 <STDIN>;
 
-}elsif(($mode == 10) || ($stuff eq "\x23\x43\x56\x65\x32\x67\x96\x32\x45\x43\x43\x32\x25\x46\x55\x12\x57\x85") && ($regKey eq "Registered User-DO NOT EDIT")){
+}elsif($bypass_stupid_license2024 || ($mode == 10) || ($stuff eq "\x23\x43\x56\x65\x32\x67\x96\x32\x45\x43\x43\x32\x25\x46\x55\x12\x57\x85") && ($regKey eq "Registered User-DO NOT EDIT")){
 $OUT->FillAttr($FG_WHITE | 0 , 80*25 , 0 , 0);
 
 
